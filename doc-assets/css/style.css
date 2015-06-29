@@ -1,0 +1,363 @@
+
+/* html5doctor.com Reset v1.6.1 by Richard Clark (http://richclarkdesign.com) */
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+nav ul{list-style:none;}
+body {line-height:1;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:none;}
+a{font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0;}
+ins{background-color:#ff9;color:#000;text-decoration:none;}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold;}
+del{text-decoration:line-through;}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help;}
+table{border-collapse:collapse;border-spacing:0;}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0;}
+input,select{vertical-align:middle;}
+
+/* Additional Reset */
+
+body {
+	line-height:normal;
+}
+
+img { /* remove gap from below <img> tags */
+	vertical-align:bottom;
+}
+
+iframe {
+	border: 0;
+}
+
+/* Basics */
+
+body {
+	background:#fff;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:14px;
+	color:#333;
+	margin:32px 24px;
+}
+
+a {
+	color:#0096b6;
+	text-decoration:none;
+}
+
+p, .p {
+	margin:20px 0;
+}
+
+.p-top {
+	margin-top:20px;
+}
+
+.p-bottom {
+	margin-bottom:20px;
+}
+
+ul, ol
+{
+	padding-left:40px;
+}
+
+.bold
+{
+	font-weight:bold;
+}
+
+.nonbold
+{
+	font-weight:normal;
+}
+
+.lite {
+	color: #777;
+}
+
+.clear
+{
+	clear:both;
+}
+
+.shadow
+{
+	-moz-box-shadow:2px 2px 8px rgba(0, 0, 0, 0.15);
+	-webkit-box-shadow:2px 2px 8px rgba(0, 0, 0, 0.15);
+	box-shadow:2px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.nobr
+{
+	white-space:nowrap;
+}
+
+/* Centered Container */
+
+#container
+{
+    width:780px;
+	margin:0 auto;
+}
+
+/* Header */
+
+#header
+{
+	position:relative;
+}
+
+#screenshot
+{
+	position:absolute;
+	top:0px;
+	-moz-box-shadow:1px 1px 8px rgba(0, 0, 0, 0.18);
+	-webkit-box-shadow:1px 1px 8px rgba(0, 0, 0, 0.18);
+	box-shadow:1px 1px 8px rgba(0, 0, 0, 0.18);
+	border: 1px solid #e5e5e5;
+}
+
+#header-right
+{
+	margin-left:210px;
+	min-height:230px; /* same as screenshot height */
+}
+
+	#header h1
+	{
+		font-size:30px;
+		line-height:1.2em;
+		letter-spacing:-1px;
+		position:relative;
+		top:-2px;
+		color:#555;
+	}
+
+		#header h1 span
+		{
+			font-size:48px;
+			color:#bbb;
+		}
+	
+	#intro
+	{
+		font-size:18px;
+		line-height:1.4em;
+		margin-top:12px;
+	}
+	
+	#signature
+	{
+		position:relative;
+		margin-top:21px;
+		min-height:40px; /* same as avatar height */
+		font-size:18px;
+		line-height:1.2em;
+	}
+
+		#signature img
+		{
+			position:absolute;
+			top:0px;
+			left:0px;
+		}
+
+		#signature-text
+		{
+			margin-left:50px;
+		}
+		
+		#signature-name
+		{
+			font-weight:bold;
+		}
+		
+		#signature-links
+		{
+			font-size: 14px;
+		}
+
+#details,
+#ct
+{
+
+	margin:24px 0 20px 0;
+	padding:10px 10px 10px 14px;
+	
+	/* gradient background */
+
+	background:#fff; /* IE7/8 */
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#f9f9f9)); /* old Safari/Chrome */
+	background:-webkit-linear-gradient(top, #f9f9f9, #fff); /* Safari/Chrome */
+	background:-moz-linear-gradient(top, #f9f9f9, #fff); /* FF */
+	background:-ms-linear-gradient(top, #f9f9f9, #fff); /* IE */
+	background:-o-linear-gradient(top, #f9f9f9, #fff); /* Opera */
+	
+	/* rounded border */
+	
+	border:1px solid #e9e9e9;
+	-moz-border-radius:7px; /* FF */
+	-webkit-border-radius:7px;  /* Safari, Chrome */
+	border-radius:7px;  /* modern browsers */
+	
+}
+
+	#details > div
+	{
+		display:inline;
+		margin-right:20px;
+	}
+
+#ct
+{
+	padding:18px;
+	font-size: 18px;
+	text-align: center;
+	
+}
+
+
+/* Accordion */
+
+.accordion section
+{
+
+	position:relative;
+
+	margin-bottom:10px;
+
+	/* gradient background */
+
+	background:#f9f9f9; /* IE7/8 */
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#f9f9f9)); /* old Safari/Chrome */
+	background:-webkit-linear-gradient(top, #f9f9f9, #fff); /* Safari/Chrome */
+	background:-moz-linear-gradient(top, #f9f9f9, #fff); /* FF */
+	background:-ms-linear-gradient(top, #f9f9f9, #fff); /* IE */
+	background:-o-linear-gradient(top, #f9f9f9, #fff); /* Opera */
+	
+	/* rounded border */
+	
+	border:1px solid #e9e9e9;
+	-moz-border-radius:7px; /* FF */
+	-webkit-border-radius:7px;  /* Safari, Chrome */
+	border-radius:7px;  /* modern browsers */
+
+}
+
+	.accordion section:last-child
+	{
+		margin-bottom:0;
+	}
+
+/* section heading */
+
+.accordion section h1
+{
+	font-size:28px;
+	letter-spacing:-1px;
+	color:#aaa;
+	text-shadow: 1px 1px 0px #fff;
+	padding:10px 10px 9px 37px;
+	cursor:pointer;
+	background-image:url(../img/arrow-right.png);
+	background-repeat:no-repeat;
+	background-position:9px 15px;
+}
+
+	/* highlight on hover */
+	.accordion section h1:hover
+	{
+		color:#777;
+	}
+
+	/* active section heading */
+	
+	.accordion section.accordion-active h1
+	{
+		color:#555;
+		background-image:url(../img/arrow-down.png);
+	}
+	
+	/* subheadings */
+	
+	.accordion section h2
+	{
+		margin-top: 36px;
+		font-size:20px;
+		color:#555;
+	}
+	
+	.accordion section h3
+	{
+		margin-top: 32px;
+		font-size:16px;
+		color:#777;
+	}
+
+	.accordion section h4
+	{
+		margin: 28px 0;
+		font-size: 14px;
+	}
+
+/* section notes */
+
+.accordion .section-notes
+{
+	position:absolute;
+	top:16px;
+	right:22px;
+	font-size:18px;
+	color:#aaa;
+}
+	
+/* section container */
+
+.accordion section .section-content
+{
+	padding:7px 22px 22px 22px;
+	line-height:1.6em;
+}
+
+	/* hide non-active sections */
+	
+	.accordion section:not(.accordion-active) .section-content
+	{
+		display:none; /* jQuery handles this for IE7/8 */
+	}
+
+	/* remove margin from top and bottom if content uses <p> */
+	
+	.accordion section  .section-content > p:first-child
+	{
+		margin-top:0;
+	}		
+
+	.accordion section  .section-content > p:last-child
+	{
+		margin-bottom:0; /* jQuery applies this manually for IE7/8 */
+	}
+	
+#footer
+{
+	font-size:16px;
+	margin-top:24px;
+}
+
+/* Code Examples */
+
+code,
+.code {
+	color:#555;
+	font-family:'courier new',courier,monospace;
+}
+
+	p.code,
+	pre.p.code {
+		margin-left: 30px;
+	}
+
+	.code mark {
+		font-style:normal;
+	}

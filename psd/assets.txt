@@ -1,0 +1,32 @@
+
+These PSD's use the following assets. A big thanks goes out to the generous creators.
+Visit the URL's listed to download the original resources.
+
+June 30, 2012
+
+--------------------------------------
+FONTS
+--------------------------------------
+
+Open Sans (navigation, body text)
+
+Creator:	Steve Matteson
+License:	Apache License, version 2.0
+Download:	https://www.google.com/webfonts/specimen/Open+Sans
+
+
+Shadows Into Light Two (logo, tagline, intro, headings)
+
+Creator:	Kimberly Geswein
+License:	SIL Open Font License, 1.1
+Download:	http://www.google.com/webfonts/specimen/Shadows+Into+Light+Two
+
+--------------------------------------
+TEXTURES
+--------------------------------------
+
+11 Light Subtle Patterns (.PAT)
+
+Creator:	Orman Clark (http://www.premiumpixels.com)
+License:	Free for commercial use (http://www.premiumpixels.com/licensing/)
+Download:	http://www.premiumpixels.com/freebies/11-light-subtle-patterns-pat/

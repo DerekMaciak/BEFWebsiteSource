@@ -1,0 +1,4563 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Documentation: Risen WordPress Theme</title>
+
+	<link href="doc-assets/css/style.css" rel="stylesheet">
+
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="doc-assets/js/main.js"></script>
+
+</head>
+<body>
+
+<div id="container">
+
+	<header id="header">
+
+		<div>
+
+			<img src="doc-assets/img/screenshot.jpg" width="180" height="230" alt="Screenshot" id="screenshot">
+
+			<div id="header-right">
+
+				<h1>
+					Risen WordPress Theme<br>
+					<span>Documentation</span>
+				</h1>
+
+				<div id="intro">
+
+					<b>Thank you</b> for purchasing my <i>Risen</i> WordPress theme.
+					This help file explains how to use it.
+					Please see the <a href="#support" data-rel="openSection">Support</a> section if you have questions after reading the guides below.
+
+				</div>
+
+				<div id="signature">
+
+					<img src="http://www.gravatar.com/avatar/e1d2a3e4a46e8975d58546b0ce9e7266?s=40" width="40" height="40" alt="Avatar">
+
+					<div id="signature-text">
+						<div id="signature-name">Steven Gliebe</div>
+						<div id="signature-links">
+							Find me at...
+							<a href="http://stevengliebe.com" target="_blank">My Site</a>,
+							<a href="http://churchthemes.com" target="_blank">churchthemes.com</a>,
+							<a href="http://themeforest.net/user/StevenGliebe?ref=StevenGliebe" target="_blank">ThemeForest</a>,
+							<a href="http://twitter.com/stevengliebe" target="_blank">Twitter</a>,
+							<a href="http://dribbble.com/stevengliebe" target="_blank">Dribbble</a>
+
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<div id="details">
+
+			<div>
+				<b>Version:</b> <a href="#changelog" data-rel="openSection">2.1.2</a> <!-- update in changelog too -->
+			</div>
+
+			<div>
+				<b>Last Update:</b> Jun 16, 2015 <!-- update in changelog too -->
+			</div>
+
+			<div>
+				<b>Copyright:</b> DreamDolphin Media, LLC
+			</div>
+
+			<div>
+				<b>License:</b> <a href="http://themeforest.net/wiki/support/legal-terms/licensing-terms/" target="_blank">ThemeForest</a>
+			</div>
+
+		</div>
+
+		<div id="ct">
+			See <a href="http://churchthemes.com"><b>churchthemes.com</b></a> for my <b>newest</b> WordPress themes for churches.
+		</div>
+
+	</header>
+
+	<div class="accordion">
+
+		<section id="introduction">
+
+			<h1>Introduction</h1>
+
+			<div class="section-notes">
+				Features
+			</div>
+
+			<div class="section-content">
+
+				<p>
+					This church theme for WordPress has the features a church website needs
+					&mdash; a mobile-friendly responsive design, sermon archive, photo and video gallery, events, multiple location support, staff profiles and church news.
+					The sermon archive is complete with the ability for visitors to browse for audio, video and text sermons by category, tag, date and speaker.
+					Sermon podcasting is built-in.
+					Risen also has a Retina-ready design and powerful customization options that make it easy for you to change the theme's colors, fonts and background.
+				</p>
+
+				<p>
+					Risen is also useful for non-church websites that need to publish audio or video and promote events. The sermon archive can be fully renamed using the theme options.
+				</p>
+
+			</div>
+
+		</section>
+
+		<section id="installation">
+
+			<h1>Installation</h1>
+
+			<div class="section-notes">
+				Activation, Sample Content
+			</div>
+
+			<div class="section-content">
+
+				<iframe src="http://www.screenr.com/embed/iV5H" width="730" height="445"></iframe>
+
+				<h2 class="p">Installing Risen</h2>
+
+				<p>
+					Follow these steps to install the theme and import sample content so that your site looks similar to the <a href="http://stevengliebe.com/wp-playground/risen/" target="_blank">Live Preview</a>.
+					Once you have it setup like the live preview, you can modify it to your heart's content.
+				</p>
+
+				<ol>
+					<li class="p-bottom">
+						<b>Install WordPress</b>
+						<ul>
+							<li>Sign up for web hosting if you do not already have hosting (<a href="#recommendations" data-rel="openSection">recommended hosts</a>).</li>
+							<li>Make a new installation of the latest version of <a href="http://wordpress.org/" target="_blank">WordPress</a> on your hosting account. If you're new to all this, see <a href="http://codex.wordpress.org/Installing_WordPress" target="_blank">Installing WordPress</a> and <a href="http://codex.wordpress.org/New_To_WordPress_-_Where_to_Start" target="_blank">New to WordPress</a>. Many hosts have an auto-install feature.</li>
+							<li>If you will be replacing a WordPress site, make a complete <a href="http://codex.wordpress.org/WordPress_Backups" target="_blank">backup</a> first.</li>
+						</ul>
+					</li>
+					<li class="p-bottom">
+						<b>Upload and Activate Theme</b>
+						<ul>
+							<li>Go to the <i>Downloads</i> section of your ThemeForest account and click <i>Download</i> then <i>Installable WordPress theme</i>.</li>
+							<li>Log into your WordPress dashboard and navigate to <i>Appearance</i> > <i>Themes</i> > <i>Install Themes</i> > <i>Upload</i>.</li>
+							<li>Choose the zip file you downloaded then click install.
+								<ul>
+									<li>If you receive an error saying the file is too big, read <a href="#theme-upload-problems">Theme Upload Help</a> below.</li>
+								</ul>
+							</li>
+							<li>After installation, click <i>Activate</i>.</li>
+						</ul>
+					</li>
+					<li class="p-bottom">
+						<!-- note IF CHANGE OR REMOVE this also edit FAQ -->
+						<b>Configure Permalinks</b> (enables friendly URL's)
+						<ul>
+							<li>Go to <i>Settings</i> > <i>Permalinks</i>.</li>
+							<li>Choose your preferred URL format ("Day and name" recommended &mdash; don't use "Default").</li>
+							<li>Save even if you are sticking with what is already set.</li>
+						</ul>
+						<!-- note IF CHANGE OR REMOVE this also edit FAQ -->
+					</li>
+					<li class="p-bottom">
+						<b>Enable Theme Options</b>
+						<ul>
+							<li>Go to <i>Appearance</i> > <i>Theme Options</i>.</li>
+							<li>Click the <i>Options Framework</i> link to install and activate the plugin.</li>
+						</ul>
+					</li>
+					<li class="p-bottom">
+						<b>Import Sample Content</b> (Optional)
+						<ul>
+							<li>Go to the <i>Downloads</i> section of your ThemeForest account and click <i>Download</i> then <i>Main Files</i>.
+							<li>Go to <i>Tools</i> > <i>Import</i> > <i>WordPress</i> and install the Importer plugin.</li>
+							<li>Click the link to activate and run the importer.</li>
+							<li>Upload <i>sample-content.xml</i> which is inside of the <i>theme</i> folder in the <i>Main Files</i> zip file that you downloaded.</li>
+							<li>Follow the instructions to assign a user to the imported posts.</li>
+							<li>Check the box for <i>Import Attachments</i> in order to import sample images.
+								Note that they are the same dimensions as the live preview images but "grayed out" because the originals cannot be distributed.</li>
+							<li>Continue and the sample content with images will be imported (it can take a couple minutes).</li>
+						</ul>
+					</li>
+					<li class="p-bottom">
+						<b>Import Sample Widgets</b> (Optional)
+						<ul>
+							<li>Go to <i>Appearances</i> > <i>Widgets</i> and delete the widgets WordPress added to "Blog Sidebar".</li>
+							<li>
+								Go to <i>Plugins</i> > <i>Add New</i> and search for "<a href="http://wordpress.org/extend/plugins/widget-importer-exporter/" target="_blank">Widget Importer & Exporter</a>".
+							</li>
+							<li>Click <i>Install Now</i> then activate the plugin after installation.</li>
+							<li>Go to <i>Tools</i> > <i>Widget Import/Export</i>.</li>
+							<li>Import <i>sample-widgets.wie</i> which is inside of the <i>theme</i> folder from the <i>Main Files</i> zip.</li>
+						</ul>
+					</li>
+				</ol>
+
+				<p>
+					Now when you view your site, it should look like the <a href="http://stevengliebe.com/wp-playground/risen/" target="_blank">Live Preview</a> but with gray versions of the images.
+					Use this setup as a starting point for your own content.
+				</p>
+
+				<p>
+					Note that after installation the contents of the zip file end up in the <i>wp-content/themes/risen</i> directory of your WordPress installation.
+					WordPress simply extracts the files from the zip archive.
+				</p>
+
+				<h2 id="theme-upload-problems">Theme Upload Help</h2>
+
+				<p>
+					In Step 2 you may have received an error while attempting to upload the theme zip file that said the file was too big.
+					Different hosts have different maximum file upload sizes and sometimes their limit is smaller than a WordPress theme.
+					As a result, the theme (and other files of similar size) cannot be uploaded via the WordPress admin area.
+					Choose a method below to remedy the problem.
+				</p>
+
+					<h3>Manual FTP Upload</h3>
+
+					<p>
+						The original way to install a WordPress theme is simply to upload it via FTP.
+						If you are new to web hosting, find your host's guide on using FTP.
+					</p>
+
+					<ol class="p">
+						<li>Unzip <i>risen.zip</i>. The result will be a <i>risen</i> folder containing the theme files.</li>
+						<li>FTP into your web server.</li>
+						<li>Navigate to the <i>wp-content/themes</i> directory.</li>
+						<li>Upload the <i>risen</i> folder you unzipped to this location.</li>
+						<li>Log into your WordPress admin and go to <i>Appearance > Themes</i>.</li>
+						<li>Activate the Risen theme.</li>
+						<li>Return to Step 3 of the installation process above.</li>
+					</ol>
+
+					<h3>Ask Your Web Host to Raise the Limit</h3>
+
+					<p>
+						The simplest solution is often to ask your web host to raise your upload file size limit.
+						Tell them how big the theme zip file is and that you are trying to upload via WordPress but receive an error.
+						Tell them what the error message you received says.
+					</p>
+
+					<h3>Change the Limit Yourself</h3>
+
+					<p>
+						Some web hosts let you change the file upload size limit yourself.
+						For the best instructions, search your web host's knowledgebase for a guide on raising your upload file size limit.
+						For a more general guide, read <a href="http://www.wpbeginner.com/wp-tutorials/how-to-increase-the-maximum-file-upload-size-in-wordpress/" target="_blank">How to Increase the Maximum File Upload Size in WordPress</a> at WPBeginner.
+					</p>
+
+			</div>
+
+		</section>
+
+		<section id="update">
+
+			<h1>Updating</h1>
+
+			<div class="section-notes">
+				Applying Updates
+			</div>
+
+			<div class="section-content">
+
+				<p>
+					This theme may be updated periodically in order to add new features and fix bugs.
+					You can always check to see what the latest version is by viewing the <a href="http://stevengliebe.com/projects/wordpress-themes/risen/docs/#changelog" target="_blank">latest changelog</a> in the online documentation.
+					As a customer, you can download the most current version from your <a href="http://themeforest.net/?ref=StevenGliebe" target="_blank">ThemeForest</a> account.
+					You can also follow my blog (<a href="http://stevengliebe.com" target="_blank">stevengliebe.com</a>) and Twitter account (<a href="http://twitter.com/stevengliebe" target="_blank">@stevengliebe</a>) for updates.
+					An e-mail is also sent out via ThemeForest whenever an update is made.
+				</p>
+
+				<h3 class="p">Important Notes: Read First</h3>
+
+				<ol class="p">
+
+					<li class="p-bottom">Updating a theme should not affect the content of your website. However, as with updating WordPress itself, it is a good idea to make a complete <a href="http://codex.wordpress.org/WordPress_Backups" target="_blank">backup</a> of your website first (including your WordPress installation, old theme, database, everything).</li>
+
+					<li class="p-bottom">If you have made changes to the theme's code, an update will overwrite them.
+						It is always recommended to use a <a href="#child-theme" data-rel="openSection">Child Theme</a> for customizations so that you do not lose changes when updating.
+						</li>
+
+					<li>If you have made a <a href="#translation" data-rel="openSection">Translation</a> for the theme and store it inside the theme's <i>languages</i> folder, back that file up.
+					As of WordPress 3.7 it is easy to store your language file outside of the theme and this is recommended.
+					Note that an update may change or introduce new text that you may want to translate.</li>
+
+				</ol>
+
+				<h3>Updating Automatically</h3>
+
+				<p>
+					Envato (makers of ThemeForest) have developed the <a href="https://github.com/envato/envato-wordpress-toolkit" target="_blank">Envato Toolkit Plugin</a> for WordPress.
+					You can use this to receive notification of updates to themes purchased from ThemeForest
+					and to automatically update (upon clicking) directly from within your WordPress admin area.
+				</p>
+
+				<ol>
+					<li class="p-bottom">Download the <a href="https://github.com/envato/envato-wordpress-toolkit/zipball/master">plugin zip file</a> to your computer.</li>
+					<li class="p-bottom">In your WordPress admin area, go to <i>Plugins > Add New</i> then click <i>Upload</i>.</li>
+					<li class="p-bottom">Click <i>Choose File</i>, select the plugin zip file you downloaded and click <i>Install Now</i>.</li>
+					<li class="p-bottom">After installation, click <i>Activate</i>.</li>
+					<li class="p-bottom">Click the new <i>Envato Toolkit</i> link in the menu and follow the instructions to configure the plugin.</li>
+				</ol>
+
+				<h3>Updating Manually</h3>
+
+				<ol class="p">
+					<li class="p-bottom">Log into your <a href="http://themeforest.net/?ref=StevenGliebe" target="_blank">ThemeForest</a> account, go to the <i>Downloads</i> area and click <i>Download</i> then <i>Installable WordPress theme</i>.</li>
+					<li class="p-bottom">Log into your WordPress dashboard, go to <i>Appearance > Themes</i> and activate another theme such as the default WordPress theme.</li>
+					<li class="p-bottom">Delete the Risen theme which is now inactive.</li>
+					<li class="p-bottom">Go to <i>Install Themes > Upload</i> then install and activate the zip file you downloaded from ThemeForest.</li>
+				</ol>
+
+				<p>
+					You can also update via FTP.
+					Just replace <i>wp-content/themes/risen</i> with the new theme (the contents of the zip file).
+				</p>
+
+			</div>
+
+		</section>
+
+		<section id="theme-options">
+
+			<h1>Theme Options</h1>
+
+			<div class="section-notes">
+				Custom Settings
+			</div>
+
+			<div class="section-content">
+
+				<p>
+					Risen's theme options are available under <i>Appearance</i> > <i>Theme Options</i>.
+					Upon your first visit, you will be instructed to install the <a href="http://wordpress.org/extend/plugins/options-framework/" target="_blank">Options Framework</a> plugin.
+					The following options are available.
+					Instructions are provided by each option in your WordPress admin.
+				</p>
+
+				<ul>
+					<li><b>Styles</b> - Colors, fonts and background</li>
+					<li><b>Header</b> - Logo upload and social icons</li>
+					<li><b>Footer</b> - Social icons, address, phone and copyright</li>
+					<li><b>Homepage</b> - Custom &lt;title&gt;, slider options, intro message</li>
+					<li><b>Sermons (Multimedia)</b> - "Multmedia" wording, items per page, page titles, header options</li>
+					<li><b>Gallery</b> - Categories order, items per page, header options, category title</li>
+					<li><b>Events</b> - Items per page, header option</li>
+					<li><b>Blog (News)</b> - Header options, page titles</li>
+					<li><b>Contact Form</b> - Contacts, CAPTCHA</li>
+					<li><b>Other</b> - Subpage &lt;title&gt;, breadcrumb path, Google Analytics, favicon, Google Maps API key</li>
+				</ul>
+
+			</div>
+
+		</section>
+
+		<section id="customization">
+
+			<h1>Customization</h1>
+
+			<div class="section-notes">
+				Logo, Colors, Fonts
+			</div>
+
+			<div class="section-content">
+
+				<iframe src="http://www.screenr.com/embed/hJk8" width="730" height="445"></iframe>
+
+				<p>
+					Risen was made to be easy to customize. Here are some things you can change and where/how to do so.
+				</p>
+
+				<h2>Logo</h2>
+
+				<p>
+					You can upload your logo by going to <i>Appearance > Theme Options > Styles</i>.
+				</p>
+
+				<p>
+					A "Retina" logo is optional. If used, it should be supplied in addition to the regular logo.
+					This image should be exactly twice the size of your regular logo. It should be made at that size in order to maintain quality (simply upscaling a small raster logo results in poor quality). The theme will show this high resolution version of the logo on displays that support it (such as Apple's Retina devices).
+				</p>
+
+				<p>
+					If you want to use the logo included with Risen, you can edit one of the included <a href="#psd" data-rel="openSection">PSD Files</a> using Photoshop in order to insert the name of your church or website.
+					If you do not have access to Photoshop, you can create your own logo image using a free graphics editor like <a href="http://www.gimp.org/" target="_blank">GIMP</a>.
+				</p>
+
+				<h2>Tagline</h2>
+
+				<p>
+					The tagline shown on the right side of the header can be changed by going to <i>Settings > General</i>.
+				</p>
+
+				<h2>Colors</h2>
+
+				<p>
+					You can choose between a light or dark base style and set custom main color (menu bar, slider caption, sidebar widget headings, etc.) and link color in <i>Appearance > Theme Options > Styles</i>.
+					You can also change the background color (read below).
+				</p>
+
+				<h2>Background</h2>
+
+				<p>
+					Risen gives you complete control over the background. Here are the types of backgrounds you can configure in <i>Appearance > Theme Options > Styles</i>.
+				</p>
+
+					<h3>Solid Color</h3>
+
+					<p>
+						Choose any color to show as your background.
+					</p>
+
+					<h3>Preset Background</h3>
+
+					<p>
+						Several preset background images and patterns are included with Risen, including those shown in the <a href="http://stevengliebe.com/wp-playground/risen/" target="_blank">Live Preview</a>.
+						Some of the background patterns are colorable.
+					</p>
+
+					<h3>Custom Upload</h3>
+
+					<p>
+						You can upload your own background image.
+						There are options for showing it full screen (such as a large photo) as well as for making your background tile (like a pattern).
+					</p>
+
+				<h2>Fonts</h2>
+
+				<p>
+					Go to <i>Appearance > Theme Options > Styles</i> to change the fonts uses for the menu, headings and body text.
+					You can use the default fonts or choose from about 200 hand-picked Google Web Fonts.
+				</p>
+
+				<h2>Social Icons</h2>
+
+				<p>
+					You can show social icons for Twitter, Facebook, Google+, Pinterest, YouTube, Vimeo, Flickr, StumbleUpon, Tumblr, LinkedIn, Skype, Dribbble, Forrst and RSS in the header and footer.
+					To do this go to <i>Appearance > Theme Options</i> then <i>Header</i> or <i>Footer</i>.
+					Note that depending on the size of your main menu, your space for social icons ma be limited in the header.
+					The footer has room to display all social icons.
+				</p>
+
+				<h2>Footer Text</h2>
+
+				<p>
+					Go to <i>Appearance > Theme Options > Footer</i> to change the address, phone and copyright text in the footer (feel free to remove "Powered by churchthemes.com").
+					Read <a href="#navigation" data-rel="openSection">Navigation</a> for how to configure your footer menu.
+				</p>
+
+				<h2>Translation</h2>
+
+				<p>
+					Risen is translation-ready. A PO file is included in the theme's <i>languages</i> folder.
+					You can use this file to translate all text in the theme into your own language.
+					Read the <a href="#translation" data-rel="openSection">Translation</a> section for a complete guide.
+				</p>
+
+				<h2>Non-church Sites</h2>
+
+				<p>
+					Risen was made to be useful for non-church sites that want to present multimedia and/or events.
+					Throughout the theme generic names are used.
+					The church and sermon references in the live preview are contained within content, not in the theme.
+					Follow these steps to setup Risen for use as a non-church website.
+				</p>
+
+				<ol class="p">
+					<li class="p-bottom">Go to <i>Appearance > Theme Options > Sermons</i> and change the "Multimedia" wording from "Sermon" to "Multimedia" or "Presentation", for example.</li>
+					<li>In <i>Appearance > Theme Options > Footer</i> check the box for "Use generic icon"</li>
+				</ol>
+
+				<p>
+					If you imported sample content, also complete these steps:
+				</p>
+
+				<ol class="p">
+					<li class="p-bottom">Go to <i>Pages > All Pages</i> and Edit the "Sermon Archive" page's title.</li>
+					<li class="p-bottom">Go to <i>Appearance > Menus</i> and change any sermon links.</li>
+					<li>In <i>Appearance > Widgets</i> and rename any instances of sermon widgets.</li>
+				</ol>
+
+				<h2>Advanced Customization</h2>
+
+				<p>
+					If you want to edit the theme's stylesheets, JavaScript, PHP templates or other code, it is recommended that you do so using a child theme.
+					This is so you can safely upgrade the Risen parent theme, if necessary, without overwriting your customizations (because they are safe and separate in the child theme).
+					Read the <a href="#child-theme" data-rel="openSection">Child Theme</a> section for a starter guide.
+				</p>
+
+				<p>
+					For editing graphics used in the theme's design you can take advantage of the layered <a href="#psd" data-rel="openSection">PSD Files</a> that are included.
+					You can also use these files to change the text of the logo.
+				</p>
+
+				<h2>Related Guides</h2>
+
+				<ul class="p-top">
+					<li><a href="#theme-options" data-rel="openSection">Theme Options</a></li>
+					<li><a href="#navigation" data-rel="openSection">Navigation</a></li>
+					<li><a href="#widgets" data-rel="openSection">Widgets</a></li>
+					<li><a href="#translation" data-rel="openSection">Translation</a></li>
+					<li><a href="#child-theme" data-rel="openSection">Child Theme</a></li>
+					<li><a href="#psd" data-rel="openSection">PSD Files</a></li>
+					<li><a href="#files" data-rel="openSection">File Descriptions</a></li>
+				</ul>
+
+			</div>
+
+		</section>
+
+		<section id="homepage">
+
+			<h1>Homepage</h1>
+
+			<div class="section-notes">
+				Slider, Intro, Widgets
+			</div>
+
+			<div class="section-content">
+
+				<iframe src="http://www.screenr.com/embed/nuk8" width="730" height="445"></iframe>
+
+				<p>
+					You can customize Risen's homepage with a slider, intro message, featured boxes and widgets.
+				</p>
+
+				<h2>Slider</h2>
+
+					<h3 class="p">Adding a Slide</h3>
+
+					<ol class="p">
+						<li class="p-bottom">Go to <i>Home Slider > Add New</i>.</li>
+						<li class="p-bottom">Click <i>Set featured image</i> then <i>Upload Files</i>, upload an image, select it, then click <i>Set featured image</i>.</li>
+						<li class="p-bottom">Optionally add a <i>Caption</i>, <i>Click URL</i> and <i>Video URL</i> (instructions shown by fields).</li>
+						<li>Under <i>Attributes</i> enter a number representing the <i>Order</i> in which you want the slide to appear.</li>
+					</ol>
+
+					<p>
+						The slide image you upload should be at least 960x350 (if larger, it will be auto-cropped).
+						If you upload an image that is less than 960 pixels wide, it will appear stretched in the slider.
+						In this case, you should provide a larger image.
+					</p>
+
+					<h3 class="p">Editing and Deleting Slides</h3>
+
+					<ol>
+						<li class="p-bottom">Go to <i>Home Slider</i> > <i>All Items</i></li>
+						<li>Hover over a slide item to see the <i>Edit</i> and <i>Trash</i> options</li>
+					</ol>
+
+					<p>
+						Note that this will delete the slides but the actual image files will remain on your server.
+						If you want to delete the image files, go to the WordPress Media Library (<i>Media Files</i> > <i>Library</i>).
+					</p>
+
+					<h3 class="p">Slider Options</h3>
+
+					<p>
+						Go to <i>Appearance > Theme Options > Homepage</i> to disable the slider, change whether or not slides should transition from one to next automatically and set the number of seconds between automatic slide changes.
+					</p>
+
+				<h2>Intro Message</h2>
+
+				<p>
+					You can change the text in the box below the slider by going to <i>Appearance > Theme Options > Homepage</i> and editing the "Intro Message" field.
+					If you do not want to show an intro message, simply delete the text then save.
+				</p>
+
+				<h2>Featured Boxes</h2>
+
+				<p>
+					The <a href="http://stevengliebe.com/wp-playground/risen/" target="_blank">Live Preview</a> shows three boxed images with titles below the intro message.
+					You can use these to direct the visitor's attention to the most important areas of your site.
+				</p>
+
+					<h3 class="p">Adding a Box</h3>
+
+					<ol class="p">
+						<li class="p-bottom">Go to <i>Home Boxes > Add New</i>.</li>
+						<li class="p-bottom">Click <i>Set featured image</i> then <i>Upload Files</i>, upload an image, select it, then click <i>Set featured image</i>.</li>
+						<li class="p-bottom">Optionally enter a <i>Title</i> and <i>Click URL</i> (instructions shown by fields).</li>
+						<li>Under <i>Attributes</i> enter a number representing the <i>Order</i> in which you want the box to appear.</li>
+					</ol>
+
+					<p>
+						Provide an image that is at least 640x480 (it will be cropped/resized) for the best experience on mobile devices.
+					</p>
+
+					<p>
+						It is possible to add more than three boxes. If you do so, the additional boxes will be shown in additional rows.
+					</p>
+
+					<h3 class="p">Editing and Deleting Boxes</h3>
+
+					<ol>
+						<li class="p-bottom">Go to <i>Home Boxes</i> > <i>All Items</i></li>
+						<li>Hover over a box item to see the <i>Edit</i> and <i>Trash</i> options</li>
+					</ol>
+
+				<p>
+					If you do not want to show boxes, simply delete them all.
+				</p>
+
+				<h2 class="p">Bottom Widgets</h2>
+
+				<p>
+					You can show any widget at the bottom of the homepage either in a left-hand or right-hand column.
+					These widget areas are handy for showing recent news, sermons, events, etc.
+					See the <a href="http://stevengliebe.com/wp-playground/risen/" target="_blank">Live Preview</a> for ideas.
+				</p>
+
+				<ol class="p">
+					<li class="p-bottom">Go to <i>Appearance > Widgets</i>.</li>
+					<li class="p-bottom">Click on <i>Home Bottom Right</i> and <i>Home Bottom Left</i> to expand those widget areas.</li>
+					<li class="p-bottom">Drag any widget into either of those widget areas.</li>
+					<li>Configure each of your widgets as desired.</li>
+				</ol>
+
+				<p>
+					If you do not want to show widgets at the bottom of the homepage, delete them from the <i>Home Bottom Right</i> and <i>Home Bottom Left</i> areas.
+					Alternatively you can drag them to the "Inactive Widgets" area.
+				</p>
+
+				<p>
+					Read the <a href="#widgets" data-rel="openSection">Widgets</a> guide for more information.
+				</p>
+
+				<h2 class="p">Any Page as Homepage</h2>
+
+				<p>
+					You can use WordPress's <a href="http://codex.wordpress.org/Creating_a_Static_Front_Page" target="_blank">Static Front Page</a> feature to use any page as the homepage.
+					This includes pages using a page template.
+					For example, you can use a page that uses the Blog template as the homepage in order to use the theme for a pure blog.
+				</p>
+
+				<ol class="p">
+					<li class="p-bottom">Go to <i>Settings > Reading</i></li>
+					<li>Set <i>Front page displays</i> to a static page</li>
+				</ol>
+
+			</div>
+
+		</section>
+
+		<section id="pages">
+
+			<h1>Pages</h1>
+
+			<div class="section-notes">
+				Content, Header, Templates
+			</div>
+
+			<div class="section-content">
+
+				<iframe src="http://www.screenr.com/embed/qJk8" width="730" height="445"></iframe>
+
+				<p>
+					You can add pages to your site with any content or use a custom page template to show special content such as sermons, events, gallery, staff and locations.
+				</p>
+
+				<h2>Adding a Page</h2>
+
+					<p>
+						This is how to add a basic page.
+					</p>
+
+					<ol class="p">
+						<li class="p-bottom">Go to <i>Pages > Add New</i>.</li>
+						<li class="p-bottom">Enter a title and content.</li>
+						<li>Click <i>Publish</i></li>
+					</ol>
+
+					<p>
+						Note that you can click <i>Screen Options</i> at the top-right to reveal more options for preparing the page.
+						Some options are hidden by default.
+					</p>
+
+				<h2 class="p">Editing and Deleting Pages</h2>
+
+				<ol class="p">
+					<li class="p-bottom">Go to <i>Pages</i> > <i>All Pages</i></li>
+					<li>Hover over a page to see the <i>Edit</i> and <i>Trash</i> options</li>
+				</ol>
+
+				<h2>Header Image</h2>
+
+					<h3 class="p">Using a Header Image</h3>
+
+					<p>
+						You can optionally add a header image to a page. When adding or editing a page:
+					</p>
+
+					<ol class="p">
+						<li class="bottom">Click <i>Set featured image</i>.</li>
+						<li class="bottom">Click <i>Upload Files</i>.</li>
+						<li class="bottom">Upload an image.</li>
+						<li class="bottom">Select the uploaded image.</li>
+						<li class="bottom">Click <i>Set featured image</i> to use it.</li>
+					</ol>
+
+					<p>
+						The image you upload should be at least 960x250 (if larger, it will be auto-cropped).
+						If you upload an image that is less than 960 pixels wide, it will appear stretched in the header.
+						In this case, you should provide a larger image.
+					</p>
+
+					<h3>Page Header Override</h3>
+
+					<p>
+						Sometimes you may want a page to use the header image and title from another page.
+						This is handy in instances when you want to create a "section" of pages that all have the same header.
+					</p>
+
+					<p>
+						Look for the <i>Page Header Override</i> option when adding or editing a page.
+					</p>
+
+				<p>
+
+				<h2>Custom Page Templates</h2>
+
+				<p>
+					Risen uses page templates to show special content such as the sermon archive, events, locations, etc.
+					Look for the <i>Page Attributes</i> box which has a <i>Template</i> selector when adding or editing a page.
+				</p>
+
+				<ul>
+					<li><b>Blog</b> - Lists all <a href="#blog" data-rel="openSection">Blog</a> posts from new to old</li>
+					<li><b>Contact</b> - Uses the the <i>Contact Sidebar</i> for widgets. Provides no content. Read the <a href="#contact" data-rel="openSection">Contact Page</a> guide.</li>
+					<li><b>Events</b> - Lists your events. Read the <a href="#events" data-rel="openSection">Events</a> guide.</li>
+					<li><b>Gallery - Categories</b> - Lists all <a href="#gallery" data-rel="openSection">Gallery</a> categories.</li>
+					<li><b>Gallery - All Images & Videos</b> - Lists all <a href="#gallery" data-rel="openSection">Gallery</a> images and videos.</li>
+					<li><b>Gallery - All Images</b> - Lists all <a href="#gallery" data-rel="openSection">Gallery</a> images (no videos).</li>
+					<li><b>Gallery - All Videos</b> - Lists all <a href="#gallery" data-rel="openSection">Gallery</a> videos (no images).</li>
+					<li><b>Locations</b> - Lists all <a href="#locations" data-rel="openSection">Locations</a></li>
+					<li><b>Multimedia</b> - Lists all <a href="#multimedia" data-rel="openSection">Sermons</a> from new to old</li>
+					<li><b>Staff</b> - Lists all <a href="#staff" data-rel="openSection">Staff</a> members</li>
+				</ul>
+
+				<p>
+					Any content that you enter will appear above the content produced by the page template.
+					For example, you could write a brief message about your team in the content box then choose the Staff template.
+					When viewing the page, the result would be your staff members appearing below the message you wrote.
+				</p>
+
+				<h2>Sidebar Widgets</h2>
+
+				<p>
+					You can show an optional sidebar with <a href="#widgets" data-rel="openSection">Widgets</a> on the right side of your pages.
+					When adding or editing a page:
+				</p>
+
+				<ol class="p">
+					<li class="bottom">Check the <i>Show sidebar widgets</i> box and save</li>
+					<li class="bottom">Go to <i>Appearances > Widgets</i></li>
+					<li class="bottom">Click <i>Page Sidebar</i> to expand it</li>
+					<li>Drag any widgets you want into the sidebar</li>
+				</ol>
+
+				<p>
+					If your page is using a custom page template then it has its own sidebar that you can drag widgets into.
+					For example, if you create a page using the Events template then it uses the <i>Events Sidebar</i>.
+					Only pages without a template use the default <i>Page Sidebar</i>.
+				</p>
+
+				<p>
+					Read the <a href="#widgets" data-rel="openSection">Widgets</a> guide for more information.
+				</p>
+
+				<h2>Adding Pages to Menus</h2>
+
+				<p>
+					After adding a new page you will probably want to add it to your menu.
+					Read the <a href="#navigation" data-rel="openSection">Navigation</a> guide for instructions.
+				</p>
+
+			</div>
+
+		</section>
+
+		<section id="multimedia">
+
+			<h1>Multimedia <span class="nonbold">(Sermons)</span></h1>
+
+			<div class="section-notes">
+				Audio, Video, Podcasting
+			</div>
+
+			<div class="section-content">
+
+				<iframe src="http://www.screenr.com/embed/Iok8" width="730" height="445"></iframe>
+
+				<p>
+					Risen has a set of multimedia features that helps you publish sermons in audio, video or text format. You can even podcast your sermons with Risen.
+				</p>
+
+				<h2>Sermons Page</h2>
+
+				<p>
+					First you need to create a page that acts as an entry to the sermon archive by listing all sermons from new to old.
+				</p>
+
+				<ol class="p">
+					<li class="p-bottom">Go to <i>Pages</i> > <i>Add New</i>.</li>
+					<li class="p-bottom">Enter a title and any content that you want to appear at the top of the sermon archive.</li>
+					<li class="p-bottom">Under <i>Page Attributes</i> choose the <i>Multimedia</i> template.</li>
+					<li class="p-bottom">Optionally configure a header image and sidebar (read the <a href="#pages" data-rel="openSection">Pages</a> guide).</li>
+					<li class="p-bottom">Click <i>Publish.</i></li>
+				</ol>
+
+				<h2>Sermon Categories</h2>
+
+				<p>
+					You can organize sermons into categories.
+				</p>
+
+					<h3>Add a Category</h3>
+
+					<ol class="p">
+						<li class="p-bottom">Go to <i>Sermons</i> > <i>Categories</i></li>
+						<li class="p-bottom">Enter a category name</li>
+						<li class="p-bottom">Click the <i>Add Category</i> button</li>
+					</ol>
+
+					<h3>Edit and Delete Categories</h3>
+
+					<ol class="p">
+						<li class="p-bottom">Go to <i>Sermons</i> > <i>Categories</i></li>
+						<li class="p-bottom">Hover over a category to see the <i>Edit</i> and <i>Delete</i> options</li>
+					</ol>
+
+					<p>
+						Notice also that there is a <i>Sermons</i> column with a number by each category.
+						This shows you how many items are in each category.
+						If you click the number, it will show you the items.
+					</p>
+
+				<h2>Publishing Sermons</h2>
+
+					<h3 class="p">Adding a Sermon</h3>
+
+					<p>
+						Risen uses a custom post type that makes it easy for you to add sermon items.
+					</p>
+
+					<ol class="p">
+						<li class="p-bottom">Go to <i>Sermons</i> > <i>Add New</i></li>
+						<li class="p-bottom">Click <i>Screen Options</i> at the top-right then check all boxes.</li>
+						<li class="p-bottom">Enter a title for the sermon.</li>
+						<li class="p-bottom">
+							Provide any combination of the following sermon content.
+							<ul class="p">
+								<li><b>Text</b> - Enter full sermon text into the main content box. Under <i>Media</i> check the <i>Show "Text" Icon</i> box.</li>
+								<li><b>Video</b> - Under <i>Media</i> provide a <a href="http://www.youtube.com/" target="_blank">YouTube</a> or <a href="http://vimeo.com/" target="_blank">Vimeo</a> URL. You can upload your video for free.</li>
+								<li><b>Audio</b> - Under <i>Media</i> provide an <i>MP3 Audio File</i> by entering a URL or uploading a file.</li>
+								<li><b>PDF</b> - Under <i>Media</i> provide a <i>PDF File</i> by entering a URL or uploading a file.</li>
+							</ul>
+						</li>
+						<li class="p-bottom">Enter two or three sentence <i>Excerpt</i> describing your sermon.</li>
+						<li class="p-bottom">Select or add the categories you want this sermon to appear in.</li>
+						<li class="p-bottom">Select or add the speaker(s) who presented this sermon.</li>
+						<li class="p-bottom">Optionally enter tags (keywords) that match this sermon.</li>
+						<li class="p-bottom">Click <i>Set featured image</i> then <i>Upload Files</i>, upload an image, select it, then click <i>Set featured image</i>.</li>
+						<li class="p-bottom">Optionally check the <i>Show sidebar widgets</i> box if you want to show a sidebar on this sermon's page.</li>
+						<li>Click the <i>Publish</i> button to add it.</li>
+					</ol>
+
+					<h3 class="p">Editing and Deleting Sermons</h3>
+
+					<ol class="p">
+						<li class="p-bottom">Go to <i>Sermons</i> > <i>All Items</i></li>
+						<li>Hover over a gallery item to see the <i>Edit</i> and <i>Trash</i> options</li>
+					</ol>
+
+				<h2 class="p">Large File Uploads</h2>
+
+				<p>
+					MP3 files and sometimes PDF files are often large files.
+					Most web hosts by default limit the size of files that can be uploaded so if their limit is 2 MB and your MP3 file is 10 MB then the upload will fail.
+					Therefore, if you are uploading a large file when publishing a sermon, you may receive a message saying something like "The uploaded file exceeds the upload_max_filesize directive in php.ini."
+					There are several ways of dealing with this issue.
+				</p>
+
+					<p>
+						But first, make sure the MP3 file you are uploading is sufficiently compressed.
+						If it is several hundred megabytes for one hour then it is unnecesarily large.
+						It is reasonable to expect a one hour MP3 to be under 20 MB.
+					</p>
+
+					<h3>Ask Your Web Host <span class="nonbold">(Recommended)</span></h3>
+
+					<p>
+						The simplest and best solution is usually to ask your web host to raise your upload file size limit.
+						Tell them how big the files you want to upload are and that you are trying to upload them via WordPress but receive an error.
+						Tell them what error message you received says.
+					</p>
+
+					<h3>Change the Limit Yourself</h3>
+
+					<p>
+						Some web hosts let you change the file upload size limit yourself.
+						For the best instructions, search your web host's knowledgebase for a guide on raising your upload file size limit.
+						For a more general guide, read <a href="http://www.wpbeginner.com/wp-tutorials/how-to-increase-the-maximum-file-upload-size-in-wordpress/" target="_blank">How to Increase the Maximum File Upload Size in WordPress</a> at WPBeginner.
+					</p>
+
+					<h3>Manual FTP Upload</h3>
+
+					<p>
+						If your host will not allow you to upload larger files via WordPress, you can upload them using FTP.
+						If you are new to web hosting, find your host's guide on using FTP.
+						A good place to store them is in WordPress's <i>wp-content/uploads</i> directory.
+						After uploading your MP3 file, provide the URL to it in the <i>MP3 Audio File</i> when adding/editing a sermon.
+						Note that manual file uploads via FTP will not appear in your WordPress media library unless you run a plugin like <a href="http://wordpress.org/extend/plugins/add-from-server/" target="_blank">Add From Server</a>.
+					</p>
+
+				<h2>Sermon Options</h2>
+
+				<p>
+					Go to <i>Appearance</i> > <i>Theme Options</i> > <i>Sermons</i> to set these options.
+				</p>
+
+				<ul class="p">
+					<li><b>"Multimedia" Wording</b> - For a non-church site you can change "Sermon" to "Multimedia" or "Presentation".</li>
+					<li><b>Items Per Page</b> - The number of sermons to show per page before page navigation controls kick in.</li>
+					<li><b>Header Image</b> - Choose to show the header image from the page using the <i>Multimedia</i> template on category, speaker, tag, date archive and single sermon pages.</li>
+					<li><b>Page Title Formats</b> - Customize the format of page titles for category, tag, speaker and date archive areas.</li>
+				</ul>
+
+				<h2>Sermon Widgets</h2>
+
+				<p>
+					You can go to <i>Appearance > Widgets</i> and drag widgets into the <i>Sermon Sidebar</i>.
+				</p>
+
+				<p>
+					You can show any widgets in a sidebar but there are several widgets especially useful for the sermon sidebar.
+					The <i>Recent Sermons</i> widget is also useful for showing new sermons on the homepage.
+				</p>
+
+				<ul>
+					<li><b>Categories (Enhanced)</b> - For listing your sermon categories or speakers.</li>
+					<li><b>Tag Cloud</b> - Standard WordPress widget that can list sermon tags.</li>
+					<li><b>Sermon Archives</b> - Lists monthly date archives for sermons.</li>
+					<li><b>Recent Sermons</b> - Lists the most recent sermons.</li>
+				</ul>
+
+				<p>
+					Read the <a href="#widgets" data-rel="openSection">Widgets</a> guide for more information.
+				</p>
+
+				<h2>Sermon Feeds</h2>
+
+				<p>
+					The main RSS feed for sermons is available at a URL like this:
+				</p>
+
+				<p>
+					<i>http://yourname.com/multimedia-archive<strong>/feed/</strong></i>
+				</p>
+
+				<p>
+					Replace <em>http://yourname.com</em> with your owns site's URL.
+				</p>
+
+				<p>
+					There are also feeds for your archives (categories, tags, months, etc.). Just append <strong>/feed/</strong> to the end of the URL.
+				</p>
+
+				<h2>Sermon Podcasting</h2>
+
+				<p>
+					Podcasting is built-in so you can podcast your audio sermons by sharing a feed URL with your listeners. Optionally submit your podcast to the iTunes Store.
+				</p>
+
+				<h3>Requirements</h3>
+
+				<p>
+					You must do these things before podcasting will work:
+				</p>
+
+				<ol class="p">
+					<li>Make sure you are using Risen 2.0 or newer (<a href="#update" data-rel="openSection">Updating</a>). Podcasting was not added until 2.0.</li>
+					<li>If you upgraded from a version earlier than 2.0, you must edit each existing sermon (that has audio) and re-save it in order for the MP3 to show up in the podcast feed.</li>
+				</ol>
+
+				<h3>Podcast Feeds</h3>
+
+				<p>
+					MP3 files are automatically added as enclosures to your sermon RSS feeds (see <i>Sermon Feeds</i> above).
+				</p>
+
+				<p>
+					<b>Important:</b> Were you using a version older than Risen 2.0 before? If so, you need to re-save the sermons with audio that you want to podcast. There's no need to re-upload. Just open and click save on the sermon. This causes the MP3 URL to be saved to an enclosure field that WordPress uses for RSS feeds.
+				</p>
+
+				<p>
+					Simply provide your visitors with a feed URL for them to use in their favorite podcast player, such as iTunes. You can write a note about your podcast in a <em>Text</em> widget, place a message at the top of your sermons page, etc.
+				</p>
+
+				<ul>
+					<li class="p-bottom">You can make a "Podcasting" sermon category or tag then use that RSS feed for podcasting. Just add <strong>/feed/</strong> to the end of the category or tag's URL. This way 100% of the sermons in that feed will have an MP3.</li>
+					<li>You can increase the number of sermons the feed shows by going to <strong>Settings</strong> &gt; <strong>Reading</strong> and changing <em>Syndication feeds show the most recent</em>. Note that this increases the limit for all RSS feeds, including blog posts.</li>
+				</ul>
+
+				<h3>iTunes Podcasts</h3>
+
+				<p>
+					Want to add a cover image to your podcast? Want to list your podcast in the iTunes Store for others to discover? You can use FeedBurner to enhance your feed.
+				</p>
+
+				<h4>Using FeedBurner</h4>
+
+				<ol>
+					<li class="p-bottom">Determine the podcasting feed URL you will use (see <i>Podcast Feeds</i> above).</li>
+					<li class="p-bottom">Sign up or sign into Google's <a href="http://feedburner.com" target="_blank">FeedBurner</a> service.</li>
+					<li class="p-bottom">Enter your podcasting feed URL into "Burn a feed right this instant" and check the box for "I am a podcaster".</li>
+					<li class="p-bottom">Continue clicking <strong>Next</strong> and filling out details until you get to "Configure Your Podcast and Tell iTunes...".</li>
+					<li class="p-bottom">Check the box for <em>Include iTunes podcasting elements</em> then enter your extra details.
+				<ul>
+					<li class="p-top">Optionally provide a 1400x1400 cover image for <i>Podcast image location</i>. You can upload this via WordPress in <b>Media Files</b> &gt; <b>Add New</b>.</li>
+				</ul>
+				</li>
+					<li class="p-bottom">Click <strong>Next</strong> and continue filling out the options you want.</li>
+					<li>When done, click on the feed icon at the top-left to view the FeedBurner version of your feed. Save this URL.</li>
+				</ol>
+
+				<h4>Submitting to iTunes</h4>
+
+				<ol>
+					<li class="p-bottom"><a href="http://www.apple.com/itunes/podcasts/specs.html#testing" target="_blank">Test</a> your new FeedBurner feed in the iTunes app.</li>
+					<li><a href="http://www.apple.com/itunes/podcasts/specs.html#submitting" target="_blank">Submit</a> your feed to the iTunes Store.</li>
+				</ol>
+
+				<h4>iTunes Tips</h4>
+
+				<ul>
+					<li>Show a podcast icon by entering your iTunes podcast URL in <a href="#theme-options" data-rel="openSection">Theme Options</a>.</li>
+					<li>Note that archive.org-hosted media may not work due to redirection issues.</li>
+				</ul>
+
+				<h4>Resources</h4>
+
+				<ul>
+					<li><a href="http://www.apple.com/itunes/podcasts/specs.html" target="_blank">Making a Podcast</a> - specifications and instructions for iTunes podcasting</li>
+					<li><a href="http://www.apple.com/itunes/podcasts/creatorfaq.html" target="_blank">FAQs: For Podcast Makers</a> - answers to common questions iTunes podcasters have</li>
+					<li><a href="http://feedvalidator.org/" target="_blank">Feed Validator</a> - check for errors if iTunes rejects your feed</li>
+				</ul>
+
+			</div>
+
+		</section>
+
+		<section id="gallery">
+
+			<h1>Gallery</h1>
+
+			<div class="section-notes">
+				Photos &amp; Videos
+			</div>
+
+			<div class="section-content">
+
+				<iframe src="http://www.screenr.com/embed/Hek8" width="730" height="445"></iframe>
+
+				<p>
+					The gallery provides a way to show photos and videos.
+					You can use categories to create multiple "albums".
+				</p>
+
+				<h2>Gallery Page</h2>
+
+				<p>
+					First you need to create a page that will show the gallery items that you add.
+				</p>
+
+				<ol class="p">
+					<li class="p-bottom">Go to <i>Pages</i> > <i>Add New</i>.</li>
+					<li class="p-bottom">Enter a title and any content that you want to appear at the top of the gallery.</li>
+					<li class="p-bottom">
+						Under <i>Page Attributes</i> choose one of the following gallery templates:
+						<ul class="p-top">
+							<li><b>Gallery - Categories</b> - Lists all categories.</li>
+							<li><b>Gallery - All Images &amp; Videos</b> - Lists all images and videos.</li>
+							<li><b>Gallery - All Images</b> - Lists all images (no videos).</li>
+							<li><b>Gallery - All Videos</b> - Lists all videos (no images).</li>
+						</ul>
+					</li>
+					<li class="p-bottom">Optionally configure a header image and sidebar (read the <a href="#pages" data-rel="openSection">Pages</a> guide).</li>
+					<li class="p-bottom">Click <i>Publish</i>.</li>
+					<li class="p-bottom">Go to <i>Appearance > Theme Options > Gallery</i>.</li>
+					<li class="p-bottom">Set <i>Main Gallery Page</i> to the page you just added.</li>
+				</ol>
+
+				<h2>Gallery Categories</h2>
+
+				<p>
+					You can organize your images and videos into categories.
+				</p>
+
+					<h3>Add a Category</h3>
+
+					<ol class="p">
+						<li class="p-bottom">Go to <i>Gallery</i> > <i>Categories</i></li>
+						<li class="p-bottom">Enter a category name</li>
+						<li class="p-bottom">Click the <i>Add Category</i> button</li>
+					</ol>
+
+					<h3>Edit and Delete Categories</h3>
+
+					<ol class="p">
+						<li class="p-bottom">Go to <i>Gallery</i> > <i>Categories</i></li>
+						<li class="p-bottom">Hover over a category to see the <i>Edit</i> and <i>Delete</i> options</li>
+					</ol>
+
+					<p>
+						Notice also that there is a <i>Gallery</i> column with a number by each category.
+						This shows you how many items are in each category.
+						If you click the number, it will show you the items.
+					</p>
+
+				<h2>Images &amp; Videos</h2>
+
+					<h3 class="p">Adding an Image</h3>
+
+					<p>
+						Risen uses a custom post type that makes it easy for you to add gallery items.
+					</p>
+
+					<ol class="p">
+						<li class="p-bottom">Go to <i>Gallery</i> > <i>Add Photo or Video</i></li>
+						<li class="p-bottom">Click <i>Screen Options</i> at the top-right then check all boxes.</li>
+						<li class="p-bottom">Enter a title for the image or video.</li>
+						<li class="p-bottom">Write a short description to appear on the item's page.</li>
+						<li class="p-bottom">Click <i>Set featured image</i> then <i>Upload Files</i>, upload an image, select it, then click <i>Set featured image</i>.</li>
+						<li class="p-bottom">Select the categories you want this image to appear in.</li>
+						<li class="p-bottom">Check the <i>Show sidebar widgets</i> box if you want to show a sidebar on this item's page.</li>
+						<li>Click the <i>Publish</i> button to add it.</li>
+					</ol>
+
+					<h3>Adding a Video</h3>
+
+					<p>
+						You can easily add YouTube and Vimeo videos to your gallery.
+					</p>
+
+					<ol class="p">
+						<li class="p-bottom">Follow the same steps in "Adding an Image" above.</li>
+						<li class="p-bottom">Provide the URL to a YouTube or Vimeo video in the <i>Video URL</i> field.</li>
+						<li>Click <i>Publish</i></li>
+					</ol>
+
+					<p>
+						Note that you still must provide an image that will be used as a thumbnail for the user to click on.
+					</p>
+
+					<h3 class="p">Editing and Deleting Items</h3>
+
+					<ol>
+						<li class="p-bottom">Go to <i>Gallery</i> > <i>All Photos &amp; Videos</i></li>
+						<li>Hover over a gallery item to see the <i>Edit</i> and <i>Trash</i> options</li>
+					</ol>
+
+					<p>
+						Note that this will delete the posts but the actual image files will remain on your server.
+						If you want to delete the image files, go to the WordPress Media Library (<i>Media Files</i> > <i>Library</i>).
+					</p>
+
+				<h2>Gallery Options</h2>
+
+				<p>
+					Go to <i>Appearance</i> > <i>Theme Options</i> > <i>Gallery</i> to set these options.
+				</p>
+
+				<ul class="p">
+					<li><b>Categories Order</b> - Order in which categories are listed on the page using <i>Gallery - Categories</i> template.</li>
+					<li><b>Images/Videos Per Page</b> - The number of items to show per page before page navigation controls kick in.</li>
+					<li><b>Main Gallery Page</b> - Individual category and item pages can inherit this page's header and sidebar.</li>
+					<li><b>Header Image</b> - Choose to show the <i>Main Gallery Page</i> header/sidebar on individual category/item pages.</li>
+					<li><b>Single Category Page Title</b> - Customize the format of individual category page titles.</li>
+				</ul>
+
+				<h2>Gallery Widgets</h2>
+
+				<p>
+					The sections above cover how to enable the sidebar in the different gallery areas (main gallery page, individual category, individual item).
+					You can go to <i>Appearance > Widgets</i> and drag widgets into the <i>Gallery Sidebar</i>.
+				</p>
+
+				<p>
+					You can show any widgets in a sidebar but there are two widgets especially useful for the gallery sidebar.
+					The <i>Recent Gallery Items</i> widget is also useful for showing new photos and videos on the homepage.
+				</p>
+
+				<ul>
+					<li><b>Categories (Enhanced)</b> - Lists your gallery categories.</li>
+					<li><b>Recent Gallery Items</b> - Shows the newest images and/or videos.</li>
+				</ul>
+
+				<p>
+					Read the <a href="#widgets" data-rel="openSection">Widgets</a> guide for more information.
+				</p>
+
+				<h2>Bulk Uploads</h2>
+
+				<p>
+					Each gallery item represents one image or video and requires a featured image to be set. These gallery items need to be added manually, one at a time. There is no bulk add feature for Risen gallery items. You can upload your images in advance in <i>Media Files</i> beforehand, however.
+				</p>
+
+				<p>
+					If you want bulk image upload for galleries you can use WordPress's native gallery feature instead of Risen's gallery (the information above will no longer apply). To use it, create a regular page then click "Add Media". From there, you can upload multiple images and create a gallery on that page. Here are some solutions for adding a lightbox to the native gallery:
+				</p>
+
+				<ul class="p">
+					<li><a href="http://wordpress.org/plugins/carousel-without-jetpack/" target="_blank">Jetpack Carousel</a></li>
+					<li><a href="http://wordpress.org/plugins/responsive-lightbox/" target="_blank">Responsive Lightbox</a></li>
+				</ul>
+
+			</div>
+
+		</section>
+
+		<section id="events">
+
+			<h1>Events</h1>
+
+			<div class="section-notes">
+				Church Events
+			</div>
+
+			<div class="section-content">
+
+				<iframe src="http://www.screenr.com/embed/6ak8" width="730" height="445"></iframe>
+
+				<p>
+					Create events and show them using the Upcoming or Past templates. They can also be shown in a widget. Optionally make your events repeat automatically.
+				</p>
+
+				<h2>Events Page</h2>
+
+				<p>
+					First you need to create a page that will show the events that you add.
+				</p>
+
+				<ol class="p">
+					<li class="p-bottom">Go to <i>Pages</i> > <i>Add New</i>.</li>
+					<li class="p-bottom">Enter a title and any content that you want to appear at the top of the events list.</li>
+					<li class="p-bottom">Under <i>Page Attributes</i> choose the <i>Events - Upcoming</i> template.</li>
+					<li class="p-bottom">Optionally configure a header image and sidebar (read the <a href="#pages" data-rel="openSection">Pages</a> guide).</li>
+					<li class="p-bottom">Click <i>Publish</i>.</li>
+				</ol>
+
+				<p>
+					There is also an <i>Events - Past</i> page template that you can use to show events that are over.
+				</p>
+
+				<h2>Managing Events</h2>
+
+					<h3 class="p">Adding an Event</h3>
+
+					<p>
+						Risen uses a custom post type that makes it easy for you to add events.
+					</p>
+
+					<ol class="p">
+						<li class="p-bottom">Go to <i>Events</i> > <i>Add New</i>.</li>
+						<li class="p-bottom">Click <i>Screen Options</i> at the top-right then check all boxes.</li>
+						<li class="p-bottom">Enter a title for the event.</li>
+						<li class="p-bottom">Use the content box to write information about the event.</li>
+						<li class="p-bottom">Fill in the details under <i>Date & Time</i> (<i>Start Date</i> is required).</li>
+						<li class="p-bottom">Fill in the optional details under <i>Location</i> (venue, address, map).</li>
+						<li class="p-bottom">Write a short <i>Excerpt</i> summarizing the event.</li>
+						<li class="p-bottom">Click <i>Set featured image</i> then <i>Upload Files</i>, upload an image, select it, then click <i>Set featured image</i>.</li>
+						<li class="p-bottom">Optionally check the <i>Show sidebar widgets</i> box if you want to show a sidebar on this event's page.</li>
+						<li>Click the <i>Publish</i> button to add it.</li>
+					</ol>
+
+					<h3 class="p">Editing and Deleting Events</h3>
+
+					<ol class="p">
+						<li class="p-bottom">Go to <i>Events</i> > <i>All Events</i></li>
+						<li>Hover over an event to see the <i>Edit</i> and <i>Trash</i> options</li>
+					</ol>
+
+					<h3 class="p">Hide Events When Expired</h3>
+
+					<p>
+						By default, when an event passes it will still show on site with an "event has expired" message for historical purposes.
+						If you would like events that are over to be hidden, you can use the <a href="http://wordpress.org/extend/plugins/electric-studio-auto-expire-post/" target="_blank">Electric Studio Auto Post Expire</a> plugin to automatically set an event to "Draft" status on a certain date.
+					</p>
+
+				<h2>Widgets</h2>
+
+					<h3 class="p">Events Sidebar</h3>
+
+					<p>
+						If you enabled the sidebar for your events page or any of your event items, you can show widgets in it.
+						To do this go to <i>Appearance > Widgets</i> and drag any widgets into the <i>Events Sidebar</i>
+					</p>
+
+					<h3>Upcoming Events Widget</h3>
+
+					<p>
+						Risen includes a widget for showing upcoming events.
+						In the <a href="http://stevengliebe.com/wp-playground/risen/" target="_blank">Live Preview</a> it is shown on the homepage but it can be shown in sidebars too.
+					</p>
+
+				<p>
+					Read the <a href="#widgets" data-rel="openSection">Widgets</a> guide for more information.
+				</p>
+
+			</div>
+
+		</section>
+
+		<section id="staff">
+
+			<h1>Staff</h1>
+
+			<div class="section-notes">
+				Profiles
+			</div>
+
+			<div class="section-content">
+
+				<iframe src="http://www.screenr.com/embed/m7c8" width="730" height="445"></iframe>
+
+				<p>
+					You can create a list of staff profiles complete with photo and e-mail button.
+				</p>
+
+				<h2>Staff Page</h2>
+
+				<p>
+					First you need to create a page that will show the staff members that you add.
+				</p>
+
+				<ol class="p">
+					<li class="p-bottom">Go to <i>Pages</i> > <i>Add New</i>.</li>
+					<li class="p-bottom">Enter a title and any content that you want to appear at the top of the staff list.</li>
+					<li class="p-bottom">Under <i>Page Attributes</i> choose the <i>Staff</i> template.</li>
+					<li class="p-bottom">Optionally configure a header image and sidebar (read the <a href="#pages" data-rel="openSection">Pages</a> guide).</li>
+					<li class="p-bottom">Click <i>Publish</i>.</li>
+				</ol>
+
+				<h2>Managing Staff</h2>
+
+					<h3 class="p">Adding Staff</h3>
+
+					<p>
+						Risen uses a custom post type that makes it easy for you to add staff.
+					</p>
+
+					<ol class="p">
+						<li class="p-bottom">Go to <i>Staff</i> > <i>Add New</i>.</li>
+						<li class="p-bottom">Click <i>Screen Options</i> at the top-right then check all boxes.</li>
+						<li class="p-bottom">Enter the staff member's name in the title field.</li>
+						<li class="p-bottom">Write their bio in the content box.</li>
+						<li class="p-bottom">Optionally enter their <i>Position</i> (e.g. Senior Pastor) under <i>Details</i></li>
+						<li class="p-bottom">Optionally configure the <i>E-mail Button</i> under <i>Details</i> (read <a href="#contact" data-rel="openSection">Contact Page</a> for more details)</li>
+						<li class="p-bottom">Click <i>Set featured image</i> then <i>Upload Files</i>, upload an image (at least 180x180), select it, then click <i>Set featured image</i>.</li>
+						<li>Click the <i>Publish</i> button.</li>
+					</ol>
+
+					<h3 class="p">Editing and Deleting Staff</h3>
+
+					<ol class="p">
+						<li class="p-bottom">Go to <i>Staff</i> > <i>All Staff</i></li>
+						<li>Hover over a staff member to see the <i>Edit</i> and <i>Trash</i> options</li>
+					</ol>
+
+				<h2>Widgets</h2>
+
+					<h3 class="p">Staff Sidebar</h3>
+
+					<p>
+						If you enabled the sidebar for your staff page, you can show widgets in it.
+						To do this go to <i>Appearance > Widgets</i> and drag any widgets into the <i>Staff Sidebar</i>
+					</p>
+
+					<h3>Staff Widget</h3>
+
+					<p>
+						Risen includes a widget for showing staff.
+						As an example, in the <a href="http://stevengliebe.com/wp-playground/risen/" target="_blank">Live Preview</a> it is shown on the contact page.
+					</p>
+
+				<p>
+					Read the <a href="#widgets" data-rel="openSection">Widgets</a> guide for more information.
+				</p>
+
+			</div>
+
+		</section>
+
+		<section id="locations">
+
+			<h1>Locations</h1>
+
+			<div class="section-notes">
+				One or Multiple
+			</div>
+
+			<div class="section-content">
+
+				<iframe src="http://www.screenr.com/embed/b7c8" width="730" height="445"></iframe>
+
+				<p>
+					You can publish one or multiple locations using Risen's locations post type and page template.
+					If you have one location you can use this feature or you may want to simply show a map and contact details on the <a href="#contact" data-rel="openSection">Contact Page</a>.
+				</p>
+
+				<h2>Location(s) Page</h2>
+
+				<p>
+					First you need to create a page that will show the location(s) that you add.
+				</p>
+
+				<ol class="p">
+					<li class="p-bottom">Go to <i>Pages</i> > <i>Add New</i>.</li>
+					<li class="p-bottom">Enter a title and any content that you want to appear at the top of the location(s) list.</li>
+					<li class="p-bottom">Under <i>Page Attributes</i> choose the <i>Locations</i> template.</li>
+					<li class="p-bottom">Optionally configure a header image and sidebar (read the <a href="#pages" data-rel="openSection">Pages</a> guide).</li>
+					<li class="p-bottom">Click <i>Publish</i>.</li>
+				</ol>
+
+				<h2>Managing Locations</h2>
+
+					<h3 class="p">Adding a Location</h3>
+
+					<p>
+						Risen uses a custom post type that makes it easy for you to add locations.
+					</p>
+
+					<ol class="p">
+						<li class="p-bottom">Go to <i>Locations</i> > <i>Add New</i>.</li>
+						<li class="p-bottom">Click <i>Screen Options</i> at the top-right then check all boxes.</li>
+						<li class="p-bottom">Enter a title for the location.</li>
+						<li class="p-bottom">Use the content box to write information about the location (such as service times).</li>
+						<li class="p-bottom">Fill the fields under <i>Location Details</i> (address, phone, e-mail button, map).</li>
+						<li>Click the <i>Publish</i> button to add it.</li>
+					</ol>
+
+					<p>
+						For more information on the <i>E-mail Button</i> read the <a href="#contact" data-rel="openSection">Contact Page</a> guide.
+					</p>
+
+					<h3 class="p">Editing and Deleting Locations</h3>
+
+					<ol class="p">
+						<li class="p-bottom">Go to <i>Locations</i> > <i>All Locations</i></li>
+						<li>Hover over an event to see the <i>Edit</i> and <i>Trash</i> options</li>
+					</ol>
+
+				<h2>Widgets</h2>
+
+					<h3 class="p">Locations Sidebar</h3>
+
+					<p>
+						If you enabled the sidebar for your locations page, you can show widgets in it.
+						To do this go to <i>Appearance > Widgets</i> and drag any widgets into the <i>Locations Sidebar</i>
+					</p>
+
+					<h3>Locations Widget</h3>
+
+					<p>
+						Risen includes a widget for showing locations.
+						In the <a href="http://stevengliebe.com/wp-playground/risen/" target="_blank">Live Preview</a> it is shown on the contact page.
+						It can be shown in any of the widget areas such as the homepage or another.
+					</p>
+
+				<p>
+					Read the <a href="#widgets" data-rel="openSection">Widgets</a> guide for more information.
+				</p>
+
+			</div>
+
+		</section>
+
+		<section id="contact">
+
+			<h1>Contact Page</h1>
+
+			<div class="section-notes">
+				Contact Form, Map
+			</div>
+
+			<div class="section-content">
+
+				<iframe src="http://www.screenr.com/embed/P8c8" width="730" height="445"></iframe>
+
+				<p>
+					You can create a contact page with a contact form, map and information (address, phone, service times, etc.)
+				</p>
+
+				<h2>Contact Sidebar</h2>
+
+				<p>
+					If you want to show a sidebar on your contact page do these two things when adding or editing the page.
+				</p>
+
+				<ol class="p">
+					<li>Under <i>Page Attributes</i> select the <i>Contact</i> template</li>
+					<li>Under <i>Sidebar</i> check the <i>Show sidebar widgets</i> box</li>
+				</ol>
+
+				<p>
+					After doing this, the widgets you drag into the <i>Contact Sidebar</i>  in <i>Appearance > Widgets</i> will appear.
+					The <a href="http://stevengliebe.com/wp-playground/risen/" target="_blank">Live Preview</a> shows how you can show Staff and Locations widgets in the sidebar.
+				</p>
+
+				<h2>Google Map</h2>
+
+				<p>
+					You can show your location on a Google Map using Risen's Google Maps shortcode.
+					This shortcode can be used on any page, not just your contact page.
+					Use the shortcode anywhere in your contact page's content.
+				</p>
+
+					<h3>Shortcode Attributes</h3>
+
+					<p>
+						The <b>[google_map]</b> shortcode accepts these attributes.
+						The <i>longitude</i> and <i>latitude</i> are required.
+						You can <a href="http://churchthemes.com/get-latitude-longitude" target="_blank">use this</a> to convert your address into latitude and longitude coordinates.
+					</p>
+
+					<ul class="p">
+						<li><b>latitude</b> (required)</li>
+						<li><b>longitude</b> (required)</li>
+						<li><b>type</b> - <i>roadmap</i>, <i>satellite</i>, <i>hybrid</i> (default) or <i>terrain</i></li>
+						<li><b>zoom</b> - <i>1 &ndash; 21</i> (<i>14</i> is default). A lower number is more zoomed out while a higher number is more zoomed in.</li>
+						<li><b>border</b> - <i>yes</i> (default) or <i>no</i></li>
+						<li><b>height_percent</b> - Height percent in relation to width. <i>50%</i> would make the height half of what the width is.</li>
+					</ul>
+
+					<h3>Basic Shortcode Example</h3>
+
+					<p>
+						This will show a map using default attributes.
+						The result is a rectangular road/satellite hybrid map with border and moderate zoom level.
+					</p>
+
+					<p class="code">
+						[google_map latitude="33.663960772925115" longitude="-117.64387607574463"]
+					</p>
+
+					<h3>Advanced Shortcode Example</h3>
+
+					<p>
+						This will show the same location but with a roadmap appearance (no satellite imagery), stronger zoom level, no border and having a height that is 100% of the width (in other words, the map is square).
+					</p>
+
+					<p class="code">
+						[google_map latitude="33.663960772925115" longitude="-117.64387607574463" type="roadmap" zoom="18" border="no" height_percent="100"]
+					</p>
+
+				<h2>Contact Form</h2>
+
+				<p>
+					Risen's contact form lets visitors send e-mail messages to you.
+					It can be configured to allow the visitor to select a recipient (church office, specific staff member, campus location, etc.).
+				</p>
+
+					<h3>Contact Form Shortcode</h3>
+
+					<p>
+						The contact form will appear where you use the <b>[contact_form]</b> shortcode in your page content.
+					</p>
+
+					<h3>Configuring Contacts</h3>
+
+					<p>
+						Go to <i>Appearance > Theme Options > Contact Form</i> and enter at least one contact (name and e-mail address).
+						If you configure multiple contacts, the visitor can select who to send the message to.
+					</p>
+
+					<p>
+						A contact should be entered in this format:
+					</p>
+
+					<p class="code">
+						Name, example@emailaddress.com
+					</p>
+
+					<p>
+						For multiple contacts, enter one per line.
+						Here is an example.
+					</p>
+
+					<p class="code">
+						Church Office, office@somechurch.com<br>
+						Bob Smith (Senior Pastor), pastor@somechurch.com<br>
+						Gary Jones (Executive Pastor), gary@somechurch.com<br>
+						Julie Johnson (Pastor's Assistant), julie@somechurch.com<br>
+						North Campus, north@somechurch.com<br>
+						South Campus, south@somechurch.com
+					</p>
+
+					<p>
+						Every contact should use a different email address or things will not work correctly.
+						If you want multiple contacts to receive mail at the same address, setup forwarders/aliases in your hosting control panel.
+					</p>
+
+					<p>
+						Note that if you ever change one of the contact's name or e-mail address, you will need to re-configure any Staff or Location items that use that contact for their E-mail Button.
+					</p>
+
+					<h3>reCAPTCHA Spam Protection</h3>
+
+					<p>
+						You can add a <a href="http://www.google.com/recaptcha" target="_blank">reCAPTCHA</a> box to the contact form to help prevent spam submissions.
+					</p>
+
+					<ol class="p">
+						<li>Sign up for a <a href="https://www.google.com/recaptcha" target="_blank">reCAPTCHA Key</a>.</li>
+						<li>Go to <i>Appearance</i> > <i>Theme Options</i> > <i>Contact Form</i> to enter your public and private keys.</li>
+					</ol>
+
+					<h3>E-mail Buttons</h3>
+
+					<p>
+						When adding or editing a Staff or Location item, you have the option of configuring an <i>E-mail Button</i>.
+						You enable the button by selecting your contact page (where the [contact_form] shortcode is used) and one of the contacts specified in theme options.
+						When the button is clicked, the visitor will be taken to the contact page and the contact form will scroll into view with the appropriate contact pre-selected for them.
+					</p>
+
+					<h3>Preselecting "To"</h3>
+
+					<p>
+						You can link to your contact page and cause a "To" contact to be pre-selected by appending a contact parameter to your URL.
+						Here is an example:
+					</p>
+
+					<p class="code">
+						http://yoursite.com/contact/<mark>?contact=5ee23a091108723326bc93b10bdc8c0b</mark>
+					</p>
+
+					<p>
+						The <code>contact</code> parameter is an md5 hash of the contact's e-mail address, in order to obscure it from spammers.
+						You can convert an e-mail address into an md5 hash by using a generator such as this: <a href="http://www.md5hashgenerator.com/" target="_blank">http://www.md5hashgenerator.com/</a>.
+					</p>
+
+				<h2>Related Guides</h2>
+
+				<ul class="p-top">
+					<li><a href="#locations" data-rel="openSection">Locations</a></li>
+					<li><a href="#staff" data-rel="openSection">Staff</a></li>
+					<li><a href="#shortcodes" data-rel="openSection">Shortcodes</a></li>
+				</ul>
+
+			</div>
+
+		</section>
+
+		<section id="blog">
+
+			<h1>Blog</h1>
+
+			<div class="section-notes">
+				Church News
+			</div>
+
+			<div class="section-content">
+
+				<iframe src="http://www.screenr.com/embed/X8c8" width="730" height="445"></iframe>
+
+				<p>
+					Risen is a WordPress theme so naturally it has blogging capabilities.
+					You can use the blog features for church news.
+				</p>
+
+				<h2>Blog Page</h2>
+
+				<p>
+					First you will need to add a page to show your blog index.
+					It will list all posts from new to old.
+				</p>
+
+				<ol class="p">
+					<li class="p-bottom">Go to <i>Pages</i> > <i>Add New</i>.</li>
+					<li class="p-bottom">Enter a title (such as "Blog" or "Church News") and any content that you want to appear at the top of the blog.</li>
+					<li class="p-bottom">Under <i>Page Attributes</i> choose the <i>Blog</i> template.</li>
+					<li class="p-bottom">Optionally configure a header image and sidebar (read the <a href="#pages" data-rel="openSection">Pages</a> guide).</li>
+					<li class="p-bottom">Click <i>Publish</i>.</li>
+				</ol>
+
+				<h2>Adding a Post</h2>
+
+				<ol class="p">
+					<li class="p-bottom">Go to <i>Blog Posts</i> > <i>Add New</i>.</li>
+					<li class="p-bottom">Click <i>Screen Options</i> at the top-right and enable any missing boxes.</li>
+					<li class="p-bottom">Enter a post title.</li>
+					<li class="p-bottom">Enter the post content.</li>
+					<li class="p-bottom">Write a short excerpt (post summary).</li>
+					<li class="p-bottom">Choose the categories you want to add your post to (you can click <i>Add New Category</i> if necessary).</li>
+					<li class="p-bottom">Optionally enter some tags (keywords) for your post.</li>
+					<li>Optionally click <i>Set featured image</i> then <i>Upload Files</i>, upload an image (auto-resized), select it, then click <i>Set featured image</i>.</li>
+				</ol>
+
+				<h2>Editing and Deleting Posts</h2>
+
+				<ol class="p">
+					<li class="p-bottom">Go to <i>Posts</i> > <i>All Posts</i></li>
+					<li class="p-bottom">Hover over a post to see the <i>Edit</i> and <i>Trash</i> options</li>
+				</ol>
+
+				<h2>Editing and Deleting Categories and Tags</h2>
+
+				<ul class="p">
+					<li class="p-bottom">Go to <i>Posts</i> then <i>Categories</i> or <i>Tags</i>.</li>
+					<li class="p-bottom">Hover over an item to see the <i>Edit</i> and <i>Delete</i> options.</li>
+				</ul>
+
+				<h2>Blog Options</h2>
+
+				<p>
+					The following options exist in <i>Appearance > Theme Options > Blog</i>.
+				</p>
+
+				<ol class="p">
+					<li class="p-bottom"><b>Header Image</b> - Choose to show the same header image that the page using the <i>Blog</i> template uses on single posts and category, tag, date archive, author and search pages.</li>
+					<li><b>Page Title Formats</b> - Customize the format of category, tag, date archive, author and search page titles.</li>
+				</ol>
+
+				<p>
+					Other blog settings are handled natively in the WordPress settings.
+					Go to the WordPress <i>Settings</i> menu to change date formats, posts per page, permalink URL's, comments, etc.
+				</p>
+
+				<h2>Blog Widgets</h2>
+
+				<p>
+					You can go to <i>Appearance > Widgets</i> and drag widgets into the <i>Blog Sidebar</i>.
+				</p>
+
+				<p>
+					You can show any widgets in a sidebar but there are several widgets especially useful for the blog sidebar.
+					The <i>Recent Posts (Enhanced)</i> widget is also useful for showing new sermons on the homepage.
+				</p>
+
+				<ul>
+					<li><b>Search</b> - Show a search form for searching posts.</li>
+					<li><b>Categories (Enhanced)</b> - For listing your blog categories.</li>
+					<li><b>Tag Cloud</b> - Standard WordPress widget that can list blog tags.</li>
+					<li><b>Recent Posts (Enhanced)</b> - Lists blog posts with options for author, date, excerpt and image.</li>
+					<li><b>Recent Comments</b> - Show recent comments made on posts.</li>
+					<li><b>Archives</b> - Lists monthly date archives.</li>
+					<li><b>Calendar</b> - Show a mini calendar for navigating to posts by day.</li>
+				</ul>
+
+				<p>
+					Read the <a href="#widgets" data-rel="openSection">Widgets</a> guide for more information.
+				</p>
+
+				<h2>Author Boxes</h2>
+
+				<p>
+					You can show an author box below each post and at the top of each author's archive.
+					The box shows the author's name, Gravatar image and a short bio.
+				</p>
+
+				<ol class="p">
+					<li>Go to <i>Users > All Users</i>.</li>
+					<li>Click to edit a user.</li>
+					<li>Provide text in the <i>Biographical Info</i> field.</li>
+				</ol>
+
+				<h2>RSS Icon</h2>
+
+				<p>
+					You can show an RSS icon in the header and footer that links to your blog feed.
+					Go to <i>Appearances > Theme Options > Header</i> (or Footer) to configure this.
+				</p>
+
+				<h2>Feedburner</h2>
+
+				<p>
+					If you use the <a href="http://feedburner.com" target="_blank">Feedburner</a> service, install a plugin such as <a href="http://wordpress.org/extend/plugins/feedburner-setting/" target="_blank">FeedBurner FeedSmith Extend</a> to cause WordPress to redirect your RSS feed URL to your Feedburner URL.
+				</p>
+
+				<h2>Social Bookmarking</h2>
+
+				<p>
+					Read <a href="#recommendations" data-rel="openSection">Recommendations</a> for a plugin that will add Facebook, Twitter, etc. buttons to your posts, sermons, etc.
+				</p>
+
+			</div>
+
+		</section>
+
+		<section id="navigation">
+
+			<h1>Navigation</h1>
+
+			<div class="section-notes">
+				Menus, Breadcrumbs
+			</div>
+
+			<div class="section-content">
+
+				<iframe src="http://www.screenr.com/embed/k3k8" width="730" height="445"></iframe>
+
+				<h2 class="p">Header Menu</h2>
+
+				<p>
+					In <i>Appearance</i> > <i>Menu</i> you should see that a menu named "Header Menu" has been created (during initial theme activation) and selected for the "Header" location under <i>Theme Locations</i>.
+					If it is not setup like this, simply add a new menu then assign it to the "Header" location.
+				</p>
+
+				<p>
+					To add items to the menu, select them from the boxes on the left (make sure they're all showing by clicking <i>Screen Options</i> at the top-right) then click <i>Add to Menu</i>.
+					Once they are added to the menu, you can drag-and-drop to change their order, modify labels, etc.
+					Don't forget to click <i>Save Menu</i> when you're done.
+					If you imported the <i>sample-content.xml</i> file (see <a href="#installation" data-rel="openSection">Installation</a>), you will have seen that several menu items have been created for you.
+				</p>
+
+				<h2>Footer Menu</h2>
+
+				<p>
+					Configuring the footer menu works in the same ways as the header menu as described above.
+					If you do not want to show a footer menu, simply remove all items from it or delete the menu altogether.
+				</p>
+
+				<h2>Sidebar Menus</h2>
+
+				<p>
+					You can create a menu and show it in any of the sidebars.
+					Read the <a href="#widgets" data-rel="openSection">Widgets</a> guide for a list of sidebar locations and for instructions on how to add widgets to them.
+					Here are instructions for creating a sidebar menu.
+				</p>
+
+				<ol class="p">
+					<li>Go to <i>Appearance > Menus</i> then add a new menu, add items to it and save.</li>
+					<li>Go to <i>Appearance > Widgets</i> and drag the <i>Custom Menu</i> widget into a sidebar.</li>
+					<li>Configure the widget in that sidebar to show the menu you created.</li>
+				</ol>
+
+				<h2>Breadcrumb Path</h2>
+
+				<p>
+					A breadcrumb path shows at the top of pages by default.
+					To disable it, go to <i>Appearance > Theme Options > Other</i> and uncheck the <i>Breadcrumb Path</i> box.
+				</p>
+
+			</div>
+
+		</section>
+
+		<section id="widgets">
+
+			<h1>Widgets</h1>
+
+			<div class="section-notes">
+				Widgets & Sidebars
+			</div>
+
+			<div class="section-content">
+
+				<p>
+					Widgets are compact blocks of content that can be shown on the homepage or on the side of pages and posts.
+				</p>
+
+				<h2>Widget Areas</h2>
+
+					<h3 class="p">Homepage</h3>
+
+					<p>
+						You can show widgets at the bottom of the homepage.
+						Read the "Bottom Widgets" section in the <a href="#homepage" data-rel="openSection">Homepage</a> guide for information.
+					</p>
+
+					<ul class="p">
+						<li><b>Home Bottom Left</b> - Left-hand column at the bottom of the homepage.</li>
+						<li><b>Home Bottom Right</b> - Right-hand column at the bottom of the homepage.</li>
+					</ul>
+
+					<h3>Sidebars</h3>
+
+					<p>
+						Pages, blog posts, sermons, events and gallery items have an option for enabling a sidebar.
+						When a sidebar is enabled, it will show the widgets that you have configured it to show.
+						Different areas have different sidebars that you can add different widgets to.
+						The various sidebars are listed below.
+					</p>
+
+					<ul class="p">
+						<li><b>Page Sidebar</b> - Pages not using a page template use this sidebar.</li>
+						<li><b>Blog Sidebar</b> - Page using the Blog template, categories, date archives, single posts, etc.</li>
+						<li><b>Sermon Sidebar</b> - Page using the Multimedia template, categories, tags, speakers, single sermons, etc.</li>
+						<li><b>Gallery Sidebar</b> - Pages using a gallery template, gallery categories, gallery items.</li>
+						<li><b>Events Sidebar</b> - Page using the Events template and single events.</li>
+						<li><b>Staff Sidebar</b> - Page using the Staff template.</li>
+						<li><b>Locations Sidebar</b> - Page using the Locations template.</li>
+						<li><b>Contact Sidebar</b> - Page using the Contact template.</li>
+					</ul>
+
+				<h2>Custom Widgets</h2>
+
+				<p>
+					Risen has the following custom widgets that can be used in the areas listed above.
+				</p>
+
+				<ul class="p">
+					<li><b>Categories (Enhanced)</b> - Lists blog categories, gallery categories, sermon categories or sermon speakers.</li>
+					<li><b>Sermon Archives</b> - List monthly date archives for sermons.</li>
+					<li><b>Recent Sermons</b> - Lists X sermons with options for speaker, date, icons, excerpt and image.</li>
+					<li><b>Recent Gallery Items</b> - Show X photos and/or videos from any or all categories.</li>
+					<li><b>Recent Posts (Enhanced)</b> - Lists X blog posts with options for author, date, excerpt and image.</li>
+					<li><b>Upcoming Events</b> - Lists X events with options for date, time, excerpt and image.</li>
+					<li><b>Locations</b> - Lists X locations with options to show map, address and phone.</li>
+					<li><b>Staff</b> - Lists X staff members with options to show photo and position.</li>
+					<li><b>Donation</b> - Shows a message with button taking user to URL of your choice (such as <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donate-intro-outside" target="_blank">PayPal</a>).</li>
+				</ul>
+
+				<p>
+					WordPress also has a set of standard widgets that are useful for doing such things as showing a tag cloud, recent blog posts and recent comments.
+				</p>
+
+				<h2>Configuring Widgets</h2>
+
+				<p>
+					First make sure the page, post or other item you want to show widgets on has its sidebar enabled.
+					To do this, edit a page, post, sermon, event, etc. and make sure the <i>Show sidebar widgets</i> box is checked.
+					Here are directions for adding a widget to a widget area.
+				</p>
+
+				<ol class="p">
+					<li class="p-bottom">Go to <i>Appearance > Widgets</i>.</li>
+					<li class="p-bottom">Click on a widget area to expand it.</li>
+					<li class="p-bottom">Drag a widget into the widget area.</li>
+					<li>Click the widget inside of its widget area to set its options.</li>
+				</ol>
+
+				<h2>Sample Widgets</h2>
+
+				<p>
+					A sample widgets file is included with Risen.
+					You can import this file to have the same widgets you see in the <a href="http://stevengliebe.com/wp-playground/risen/" target="_blank">Live Preview</a>.
+					Read the <a href="#installation" data-rel="openSection">Installation</a> guide for instructions.
+				</p>
+
+				<h2>Child Theme Note</h2>
+
+				<p>
+					If you are going to make customization by switching to a <a href="#child-theme" data-rel="openSection">Child Theme</a>, be aware that the widgets you have configured in the parent theme will not be available in the child theme.
+					You can manually reconfigure them or use the <a href="http://wordpress.org/plugins/widget-importer-exporter/" target="_blank">Widget Importer & Exporter</a> plugin to export them when using the parent theme then import them after switching to the child theme.
+				</p>
+
+			</div>
+
+		</section>
+
+		<section id="shortcodes">
+
+			<h1>Shortcodes</h1>
+
+			<div class="section-notes">
+				Buttons, Columns, etc.
+			</div>
+
+			<div class="section-content">
+
+				<p style="font-style:italic">
+					<b>Please Read:</b>
+					If shortcodes are not working, you are probably using an older version of the theme and will need to <a href="#update" data-rel="openSection">Update</a> to the latest version to use them.
+					Also note that a bug with shortcodes affecting third party plugins was fixed in version 1.1.2 (September 21, 2012).
+					Please update to the latest if your version is older.
+				</p>
+
+				<p>
+					Risen includes a set of responsive shortcodes.
+					View the <a href="http://stevengliebe.com/wp-playground/risen/shortcodes/" target="_blank">shortcodes in action</a> on the live preview.
+					You can use these within your post and page content to create tabbed content, buttons, columns, maps, quotes and more.
+				</p>
+
+				<h2>Tabbed Content</h2>
+
+					<p>
+						Wrap multiple <strong>[tab]</strong> shortcodes with the <strong>[tabs]</strong> shortcode.
+					</p>
+
+					<h3>[tab] Attributes</h3>
+
+					<ul class="p">
+						<li><b>title</b> (required) - title of the tab</li>
+						<li><b>active</b> - set to <i>true</i> to show tab's contents by default instead of first tab</li>
+					</ul>
+
+					<h3>Example</h3>
+
+<pre class="p code">
+[tabs]
+
+	[tab title="First Tab"]
+		First tab content here.
+	[/tab]
+
+	[tab title="Second Tab" active="true"]
+		Second tab's content. This tab's content will be shown on page load.
+	[/tab]
+
+[/tabs]
+</pre>
+
+				<h2>Accordion</h2>
+
+					<p>
+						Wrap multiple <strong>[accordion_section]</strong> shortcodes with the <strong>[accordion]</strong> shortcode.
+					</p>
+
+					<h3>[accordion_section] Attributes</h3>
+
+					<ul class="p">
+						<li><b>title</b> (required) - Title of the section</li>
+						<li><b>active</b> - Set to <i>true</i> to show section's contents by default</li>
+					</ul>
+
+					<h3>Example</h3>
+
+<pre class="p code">
+[accordion]
+
+	[accordion_section title="First Section" active="true"]
+		First section's content here. This section will be opened on page load.
+	[/accordion_section]
+
+	[accordion_section title="Second Section"]
+		Second section's content here.
+	[/accordion_section]
+
+[/accordion]
+</pre>
+
+				<h2>Buttons</h2>
+
+					<p>
+						The <b>[button]</b> shortcode can be used to make small and large buttons of various colors.
+					</p>
+
+					<h3>[button] Attributes</h3>
+
+					<ul class="p">
+						<li><b>url</b> (required) - URL to go to when button is clicked</li>
+						<li><b>color</b> - Hex code or <i>red, orange, yellow, green, teal, blue, purple, pink, brown, tan, silver, gray, black</i></li>
+						<li><b>size</b> - <i>small</i> (default) or <i>large</i></li>
+						<li><b>width</b> - Numeric value representing pixels or <i>auto</i> to fit button size to text</li>
+						<li><b>textcolor</b> - <i>white</i> (default) or <i>black</i>, mainly for use when specify hex code color</li>
+						<li><b>newwindow</b> - Set to <i>true</i> to open link in new window</li>
+						<li><b>class</b> - Class or classes separated by spaces</li>
+					</ul>
+
+					<h3>Examples</h3>
+
+<pre class="p code">
+[button url="http://www.iamsecond.com"]Button Text[/button]
+
+[button url="http://www.iamsecond.com" size="large" color="green"]Big Green Button[/button]
+
+[button url="http://www.iamsecond.com" newwindow="true"]Open in New Window[/button]
+</pre>
+
+				<h2>Boxes</h2>
+
+					<p>
+						You can wrap content with the <b>[box]</b> shortcode and optionally show an icon (great for alerts).
+					</p>
+
+					<h3>[box] Attributes</h3>
+
+					<ul class="p">
+						<li><b>icon</b> (optional) - <i>alert</i>, <i>check</i>, <i>down</i>, <i>info</i>, or <i>x</i></li>
+					</ul>
+
+					<h3>Examples</h3>
+
+<pre class="p code">
+[box]
+Content to appear in box goes here.
+[/box]
+
+[box icon="info"]
+This text appears by an "info" icon inside a box.
+[/box]
+</pre>
+
+				<h2>Columns</h2>
+
+					<p>
+						You can use column shortcodes to place content in columns of various widths.
+						The column shortcodes are <b>[one_fourth]</b>, <b>[one_third]</b>, <b>[one_half]</b>, <b>[two_thirds]</b> and <b>[three_fourths]</b>.
+						These can be mixed and matched and must be encapsulated by the parent <b>[columns]</b> shortcode.
+					</p>
+
+					<h3>Responsive Columns</h3>
+
+					<p>
+						Basically, on devices smaller than an iPad (phones and small tablets), the columns adjust to show one on top of each other.
+						Otherwise, the content in them will be difficult to read (for example, try imagining four columns side-by-side on a screen as small as a mobile phone).
+					</p>
+
+					<h3>Two Column Example</h3>
+
+						<p>
+							Remember, wrap the column shortcodes in <b>[columns]</b> or they will not work properly.
+						</p>
+
+<pre class="p code">
+<mark>[columns]</mark>
+
+	[one_half]
+		This content will fill 50% of the content area.
+	[/one_half]
+
+	[one_half]
+		This content will fill 50% of the content area.
+	[/one_half]
+
+<mark>[/columns]</mark>
+</pre>
+
+					<h3>Three Column Example</h3>
+
+<pre class="p code">
+[columns]
+
+	[one_third]
+		This content will fill one-third of the content area.
+	[/one_third]
+
+	[one_third]
+		This content will fill one-third of the content area.
+	[/one_third]
+
+	[one_third]
+		This content will fill one-third of the content area.
+	[/one_third]
+
+[/columns]
+</pre>
+
+					<h3>Four Column Example</h3>
+
+<pre class="p code">
+[columns]
+
+	[one_fourth]
+		This content will fill 25% of the content area.
+	[/one_fourth]
+
+	[one_fourth]
+		This content will fill 25% of the content area.
+	[/one_fourth]
+
+	[one_fourth]
+		This content will fill 25% of the content area.
+	[/one_fourth]
+
+	[one_fourth]
+		This content will fill 25% of the content area.
+	[/one_fourth]
+
+[/columns]
+</pre>
+
+					<h3>Mix & Match Example</h3>
+
+					<p>
+						You can mix and match column shortcodes of different sizes. Just make sure the total width does not exceed 100%.
+					</p>
+
+<pre class="p code">
+[columns]
+
+	[one_third]
+		This content will fill one-third of the content area.
+	[/one_third]
+
+	[two_thirds]
+		This content will fill two-thirds of the content area.
+	[/two_thirds]
+
+[/columns]
+</pre>
+
+				<h2>Quotes</h2>
+
+					<p>
+						If you want to show a simple blockquote you can skip this shortcode and click the quote icon in WordPress's content editor.
+						If you want to do more such as show a name with the quote or float it off to one side as a pullquote, then the <strong>[quote]</strong> shortcode is useful.
+					</p>
+
+					<h3>[quote] Attributes</h3>
+
+					<ul class="p">
+						<li><b>name</b> - Name or source of the quote, shown below it</li>
+						<li><b>center</b> - Set to <i>true</i> to center the quote text</li>
+						<li><b>float</b> - <i>right</i> or <i>left</i> (set size when using this)</li>
+						<li><b>size</b> - <i>one-third</i>, <i>one-half</i> or <i>two-thirds</i></li>
+					</ul>
+
+					<h3>Basic Example</h3>
+
+<pre class="p code">
+[quote name="Johnny Doe"]
+Here is a demonstration of a quote having only the name option set. This is
+a standard quote with a name. You could, if you want, leave the name out and
+center it. The options for floating left or right and width are mainly for
+creating a pullquote. Have a look below for an example of that.
+[/quote]
+</pre>
+
+					<h3>Pullquote Example</h3>
+
+<pre class="p code">
+[quote name="John Smith" center="true" float="right" size="one-third"]
+This is a pullquote floated to the right of the text below with one-third width
+and centered text.
+[/quote]
+
+Whatever text you place here is the text that the pullquote will be shown to
+the right of.
+</pre>
+
+				<h2>Google Map</h2>
+
+				<p>
+					You can embed a custom Google Map using the <b>[google_map]</b> shortcode.
+				</p>
+
+					<h3>[google_map] Attributes</h3>
+
+					<p>
+						<b>Tip:</b> You can <a href="http://churchthemes.com/get-latitude-longitude" target="_blank">use this</a> to convert your address into latitude and longitude coordinates.
+					</p>
+
+					<ul class="p">
+						<li><b>latitude</b> (required)</li>
+						<li><b>longitude</b> (required)</li>
+						<li><b>type</b> - <i>roadmap</i>, <i>satellite</i>, <i>hybrid</i> (default) or <i>terrain</i></li>
+						<li><b>zoom</b> - <i>1 &ndash; 21</i> (<i>14</i> is default). A lower number is more zoomed out while a higher number is more zoomed in.</li>
+						<li><b>border</b> - <i>yes</i> (default) or <i>no</i></li>
+						<li><b>height_percent</b> - Height percent in relation to width. <i>50%</i> would make the height half of what the width is.</li>
+					</ul>
+
+					<h3>Basic Shortcode Example</h3>
+
+					<p>
+						This will show a map using default attributes.
+						The result is a rectangular road/satellite hybrid map with border and moderate zoom level.
+					</p>
+
+					<p class="code">
+						[google_map latitude="33.663960772925115" longitude="-117.64387607574463"]
+					</p>
+
+					<h3>Advanced Shortcode Example</h3>
+
+					<p>
+						This will show the same location but with a roadmap appearance (no satellite imagery), stronger zoom level, no border and having a height that is 100% of the width (in other words, the map is square).
+					</p>
+
+					<p class="code">
+						[google_map latitude="33.663960772925115" longitude="-117.64387607574463" type="roadmap" zoom="18" border="no" height_percent="100"]
+					</p>
+
+				<h2>Contact Form</h2>
+
+				<p>
+					You can show a contact form by using the <b>[contact_form]</b> shortcode.
+					For information on configuring contacts, read the <a href="#contact" data-rel="openSection">Contact Page</a> guide.
+					Note that this shortcode can be used on any page.
+				</p>
+
+				<h2>Video and Audio</h2>
+
+				<p>
+					WordPress has its own feature for embedding videos and audio into post and page content.
+					What Risen does is extend this feature to make the embedded media responsive when possible.
+					All you need to do is paste the URL of a YouTube or Vimeo page into your content.
+					Other video hosting services are supported as well.
+					You can read the <a href="http://codex.wordpress.org/Embeds" target="_blank" class="nobr">WordPress Embeds</a> page for complete information.
+				</p>
+
+				<p>
+					For an in-depth look at this (and instructions for embedding uploaded media), read <a href="http://stevengliebe.com/2013/08/20/how-to-embed-audio-and-video-players-in-wordpress/" target="_blank">How to Embed Audio and Video Players in WordPress</a>.
+				</p>
+
+			</div>
+
+		</section>
+
+		<section id="translation">
+
+			<h1>Translation</h1>
+
+			<div class="section-notes">
+				Localization
+			</div>
+
+			<div class="section-content">
+
+				<p>
+					Risen is fully localized and ready for translation into another language. You can create a file that contains translated text to show the visitor instead of English.
+				</p>
+
+				<h2>WordPress in Your Language</h2>
+
+				<p>
+					The first step is to translate WordPress itself. Fortunately, there are many pre-made translations available for WordPress. Read <a href="http://codex.wordpress.org/Installing_WordPress_in_Your_Language" target="_blank">Installing WordPress in Your Language</a> for a guide.
+				</p>
+
+				<h2>Translating the Theme</h2>
+
+				<p>
+					First make sure you have completed "WordPress in Your Language" as described above.
+				</p>
+
+				<h3>Preparing for Translation</h3>
+
+				<ol class="p">
+					<li>Install <a href="http://www.poedit.net/" target="_blank">Poedit</a> on your computer.</li>
+					<li>Go to <strong>Preferences</strong> then <strong>Editor</strong> and make sure "Automatically compile .mo file on save" is checked.</li>
+					<li>Make a copy of the <em>languages/risen.pot file</em> found in the theme.</li>
+					<li>Rename it to <em>risen-{locale}.po</em> (without the "t" which stands for template).</li>
+				</ol>
+
+				<p>
+					In the last step, <em>{locale}</em> would be something like <em>pt_BR</em> where <em>pt</em> represents the language Portuguese and <em>BR</em> is the country code for Brazil. For example, <em>risen-pt_BR.po</em> would be for translating the Risen theme into Brazilian Portuguese. This locale should also be an exact match of the locale of the translation you used in when following <a href="http://codex.wordpress.org/WordPress_in_Your_Language" target="_blank">WordPress in Your Language</a> (locales are listed here).
+				</p>
+
+				<h3>Making the Translation</h3>
+
+				<p>
+					The goal is to translate phrases then generate a .mo file for WordPress to use.
+				</p>
+
+				<ol>
+					<li>Open your <em>risen-{locale}.po</em> file in Poedit.</li>
+					<li>Click a phrase then enter its translation at the bottom.</li>
+					<li>Repeat for other phrases.</li>
+					<li>Go to <strong>File</strong> &gt; <strong>Save</strong>.</li>
+					<li><em>risen-{locale}.po</em> was saved and <em>risen-{locale}<strong>.mo</strong></em> was generated.</li>
+				</ol>
+
+				<p>
+					<em>risen-{locale}.mo</em> is the compiled translation file that WordPress will read. <em>risen-{locale}.po</em> is what you can edit again in the future to make more translations in order to generate an updated .mo file.
+				</p>
+
+				<h4>Tips</h4>
+
+				<ul>
+					<li>Use CTRL-F (Windows) or Command-F (Mac) to search for specific text to translate.</li>
+				</ul>
+
+				<h3>Activating the Translation</h3>
+
+				<ol class="p">
+					<li>Upload your .mo file to <em>wp-content/languages/themes </em>(make it if it doesn't exist).</li>
+					<li>Edit <em>wp-config.php</em> so that <code>define('WPLANG', '');</code> becomes <code>define('WPLANG', '<strong>{locale}</strong>')</code>, where {locale} is the actual locale (e.g. <em>pt_BR</em>).</li>
+				</ol>
+
+				<h4>Notes</h4>
+
+				<ul>
+					<li>The translation is stored outside of the theme (don't store it in the <em>languages</em> folder of the theme) so the theme can be updated without your translation being lost.</li>
+					<li>You may also want to upload your .po file to the same directory for safe keeping.</li>
+				</ul>
+
+				<h2>Troubleshooting</h2>
+
+				<p>
+					Check these things if a translation is not taking effect.
+				</p>
+
+				<ul class="p">
+					<li>Make sure the .mo file exists in the correct location described above.</li>
+					<li>Make sure <code>define('WPLANG', '<strong>{locale}</strong>');</code> is set in <em>wp-config.php</em> for your actual location (such as <em>pt_BR</em>).</li>
+					<li>Make sure the locale used in the name of your .mo file is the same as the locale entered into <em>wp-config.php</em>.</li>
+					<li>Make sure your translations were actually saved (check the .po file) before uploading.</li>
+				</ul>
+
+				<h2>More Information</h2>
+
+				<p>
+					Read <a href="http://codex.wordpress.org/Translating_WordPress" target="_blank">Translating WordPress</a> on the WordPress Codex for full details.
+				</p>
+
+			</div>
+
+		</section>
+
+		<section id="child-theme">
+
+			<h1>Child Theme</h1>
+
+			<div class="section-notes">
+				Custom Styles, Functionality
+			</div>
+
+			<div class="section-content">
+
+				<p>
+					<b>Read First:</b> Most users do not need to use a child theme for appearance customizations.
+					Read the <a href="#customization" data-rel="openSection">Customization</a> guide for information on how to upload a logo and change colors, fonts and background without having to edit code.
+					Some level of web development skill is required for child theming and support is not offered for code customizations.
+					If you need professional customization, consider <a href="http://churchthemes.com/go/codeable" target="_blank">Codeable</a> or <a href="http://churchthemes.com/go/elto" target="_blank">Elto</a>.
+				</p>
+
+				<hr>
+
+				<p>
+					If you are going to modify Risen (changing styles or adding features, for example), it is strongly recommended that you use a child theme to do it.
+					The reason this is recommended is that by making modifications using a child theme, the original (parent) theme is untouched.
+					By keeping your modifications separate, you will be able to update the parent theme (if ever needed) without having to remake (or worse, lose) your changes.
+					For these reasons, Risen supports child theming and includes one with examples showing how to do certain things.
+				</p>
+
+				<p>
+					Keep in mind that there is more to child theming than can be provided in this guide.
+					You should familiarize yourself with WordPress <a href="http://codex.wordpress.org/Theme_Development" target="_blank">Theme Development</a> and <a href="http://codex.wordpress.org/Child_Themes" target="_blank">read about child themes on WordPress.org</a>.
+					You may also file the <a href="#files" data-rel="openSection">File Descriptions</a> useful.
+				</p>
+
+				<h2>Install Example Child Theme</h2>
+
+				<p>
+					The package you received has a <i>theme</i> folder with a <i>risen-child.zip</i> file in it.
+					This is the sample child theme.
+					You install it like you installed the parent theme (note that the parent theme must remain installed for the child to work).
+					Go to <i>Appearance</i> > <i>Themes</i> > <i>Install Themes</i> > <i>Upload</i> to upload the zip.
+					Be sure to activate it after installation.
+				</p>
+
+				<p>
+					The child theme will have been installed into the <i>wp-content/themes/risen-child</i> directory.
+					Note that your content, menu and Theme Options will remain the same and you can uninstall the child theme at any time.
+					However, your widgets will not carry over from your parent theme.
+					You will either have to reconfigure them or or use the <a href="http://wordpress.org/plugins/widget-importer-exporter/" target="_blank">Widget Importer & Exporter</a> plugin to export them when using the parent theme then import them after switching to the child theme.
+				</p>
+
+				<h2>Overriding Styles</h2>
+
+				<p>
+					You can override specific styles with a child theme without editing the parent theme's original stylesheet.
+					Go to <i>wp-content/themes/risen-child</i> and open <i>style.css</i> for editing.
+					It is not necessary to <i>@import</i> the parent stylesheet here because it is automatically enqueued.
+				</p>
+
+				<p>
+					You can copy specific styles from the parent <i>style.css</i> file into the child <i>style.css</i> file, then change their properties.
+					You can also add new styles here.
+					Keep in mind that Risen's color and image related styles are not in this file but rather contained within a color scheme stylesheet.
+					Read the next section for details.
+				</p>
+
+				<p>
+					Note that even if you don't override styles, the <i>style.css</i> file must exist in order for the child theme to work.
+					The header portion of the stylesheet must also remain intact, although you can change the details.
+				</p>
+
+				<h2>Color Schemes</h2>
+
+					<h3 class="p">Editing a Color Scheme</h3>
+
+					<p>
+						You can modify the light and dark color schemes in the same way that you modify styles for the main stylesheet (read previous section).
+						For example, you can go to <i>risen-child/styles/light</i> and open <i>style.css</i> in order to override or add styles to the light color scheme.
+					</p>
+
+					<h3>Adding a Color Scheme</h3>
+
+					<p>
+						To add your own color scheme, go to the parent theme's <i>styles</i> directory then copy and rename either the light or dark folder (with style.css, images and all) into the <i>styles</i> directory in the child theme.
+						You will end up with something like <i>risen-child/styles/my-new-color</i>.
+						Next, edit the <i>style.css</i> file and images that you copied in a way that makes it a completely new color scheme.
+					</p>
+
+					<p>
+						After you have created the new color scheme's directory inside of the child theme's <i>styles</i> directory, it will be available for selection in <i>Theme Options</i>.
+						You will of course want to select your new color scheme so you can see what you are working on.
+						If you ever switch back to the parent theme, your color scheme will not be available, because it is part of the child theme.
+					</p>
+
+				<h2>Overriding Files</h2>
+
+				<p>
+					You can override most of the parent theme files.
+					Simply copy a file from the parent theme to the child theme.
+					When a file exists in the child theme, that version will be used.
+					The following files can be overridden in this manner.
+				</p>
+
+				<ul>
+					<li><b>styles/*/style.css</b> - color schemes are covered in the section above</li>
+					<li><b>js/*</b> - you can override any of the JavaScript files</li>
+					<li><b>*.php</b> - any PHP file in the parent theme's root directory (index.php, functions.php, etc.)</li>
+					<li><b>*.css</b> - any CSS file in the parent theme's root directory (style.css, for example)</li>
+					<li><b>screenshot.png</b> - you may want to give your child theme a cover image</li>
+				</ul>
+
+				<p>
+					Note that files in the theme's <i>includes</i> directory cannot be overridden.
+					Instead, specific parts of these files can be changed (there is no point in replacing a whole file when you only need to change one function).
+					Read the next section for information.
+				</p>
+
+				<h2>functions.php</h2>
+
+				<p>
+					If you look at the parent theme's <i>functions.php</i> file, you will see that a lot of magic happens in there.
+					Mainly what it does is set WordPress theme features and assign functions (from <i>includes/*.php</i>) to <a href="http://codex.wordpress.org/Plugin_API" target="_blank">action and filter hooks</a>.
+					The example child theme's <i>functions.php</i> is setup to fire hooks after the parent theme's <i>functions.php</i> has set its hooks.
+					This means you can use the child theme to remove and replace existing actions and filters.
+				</p>
+
+					<h3>Removing and Adding Hooks</h3>
+
+					<p>
+						Most of Risen's functions are assigned to hooks (either actions or filters).
+						The example child theme's <i>functions.php</i> shows you how you can change these (you can also add totally new ones).
+						For example, the parent theme sets an action that calls a <code>risen_admin_menu</code> function to manipulate the WordPress admin menu.
+						You can remove that action then re-add it to use a different function such as <code>risen_child_admin_menu</code> in order to manipulate the admin menu in a different way.
+					</p>
+
+					<p>
+						Instead of repeating the example code here, take a look inside the child theme's <i>functions.php</i> file to see the real thing (it is well-commented).
+					</p>
+
+					<h3>Pluggable Functions</h3>
+
+					<p>
+						Most of the theme's functions are used by action and filter hooks and can be changed as described above.
+						The functions that are not used by hooks are pluggable.
+						You can tell which functions are pluggable by looking through the files in <i>includes</i>.
+						If a function has this piece of code before it then it is pluggable.
+					</p>
+
+					<p class="code">
+						if ( ! function_exists( 'function_name ' ) ) {
+					</p>
+
+					<p>
+						You override a pluggable function simply by adding a function with the same name to the bottom of the child theme's <i>functions.php</i> file (see for example).
+						The child theme's function will be used in place of the parent theme's function.
+					</p>
+
+					<h3>Modifying Widgets</h3>
+
+					<p>
+						Widgets are made using classes, not functions.
+						Every widget uses a pluggable class so you can override a widget class in the same way as overriding a function (read above).
+					</p>
+
+					<p>
+						An alternative method which is beyond the scope of this starter guide is to extend a widget class.
+						This gives you more control such as being able to replace a specific method rather than the whole class.
+					</p>
+
+					<h3>Adding Stylesheets and JavaScript</h3>
+
+					<p>
+						The preferred way to add a stylesheet or JavaScript file with WordPress is to enqueue it (versus modifying <code>&lt;head&gt;</code> in <i>header.php</i>).
+						You can do this by adding one line of code to the <i>functions.php</i> file.
+						Again, look inside of the child theme's <i>functions.php</i> file for actual examples with code comments.
+					</p>
+
+			</div>
+
+		</section>
+
+		<section id="psd">
+
+			<h1>PSD Files</h1>
+
+			<div class="section-notes">
+				Editing Graphics
+			</div>
+
+			<div class="section-content">
+
+				<p>
+					Risen includes two layered Photoshop PSD files.
+					You can find these files in the <i>psd</i> folder which is inside the zip file you downloaded.
+					One file is of the light design while the second file is of the dark design.
+					These PSD files are useful for editing graphics that the theme uses.
+					For example, if you do not have your own logo to upload, you can change the text of the logo in one of the PSD's and use that as your logo.
+					View <i>assets.txt</i> in the <i>psd</i> folder for a list of fonts and textures (with download links) used in the design.
+				</p>
+
+			</div>
+
+		</section>
+
+		<section id="files">
+
+			<h1>File Descriptions</h1>
+
+			<div class="section-notes">
+				PHP, CSS, JS
+			</div>
+
+			<div class="section-content">
+
+				<p>
+					The files listed below are in the <i>theme</i> folder of the package you received.
+					<a href="#installation" data-rel="openSection">Installation</a> places the contents of <i>risen.zip</i> inside of your <i>/wp-content/themes/risen</i> directory.
+					If you plan on making modifications, this list should help you understand what is what.
+					It is strongly recommended you make customizations using a <a href="#child-theme" data-rel="openSection">Child Theme</a> (example included).
+				</p>
+
+				<ul>
+					<li>
+						<b>risen.zip</b> - contains theme files, can be uploaded via WordPress admin in order to install theme
+						<ul>
+							<li><b>fonts</b> - Elusive Icons icon font</li>
+							<li><b>images</b> - preset backgrounds and images not specific to a color scheme</li>
+							<li>
+								<b>includes</b>
+								<ul>
+									<li><b>recaptcha</b> - <a href="http://www.google.com/recaptcha" target="_blank">reCAPTCHA</a> PHP library providing optional contact form spam protection</li>
+									<li><b>admin.php</b> - general admin functions, theme activation</li>
+									<li><b>blog.php</b> - blog-related functions</li>
+									<li><b>comments.php</b> - controls the display of comments on pages/posts</li>
+									<li><b>contact-form.php</b> - display and process contact form via AJAX, reCAPTCHA optional</li>
+									<li><b>customizations.php</b> - colors, fonts, background, favicon, Google Analytics, social icons</li>
+									<li><b>enqueue.php</b> - inject stylesheet calls into header.php's &lt;head&gt;</li>
+									<li><b>events.php</b> - post type, meta boxes, admin columns and widget</li>
+									<li><b>files.php</b> - functions aiding in download of MP3 and PDF files</li>
+									<li><b>gallery.php</b> - post type, category taxonomy, meta boxes, admin columns and widget</li>
+									<li><b>helper-functions.php</b> - various helper functions</li>
+									<li><b>home-boxes.php</b> - post type to help with management of image boxes on homepage</li>
+									<li><b>locations.php</b> - post type, meta boxes, admin columns and widget</li>
+									<li><b>maps.php</b> - functions aiding in the display and configuration of Google Maps</li>
+									<li><b>media.php</b> - custom image sizes, video embedding</li>
+									<li><b>meta-boxes.php</b> - functions related to meta boxes</li>
+									<li><b>multimedia.php</b> - sermon post type, taxonomies, meta boxes, widgets, date archive enablement</li>
+									<li><b>navigation.php</b> - register header and footer menus, show breadcrumb path</li>
+									<li><b>options.php</b> - functions relating to <a href="http://wordpress.org/extend/plugins/options-framework/" target="_blank">Options Framework</a> plugin, default option values</li>
+									<li><b>pages.php</b> - meta boxes, page helper functions</li>
+									<li><b>posts.php</b> - various functions relating to posts and pages</li>
+									<li><b>shortcodes.php</b> - register various shortcodes</li>
+									<li><b>sidebars.php</b> - register sidebars, helper functions</li>
+									<li><b>slider.php</b> - slider post type, meta boxes and admin columns</li>
+									<li><b>staff.php</b> - post type, meta box, admin columns and widget</li>
+									<li><b>widgets.php</b> - register widgets, general widgets (specific widgets are in other files)</li>
+								</ul>
+							</li>
+							<li>
+								<b>js</b>
+								<ul>
+									<li><b>admin.js</b> - loaded in WordPress admin (when needed) to make user experience better</li>
+									<li><b>css3-mediaqueries.js</b> - <a href="http://code.google.com/p/css3-mediaqueries-js/" target="_blank">css3-mediaqueries.js</a> makes CSS3 media queries work in old browsers</li>
+									<li><b>hoverIntent.js</b> - <a href="http://cherne.net/brian/resources/jquery.hoverIntent.html" target="_blank">hoverIntent</a> helps Superfish dropdown menus work better</li>
+									<li><b>jquery.backstretch.min.js</b> - <a href="http://srobbin.com/jquery-plugins/backstretch/" target="_blank">Backstretch</a> is used for full screen background images</li>
+									<li><b>jquery.easing.js</b> - <a href="http://gsgd.co.uk/sandbox/jquery/easing/" target="_blank">jQuery Easing</a> helps with the smooth scrolling effect on some pages</li>
+									<li><b>jquery.flexslider-min.js</b> - <a href="http://www.woothemes.com/flexslider/" target="_blank">FlexSlider</a> powers the responsive slider on the homepage</li>
+									<li><b>jquery.prettyPhoto.modified.js</b> - <a href="http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/" target="_blank">prettyPhoto</a> powers the gallery lightbox</li>
+									<li><b>jquery.smooth-scroll.min.js</b> - <a href="https://github.com/kswedberg/jquery-smooth-scroll" target="_blank">jQuery Smooth Scroll</a> makes the scrolling possible</li>
+									<li><b>jquery.validate.min.js</b> - the <a href="http://bassistance.de/jquery-plugins/jquery-plugin-validation/" target="_blank">Validation</a> jQuery plugin is used on the comment form</li>
+									<li><b>main.js</b> - the theme's main JavaScript file, heavily commented</li>
+									<li><b>modernizr.custom.js</b> - <a href="http://www.modernizr.com/" target="_blank">Modernizr</a> provides feature detection, HTML5 support for old browsers</li>
+									<li><b>selectnav.min.js</b> - <a href="http://lukaszfiszer.github.com/selectnav.js/" target="_blank">SelectNav.js</a> makes the main menu mobile friendly</li>
+									<li><b>superfish.js</b> - <a href="http://users.tpg.com.au/j_birch/plugins/superfish/" target="_blank">Superfish</a> enhances the dropdown menu</li>
+									<li><b>supersubs.js</b> - assists the Superfish dropdown menu</li>
+								</ul>
+							</li>
+							<li><b>languages/risen.pot</b> - POT file for <a href="#translation" data-rel="openSection">Translation</a> into other languages</li>
+							<li><b>mediaelement</b> - JavaScript, CSS, images and other files for the audio player (<a href="http://mediaelementjs.com/" target="_blank">MediaElement.js</a>)</li>
+							<li><b>styles</b> - light and dark base stylesheets and images</li>
+							<li><b>404.php</b> - "File Not Found" template</li>
+							<li><b>archive.php</b> - year, month and day archives for blog</li>
+							<li><b>archive-risen_multimedia.php</b> - year, month and day archives for sermons</li>
+							<li><b>attachment.php</b> - redirects files to page/post they are attached to, when possible</li>
+							<li><b>author.php</b> - author archive for blog posts</li>
+							<li><b>category.php</b> - category archive for blog posts</li>
+							<li><b>comments.php</b> - template for displaying comment form and comments on posts/pages</li>
+							<li><b>contact-form.php</b> - template for contact form shortcode</li>
+							<li><b>footer.php</b> - template for footer content</li>
+							<li><b>functions.php</b> - constants, includes, feature enablement, action and filter hooks</li>
+							<li><b>header.php</b> - template for header content</li>
+							<li><b>header-blog-archive.php</b> - header template used for blog</li>
+							<li><b>header-gallery-archive.php</b> - header template used for gallery</li>
+							<li><b>header-multimedia-archive.php</b> - header template used for sermons</li>
+							<li><b>header-page.php</b> - header template used for regular pages</li>
+							<li><b>index.php</b> - displays homepage content</li>
+							<li><b>loop-blog.php</b> - template for list of blog posts</li>
+							<li><b>loop-events.php</b> - template for list of events</li>
+							<li><b>loop-gallery.php</b> - template for list of images/videos</li>
+							<li><b>loop-home-boxes.php</b> - template for homepage image boxes</li>
+							<li><b>loop-locations.php</b> - template for list of locations</li>
+							<li><b>loop-multimedia.php</b> - template for list of sermons</li>
+							<li><b>loop-slider.php</b> - template for homepage slider items</li>
+							<li><b>loop-staff.php</b> - template for list of staff members</li>
+							<li><b>options.php</b> - backward compatibility with older versions of Options Framework</li>
+							<li><b>page.php</b> - template for regular pages</li>
+							<li><b>screenshot.png</b> - screenshot thumbnail for theme</li>
+							<li><b>search.php</b> - blog search results template</li>
+							<li><b>searchform.php</b> - blog search form</li>
+							<li><b>short.php</b> - short view of blog posts</li>
+							<li><b>short-gallery.php</b> - short view of gallery item</li>
+							<li><b>short-event.php</b> - short view of event</li>
+							<li><b>short-multimedia.php</b> - short view of sermon</li>
+							<li><b>short-staff.php</b> - short view of staff member</li>
+							<li><b>sidebar.php</b> - primary sidebar (regular pages)</li>
+							<li><b>sidebar-blog.php</b> - blog sidebar</li>
+							<li><b>sidebar-contact.php</b> - contact page sidebar</li>
+							<li><b>sidebar-events.php</b> - events sidebar</li>
+							<li><b>sidebar-gallery.php</b> - gallery sidebar</li>
+							<li><b>sidebar-home-column-left.php</b> - widget area for bottom-left of homepage</li>
+							<li><b>sidebar-home-column-right.php</b> - widget area for bottom-right of homepage</li>
+							<li><b>sidebar-locations.php</b> - locations sidebar</li>
+							<li><b>sidebar-multimedia.php</b> - sermons sidebar</li>
+							<li><b>sidebar-staff.php</b> - staff page sidebar</li>
+							<li><b>single.php</b> - display single blog post</li>
+							<li><b>single-risen_event.php</b> - display single event</li>
+							<li><b>single-risen_gallery.php</b> - display single gallery image or video</li>
+							<li><b>single-risen_home_image_box.php</b> - redirect home box item permalink to homepage</li>
+							<li><b>single-risen_location.php</b> - redirect location permalink to page using locations template</li>
+							<li><b>single-risen_multimedia.php</b> - display single sermon</li>
+							<li><b>single-risen_slide.php</b> - redirect slider item permalink to homepage</li>
+							<li><b>single-risen_staff.php</b> - redirect staff member permalink to page using staff template</li>
+							<li><b>style.css</b> - main stylesheet, contains theme info in header (also see styles directory)</li>
+							<li><b>style-admin.css</b> - stylesheet loaded in admin area</li>
+							<li><b>style-editor.css</b> - stylesheet loaded by WYSIWYG editor in admin</li>
+							<li><b>taxonomy-risen_gallery_category.php</b> - gallery category archive</li>
+							<li><b>taxonomy-risen_multimedia_category.php</b> - sermon category archive</li>
+							<li><b>taxonomy-risen_multimedia_speaker.php</b> - sermon speaker archive</li>
+							<li><b>taxonomy-risen_multimedia_tag.php</b> - sermon tag archive</li>
+							<li><b>tpl-blog.php</b> - page template for blog index (newest first)</li>
+							<li><b>tpl-contact.php</b> - page template for contact page</li>
+							<li><b>tpl-events.php</b> - page template for events</li>
+							<li><b>tpl-gallery-all.php</b> - page template for showing all gallery items</li>
+							<li><b>tpl-gallery-categories.php</b> - page template for showing gallery categories</li>
+							<li><b>tpl-gallery-images.php</b> - page template for showing gallery images (no videos)</li>
+							<li><b>tpl-gallery-videos.php</b> - page template for showing gallery videos (no images)</li>
+							<li><b>tpl-locations.php</b> - page template for locations</li>
+							<li><b>tpl-multimedia.php</b> - page template for sermon archive</li>
+							<li><b>tpl-staff.php</b> - page template for staff</li>
+						</ul>
+					</li>
+					<li><b>risen-child.zip</b> - optional <a href="#child-theme" data-rel="openSection">child theme</a> example for making customizations</li>
+					<li><b>sample-data.xml</b> - importable pages, posts and menu to make your install like the Risen <a href="http://stevengliebe.com/wp-playground/risen/" target="_blank">Live Preview</a></li>
+					<li><b>sample-widgets.wie</b> - importable widget content to make your install like <a href="http://stevengliebe.com/wp-playground/risen/" target="_blank">Live Preview</a></li>
+				</ul>
+
+			</div>
+
+		</section>
+
+		<section id="recommendations">
+
+			<h1>Recommendations</h1>
+
+			<div class="section-notes">
+				Hosting, Plugins
+			</div>
+
+			<div class="section-content">
+
+				<p>
+					Here are some resources that might help you with your site.
+					I have either used these myself or have good reason to trust them (ie. they are recommended by people I trust or have a generally good reputation).
+				</p>
+
+				<p>
+					<i><b>Disclosure:</b> I will receive commission from referring you to some of these products/services.</i>
+				</p>
+
+				<h2>Web Hosting</h2>
+
+				<p>
+					Nearly all churches only need <a href="http://hostingreviews.io/web-hosting/shared" target="_blank">shared hosting</a>, which is the most common and least expensive type. <a href="http://hostingreviews.io/web-hosting/managed-wordpress" target="_blank">Managed WordPress hosting</a> provides optional but sometimes useful extras (e.g. speed enhancements, WordPress-specific help). All of these hosts provide automatic installation of WordPress.
+				</p>
+
+				<ul>
+					<li><a href="http://churchthemes.com/go/siteground" target="_blank">SiteGround</a> offers managed shared WordPress hosting at a low price. They have a great reputation for support and features, especially among WordPress users. I would look into them first.</li>
+				</ul>
+
+				&nbsp;
+
+				<ul>
+					<li><a href="http://churchthemes.com/go/a-small-orange" target="_blank">A Small Orange</a> offers regular shared hosting at a reasonable price and also enjoys a positive reputation. They are owned by the same company that owns Bluehost, which is recommended by WordPress.org. I definitely recommend A Small Orange over Bluehost, however, based on what I've heard each of their customers say.</li>
+				</ul>
+
+				&nbsp;
+
+				<ul>
+					<li><a href="http://churchthemes.com/go/dreamhost" target="_blank">DreamHost</a>'s reputation seems to be neither better or worse than average. I mention them here because some churches may find their <a href="http://wiki.dreamhost.com/Non-profit_Discount" target="_blank">free hosting for nonprofits</a> useful. For churches that cannot present a 501(c)(3) determination letter (United States), promo code <b>CHURCHTHEMES97</b> can be used for a $97 discount on the first year. They also offer "DreamPress" managed WordPress hosting.</li>
+				</ul>
+
+				&nbsp;
+
+				<ul>
+					<li><a href="http://churchthemes.com/go/wp-engine" target="_blank">WP Engine</a> and <a href="http://churchthemes.com/go/pagely" target="_blank">Pagely</a> are other managed WordPress hosting options.
+					They cost more but perhaps offer more and have generally good reputations in the WordPress community.
+					</li>
+				</ul>
+
+				<p>
+					See <a href="http://hostingreviews.io" target="_blank">HostingReviews.io</a> for more hosting options. This site ranks hosts based on what people say on Twitter. It is one of my side projects. Be aware that most other hosting "review" websites are purely commission-driven and will do whatever they can to convince you to sign up with certain hosts, regardless of whether they are right for you or not.
+				</p>
+
+				<h2>Plugins</h2>
+
+				<p>
+					There are some things that are better off left to plugins.
+					Here are a few plugins that I recommend.
+				</p>
+
+					<h3>Search Engine Optimization</h3>
+
+					<p>
+						I recommend <a href="http://yoast.com/wordpress/seo/" target="_blank">WordPress SEO by Yoast</a> for search engine optimization tweaking.
+						It is regarded as one of the best SEO plugins (<i>the</i> best in my opinion) and works well with Risen.
+						And it's free.
+					</p>
+
+					<h3>Social Bookmarking</h3>
+
+					<p>
+						I found <a href="http://wordpress.org/extend/plugins/addthis/" target="_blank">AddThis</a> to look nice and work well with Risen when configured a certain way.
+						This plugin can add social bookmarking buttons for Twitter, Facebook, etc. to your posts, sermons, etc.
+					</p>
+
+					<p>
+						After installing and activating it, I recommend you go to <i>Settings > AddThis</i> and configure it in these ways.
+					</p>
+
+					<ul class="p">
+						<li>In <i>Basic</i> cause it not to show below posts (only above).</li>
+						<li>In <i>Advanced</i> uncheck the <i>excerpts</i> box under <i>Show AddThis on...</i></li>
+					</ul>
+
+					<h3>Other Plugins</h3>
+
+					<ul class="p">
+						<li><a href="http://wordpress.org/plugins/antispam-bee/" target="_blank">Antispam Bee</a> for protecting comments from automated spam</li>
+						<li><a href="http://wordpress.org/plugins/simple-page-sidebars/" target="_blank">Simple Page Sidebars</a> for showing custom sidebars on specific pages</li>
+						<li><a href="http://wordpress.org/plugins/wp-updates-notifier/" target="_blank">WP Updates Notifier</a> to get email when WordPress and your plugins have updates</li>
+						<li><a href="http://wordpress.org/plugins/limit-login-attempts/" target="_blank">Limit Login Attempts</a> to protect against password-cracking attempts</li>
+						<li><a href="http://wordpress.org/plugins/google-analytics-for-wordpress/" target="_blank">Google Analytics for WordPress</a> for automatically embedding your analytics code</li>
+						<li><a href="https://proplugindirectory.com/wp-rocket-review/" target="_blank">WP Rocket</a> for making your site load faster</li>
+
+
+					</ul>
+
+					<p>
+						See the <a href="https://wordpress.org/plugins/" target="_blank">WordPress.org Plugin Directory</a> for free plugins and <a href="https://proplugindirectory.com" target="_blank">Pro Plugin Directory</a> for commercial plugins.
+						Be aware that I cannot guarantee compatibility with third-party plugins nor can I provide support for them (you can contact the plugin author).
+					</p>
+
+				<h2>Backup Solutions</h2>
+
+				<p>
+					It's important to have a backup solution in place.
+				</p>
+
+				<ul class="p">
+					<li><a href="http://wordpress.org/plugins/backupwordpress/" target="_blank">BackUpWordPress</a> - a free backup plugin with a good ratings</li>
+					<li><a href="http://churchthemes.com/go/vaultpress" target="_blank">VaultPress</a> - a service provided by one of the WordPress founders' company (we use this)</li>
+					<li><a href="http://churchthemes.com/go/backupbuddy" target="_blank">BackupBuddy</a> - a popular paid backup plugin</li>
+				</ul>
+
+				<p>
+					You can do manual backups of WordPress as well. Read <a href="http://codex.wordpress.org/WordPress_Backups" target="_blank">WordPress Backups</a> on the WordPress Codex. Many web hosts provide general website backups as part of their service. WordPress-specific backups are usually more useful.
+				</p>
+
+				<h2>Code Customizations</h2>
+
+				<p>
+					<a href="http://churchthemes.com/go/codeable" target="_blank">Codeable</a> and <a href="http://churchthemes.com/go/elto" target="_blank">Elto</a> are services that provide customization services. They have WordPress developers on hand.
+					Ask them to use a <a href="#child-theme" data-rel="openSection">child theme</a>.
+				</p>
+
+				<h2>Stock Photos</h2>
+
+				<p>
+					The Risen demo uses stock photos to show what an actual church site might look like. These are not included with the theme (with exception of backgrounds). If you like any of them, see <i>Preview Materials</i> in <a href="#credits" data-rel="openSection">Sources &amp; Credits</a>.
+				</p>
+
+				<p>
+					Here are some good sources for stock photos and graphics.
+				</p>
+
+				<ul>
+					<li><a href="http://istockphoto.com" target="_blank">iStockPhoto</a> - big selection</li>
+					<li><a href="http://photodune.net/?ref=StevenGliebe" target="_blank">PhotoDune</a> - low cost</li>
+					<li><a href="http://creationswap.com" target="_blank">CreationSwap</a> - church graphics</li>
+					<li><a href="http://lightstock.com" target="_blank">LightStock</a> - Christian stock photos</li>
+				</ul>
+
+			</div>
+
+		</section>
+
+		<section id="faq">
+
+			<h1>Frequently Asked Questions</h1>
+
+			<div class="section-notes">
+				Common Solutions
+			</div>
+
+			<div class="section-content">
+
+				<p>
+					There are some questions that come up more than others.
+					If you have a question, it may be answered here.
+					If not, please submit a <a href="#support" data-rel="openSection">Support</a> request.
+				</p>
+
+				<p>
+					<strong>Search Tip:</strong> Hit CTRL-F (Windows) or CMD-F (Mac) to search for a keyword on this page.
+				</p>
+
+				<ol class="p">
+
+					<li>
+
+						<p class="bold">
+							"The package could not be installed. The theme is missing the style.css stylesheet."
+						</p>
+
+						<p>
+							You may be trying to install the wrong zip file.
+							Go to the <i>Downloads</i> section of your ThemeForest account and click <i>Download</i> then <i>Installable WordPress theme</i>. Upload and install this file.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							How can I disable comments on pages or posts?
+						</p>
+
+						<p>
+							You can disable comments on a per page/post basis and globally.
+							To disable comments globally, go to <i>Settings > Discussion</i> and uncheck the box for "Allow people to post comments on new articles".
+							This only applies to new posts.
+						</p>
+
+						<p>
+							For pages/posts that you already created, you will need to disable comments manually for each.
+							Go to edit one of your pages or posts and look for <i>Screen Options</i> at the top-right.
+							Click it then make sure the "Discussion" option is checked.
+							It causes a "Discussions" box to appear at the bottom of the page below the content editor.
+							Uncheck the "Allow comments" option in this box then save your post/page.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							The images I uploaded are appearing too big. Why?
+						</p>
+
+						<p>
+							You may encounter this problem if you are using a version of Risen older than 1.1.7. <a href="#update" data-rel="openSection">Update</a> to the latest version of the theme then run the <a href="http://wordpress.org/extend/plugins/regenerate-thumbnails/" target="_blank">Regenerate Thumbnails</a> plugin to re-create your existing images. Images uploading after updating the theme will not have this problem.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							"Page Not Found" or "File Not Found" when trying to access some pages.
+						</p>
+
+						<p>
+							Your permalink structure (friendly URL's) is not active.
+							Please repeat <i>Step 3</i> in <a href="#installation" data-rel="openSection">Installation</a>:
+						</p>
+
+						<ol class="p">
+							<li>Go to <i>Settings</i> > <i>Permalinks</i>.</li>
+							<li>Choose your preferred URL format ("Day and name" recommended &mdash; don't use "Default").</li>
+							<li>Save even if you are sticking with what is already set.</li>
+						</ol>
+
+						<p>
+							If you do this but the problem persists, your server may not be allowing WordPress to write the .htaccess file which enables a friendly URL structure.
+							Return to <i>Settings > Permalinks</i> and look for manual instructions provided by WordPress below the Save button.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							Why are e-mails sent by the contact form are not being received?
+						</p>
+
+						<p>
+							Here are some things to try:
+						</p>
+
+						<ol>
+							<li>Wait a few minutes and check your spam folder. E-mail are sometimes delayed or marked as spam.</li>
+							<li>Verify that the contacts in <i>Appearance > Theme Options > Contact</i> are using the correct format.</li>
+							<li>Deactivate all plugins in case there is a conflict.</li>
+							<li>Try using a &quot;To&quot; e-mail address that has your website's domain in it (you@yoursite.com).</li>
+							<li>Ask your host (or check their knowledgebase) if there is anything special that needs to be done to get PHP's <code>mail()</code> function working.</li>
+							<li>If you are forcing SSL on the admin area, the contact form will not work. Force SSL only on logins (in <i>wp-config.php</i> use <code>define('FORCE_SSL_LOGIN', true)</code> instead of <code>define('FORCE_SSL_ADMIN', true)</code>.</li>
+							<li>Try a contact form <a href="http://wordpress.org/plugins/" target="_blank">plugin</a> instead.</li>
+						</ol>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							How should I set my site live by moving it from its development location to its final location?
+						</p>
+
+						<p>
+							It is common to prepare a WordPress site at <i>yourname.com/dev</i> (or similar) then move it to <i>yourname.com</i>, so that the old site remains online while the new site is being made.
+							After your site is done, you can move it to the final location by following "On Your Existing Server" in the <a href="http://codex.wordpress.org/Moving_WordPress#When_Your_Domain_Name_or_URLs_Change" target="_blank">When Your Domain Name or URLs Change</a> article at WordPress.org.
+							Be sure to backup both the new and old sites before you start.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							Why is the sidebar showing at the bottom of the page?
+						</p>
+
+						<p>
+							If you are using a version of Risen older than 1.1.8, <a href="#update" data-rel="openSection">update</a> to the latest. This issue has been fixed.
+						</p>
+
+						<p>
+							If you still experience the problem after updating, your browser view may be zoomed in / enlarged. Try restoring the view to the normal zoom level (100%).
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							Where can I find the sample content, sample child theme and Photoshop PSD files?
+						</p>
+
+						<p>
+							Go to the <i>Downloads</i> area of your ThemeForest account and click <i>Download</i> then <i>Main File(s)</i>.
+							Unzip this file for sample content in the <i>theme</i> folder as well as the child theme and PSD files.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							How can I set a date in the past for a sermon?
+						</p>
+
+						<p>
+							When editing or adding your sermon, click <i>Edit</i> by the date in the <i>Publish</i> box at the top right.
+							Change the date, click <i>OK</i> then click <i>Update</i> to save your change.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							How can I prevent comment spam?
+						</p>
+
+						<p>
+							In short, go to <i>Settings > Discussion</i> and check the box for "Comment author must have a previously approved comment" then install the <a href="http://wordpress.org/plugins/antispam-bee/" target="_blank">Antispam Bee</a> plugin. For more information, read <a href="http://stevengliebe.com/" target="_blank">How to Prevent Spam in WordPress</a>.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							Sermon podcasting is not working.
+						</p>
+
+						<p>
+							First, make sure you're using Risen 2.0 or newer.
+						</p>
+
+						<p>
+							Were you using a version older than Risen 2.0 before? If so, you need to re-save the sermons with audio that you want to podcast. There's no need to re-upload. Just open and click save on the sermon. This causes the MP3 URL to be saved to an enclosure field that WordPress uses for RSS feeds.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							Recurring event dates are not changing automatically.
+						</p>
+						<p>
+							Are you using a caching plugin? If so, be aware that caching plugins can interfere with WordPress's ability to run scheduled tasks, such as moving an event's date forward, publishing scheduled posts, etc. You should setup a <a href="http://stevengliebe.com/2013/11/18/using-real-wordpress-cron-job-increased-reliability/" target="_blank">cron job</a> in your hosting control panel to ensure that various WordPress maintenance is completed.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							Where can I find the photos used in the demo?
+						</p>
+						<p>
+							The Risen demo uses stock photos to show what an actual church site might look like. These are not included with the theme (with exception of backgrounds). If you like any of them, see <i>Preview Materials</i> in <a href="#credits" data-rel="openSection">Sources &amp; Credits</a>.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							Is it possible to upload gallery photos in bulk?
+						</p>
+						<p>
+							Not with Risen's gallery but you can use WordPress's native gallery with a lightbox plugin instead. See "Bulk Uploads" at the bottom of the <a href="#gallery" data-rel="openSection">Gallery</a> section.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							Why doesn't the slider show?
+						</p>
+
+						<p>
+							Please try these things:
+						</p>
+
+						<ol class="p">
+
+							<li>Go to <i>Settings</i> > <i>Reading</i> and set "Front page shows" to "Your latest posts". Even if this was already set, hit the save button to refresh the setting.</li>
+
+							<li>Make sure your slides are set to "Public" and not "Private" or they will appear only to logged in admin users.</li>
+
+							<li>Make sure your slides still have a featured image set. Slides without images do not show.</li>
+
+							<li>Try deactivating all plugins in case there is a conflict. If the problem goes away while all plugins are inactive, then reactivate them one by one to determine which is causing the problem.</li>
+
+						</ol>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							Why does the main menu show as a single dropdown?
+						</p>
+
+						<p>
+							Are you using a version of Risen older than 2.0 and using a desktop monitor or laptop with touch screen? If so, the touch-friendly menu shows. <a href="#update" data-rel="openSection">Update</a> to the latest version of Risen which has support for the main menu dropdowns on touch screens. Note that on small screens such as phones this mobile menu is always used.
+						</p>
+
+						<p>
+							If that's not the case, is there any software on your computer that causes browsers to simulate touch behavior? Smart Board software is one such software that can do this.
+							You can <a href="http://jsfiddle.net/Sae4P/" target="_blank">use this</a> to see if your browser thinks it has touch capabilities. If your display does not support touch but your browser thinks it does, there is very likely software causing this simulation.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							Can I remove the title from a page's image header?
+						</p>
+
+						<p>
+							Whenever a featured image is used, the page's title shows over it in order to create a header.
+							You would need to make a code customization using a <a href="#child-theme" data-rel="openSection">child theme</a> to change this.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							How can I show a specific sidebar on a specific page?
+						</p>
+
+						<p>
+							The page template you use (Events, Locations, etc.) determines which sidebar is used. There is a general "Page" sidebar that all regular pages use. If you want specific sidebars for specific pages, try the <a href="http://wordpress.org/plugins/simple-page-sidebars/" target="_blank">Simple Page Sidebars</a> plugin. <a href="http://wordpress.org/plugins/woosidebars/" target="_blank">WooSidebars</a> is more complex and can be useful if you want control over which sidebars show on specific post types, archives, etc.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							Can I make a menu link that does nothing when clicked but still shows a dropdown when hovering?
+						</p>
+
+						<p>
+							I recommend making all links clickable since the user will usually expect a page to load when clicking a menu item. However, you still may want to create a top-level menu item that does nothing upon clicking but still shows dropdown links when hovering.
+						</p>
+
+						<ol class="p">
+							<li>Go to <i>Appearance</i> > <i>Menus</i></li>
+							<li>Click "Links" on the left-hand side.</li>
+							<li>Enter # for the URL and set the link text.</li>
+							<li>Click "Add to Menu".</li>
+						</ol>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							Can I show the full post instead of an excerpt or use the &lt;!--more--&gt; tag?
+						</p>
+
+						<p>
+							There are two ways to list posts in WordPress. One is to show an excerpt and the other is to show the complete content. Risen shows the excerpt. This is generated automatically if not manually specified using the Excerpt box when adding/editing a post (click <i>Screen Options</i> at the top-right to enable it if it is not showing). If you want to show full post content (also enabling the use of the &lt;!--more--&gt; tag), you would need to modify the theme.
+
+						<p>
+							I recommend using a <a href="#child-theme" data-rel="openSection">child theme</a> for code customizations. short.php would be the file of interest for blog posts. Change the_excerpt() to the_content(). See <a href="http://codex.wordpress.org/Function_Reference/the_excerpt" target="_blank">the_excerpt</a> on the WordPress Codex for full details.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							My menu does nothing when I click or hover.
+						</p>
+
+						<p>
+							Make sure your logo image is not too tall. If it exceeds 100 pixels in height, it will obstruct the menu.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							Why doesn't my podcast feed work?
+						</p>
+
+						<p>
+							You must do these things before podcasting will work:
+						</p>
+
+						<ol class="p">
+							<li>Make sure you are using Risen 2.0 or newer (<a href="#update" data-rel="openSection">Updating</a>). Podcasting was not added until 2.0.</li>
+							<li>If you upgraded from a version earlier than 2.0, you must edit each existing sermon (that has audio) and re-save it in order for the MP3 to show up in the podcast feed.</li>
+						</ol>
+
+						<p>
+							See the <i>Podcasting</i> section at the bottom of <a href="#multimedia" data-rel="openSection">Multimedia</a> for complete podcasting instructions.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							Why doesn't my podcast feed work?
+						</p>
+
+						<p>
+							You must do these things before podcasting will work:
+						</p>
+
+						<ol class="p">
+							<li>Make sure you are using Risen 2.0 or newer (<a href="#update" data-rel="openSection">Updating</a>). Podcasting was not added until 2.0.</li>
+							<li>If you upgraded from a version earlier than 2.0, you must edit each existing sermon (that has audio) and re-save it in order for the MP3 to show up in the podcast feed.</li>
+						</ol>
+
+						<p>
+							See the <i>Podcasting</i> section at the bottom of <a href="#multimedia" data-rel="openSection">Multimedia</a> for complete podcasting instructions.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							Why does clicking a staff member take me to the homepage?
+						</p>
+
+						<p>
+							Please make sure you have a <a href="#staff" data-rel="openSection">Staff</a> page that is using the Staff page template. That's where the staff entry will be shown.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							Can I keep a post's author, name, date, etc. from showing?
+						</p>
+
+						<p>
+							You would need to make a code customization using a <a href="#child-theme" data-rel="openSection">child theme</a> to accomplish this. One approach might be to modify style.css to hide the elements. Another is to modify short.php and single.php (for blog posts) to remove the actual markup. Refer to the <a href="#files" data-rel="openSection">Files</a> list.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							How can I change the number of posts shown per page?
+						</p>
+
+						<p>
+						Go to <i>Appearance</i> > <i>Theme Options</i> and look for the "per page" options for sermons, events, staff and locations. A similar setting for blog posts is in <i>Settings</i> > <i>Reading</i>.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							Why does my feed say style information is missing?
+						</p>
+
+						<p>
+							This is normal. Style information is not required for a feed to be valid. WordPress does not style feeds.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							Do events integrate with Google Calendar?
+						</p>
+
+						<p>
+							There is no Google Calendar integration. If this is essential, you can search the <a href="http://wordpress.org/plugins/" target="_blank">plugin directory</a> for an events plugin that provides Google Calendar functionality.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+						How can I track visitor statistics?
+						</p>
+
+						<p>
+						Two popular options are <a href="https://wordpress.org/plugins/google-analytics-for-wordpress/" target="_blank">Google Analytics</a> and <a href="https://wordpress.org/plugins/jetpack/" target="_blank">Jetpack Statistics</a>.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							How can prayer requests be handled?
+						</p>
+
+						<p>
+							A simple approach is to make a contact form for prayer requests using a contact form <a href="http://wordpress.org/plugins/" target="_blank">plugin</a>.
+							There are also several WordPress plugins for prayer requests that you may want to try.
+						</p>
+
+						<ul>
+							<li><a href="https://wordpress.org/plugins/amen/" target="_blank">Amen</a> – Free</li>
+							<li><a href="https://wordpress.org/plugins/praybox/" target="_blank">PrayBox</a> – Free and paid upgrade</li>
+							<li><a href="http://www.theprayerengine.com/" target="_blank">Prayer Engine</a> – Paid</li>
+						</ul>
+
+						<p>
+							None of these plugins have been tested with Risen.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							How can I add a favicon to my site?
+						</p>
+
+						<p>
+							<a href="http://wordpress.org/plugins/all-in-one-favicon/" target="_blank">All in One Favicon</a> is an excellent plugin for this. A plugin is recommended for this so if you switch themes in the future, your favicon remains in place.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							How can I add a font to the theme?
+						</p>
+
+						<p>
+							Risen includes about 200 hand-picked <a href="http://www.google.com/fonts" target="_blank">Google Fonts</a>.
+							You can change fonts in <i>Appearance</i> &gt; <i>Theme Options</i>.
+						</p>
+
+						<p>
+							Adding additional Google Fonts would involve customizing the theme's code using a <a href="#child-theme" data-rel="openSection">child theme</a>.
+							<em>includes/customizations.php</em> contains an array of Google Fonts that you can filter (<code>risen_google_web_fonts</code>) additional fonts into.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							Is the customizer tool in the demo included?
+						</p>
+
+						<p>
+							The demo show a palette icon that expands a customizer tool for colors and fonts. This is to give you an idea of what can be done with <i>Appearance</i> > <i>Theme Options</i> > <i>Styles</i> in the admin area. The demo's palette icon is not available with the theme.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							Why do I see a light or dark flash before my background image loads?
+						</p>
+
+						<p>
+							Set the background color to match the background image. This color will show for a short moment while the image loads. If the background color is very different from the background image, the user may perceive a "flash".
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							Why do icons not show in Firefox or Internet Explorer?
+						</p>
+
+						<p>
+							Firefox and Internet Explorer will not let the icon font load when your website is accessed at <em>yourname.com</em> while the icon fonts are loading at <em>www.yourname.com</em>. The hostnames need to be the same (both with or both without <em>www</em>). Either setup your hosting control panel to redirect <em>yourname.com</em> to <em>www.yourname.com</em> or adjust the URL's in <em>Settings</em> &gt; <em>General</em> to use <em>yourname.com</em> instead of<em> www.yourname.com</em> (or vice-versa, depending on your preference).
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							Why isn't the responsive design adapting to my mobile device?
+						</p>
+
+						<p>
+							Risen has a responsive design which its layout adapts to mobile screen sizes. Here are some reasons the mobile-friendly design is not working.
+						</p>
+
+						<ul>
+							<li>If you are using the Jetpack plugin, make sure the Mobile Theme module is disabled. This feature prevents Risen from doing what it is designed to do on mobile devices.</li>
+							<li>If you are using a caching plugin, clear its cache.</li>
+							<li>Clear your browser's cache and restart it.</li>
+							<li>Deactivate all plugins to determine if there is a conflict with a plugin.</li>
+						</ul>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							Can we have multiple blogs on our site?
+						</p>
+
+						<p>
+							WordPress supports one blog per site. You can use categories to organize your posts. Each category has its own URL that you can link to from your menu (instead of the main blog page which shows all posts). Each blog author also has their own archive.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							How can I do more with the content editor?
+						</p>
+
+						<p>
+							You may want to try the <a href="http://wordpress.org/plugins/tinymce-advanced/" target="_blank">TinyMCE Advanced</a> plugin. It adds options for font size and more control over lists, among other things.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							Why are my changes not showing up?
+						</p>
+
+						<p>
+							You may be using a caching plugin. If so, try clearing its cache in the plugin's settings. You may see the changes while logged in but not while logged out. That could be because some caching plugins never show cached pages to the admin while at the same time do show a cached (old) version of content to regular users.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							What can I do when it says my file is too large to upload?
+						</p>
+
+						<p>
+							See "Large File Uploads" in the <a href="#multimedia" data-rel="openSection">Sermons</a> guide for instructions on increasing the server's max upload size or uploading via FTP instead of WordPress.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							Can visitors register for events?
+						</p>
+
+						<p>
+							You can search the <a href="https://wordpress.org/plugins/" target="_blank">Plugin Directory</a> for a plugin that adds event registration functionality. There is no feature included for this.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							Can I change the homepage intro font size?
+						</p>
+
+						<p>
+							The intro on the <a href="#homepage" data-rel="openSection">Homepage</a> is intended for a prominent one or two line introduction as shown on the demo. I recommend something brief to introduce your church while having a separate page for full information. Keep in mind that readers are not likely to read much text on the homepage of a website. The homepage is a gateway to pages with content.
+						</p>
+
+						<p>
+							If you still do want to change the font size, you will need to make a code customization to modify <em>style.css</em> using a <a href="#child-theme" data-rel="openSection">child theme</a>.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							Why are my images not appearing with correct sizing?
+						</p>
+
+						<p>
+							If you uploaded images before activating Risen, you need to run the <a href="http://wordpress.org/plugins/regenerate-thumbnails/" target="_blank">Regenerate Thumbnails</a> plugin. Risen requires specific sizes for images. The sizes are generated automatically when uploading, but that could not happen before the theme was installed (so old sizes are used).
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							What's the best way to handle one location?
+						</p>
+
+						<p>
+							Most churches have one location so what I recommend is linking from your menu directly to that location. You don’t have to create a page like "Campus Locations" in the demo (which uses the Locations template to list all). Instead, add your single location then go to <i>Appearance</i> > <i>Menus</i> and click on "Locations" on the left side to add your location to the menu.
+						</p>
+
+						<p>
+							If “Locations” doesn’t show on the left, click on <i>Screen Options</i> at the top-right to enable it.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							How can I embed media in content?
+						</p>
+
+						<p>
+							Check <a href="http://codex.wordpress.org/Embeds" target="_blank">Embeds</a> to see if WordPress supports your source simply by pasting a URL into your content. This works for YouTube, Vimeo and other popular services.
+							Otherwise, if your source provides embed code that uses an iframe HTML tag, the <a href="http://wordpress.org/plugins/iframe/" target="_blank">iframe plugin</a> may be useful to you. WordPress removes iframe code from content so a shortcode is necessary. That's what this plugin provides.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							How can we podcast our sermon audio?
+						</p>
+
+						<p>
+						Please see Sermon Podcasting toward the bottom of the <a href="#multimedia" data-rel="openSection">Sermons</a> guide.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							How can we show our live stream?
+						</p>
+
+						<p>
+							There may be two ways you can show your live video stream on a page.
+						</p>
+
+						<ol>
+							<li>Check with your live stream provider to see if they have a WordPress plugin (check the <a href="https://wordpress.org/plugins/" target="_blank">plugin directory</a> too)</li>
+							<li>If your provider gives you embed code (HTML), paste it into your content using <em>Text</em> mode (you may need to use an <a href="http://wordpress.org/plugins/iframe/" target="_blank">iframe plugin</a>)</li>
+						</ol>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							How can I stop YouTube from showing ads on my videos?
+						</p>
+
+						<p>
+							Read <a href="https://support.google.com/youtube/answer/94522" target="_blank">Enable and disable ads on my videos</a> for instructions on disabling ads. Note that if the video contains copyrighted music, the copyright owner can always force ads to show. <a href="http://vimeo.com" target="_blank">Vimeo</a> is an alternative video hosting service.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							Why can't I add a certain link to the menu?
+						</p>
+
+						<p>
+							In <em>Appearance</em> &gt; <em>Menus</em>, you can select Pages, Posts, Sermons, Links, etc. to add to your menu. If the option you are looking for is not showing, click on <em>Screen Options</em> at the top right to make it show on the menus screen. The "Links" option will let you enter the URL to any page on your site or another.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							How can we handle giving?
+						</p>
+
+						<p>
+							Giving (tithes and offerings) can be handled by an external donations service such as <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donate-intro-outside" target="_blank">PayPal Donations</a> by linking to the donations page they give you from a page on your site (or via the <a href="#widgets" data-rel="openSection">Giving Widget</a>). Other donations services that create a page for you on their site can be used similarly.
+						</p>
+
+						<p>
+							You may also want to look into WordPress plugins made specifically for <a href="http://wordpress.org/plugins/search.php?q=donation" target="_blank">taking donations</a>.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							How can I add social sharing buttons to posts?
+						</p>
+
+						<p>
+							Read <a href="#recommendations" data-rel="openSection">Recommendations</a> for a plugin that will add Facebook, Twitter, etc. buttons to your posts, sermons, etc.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							How can I show tweets from Twitter in a widget?
+						</p>
+
+						<p>
+							You can use a Twitter widget plugin like <a href="http://wordpress.org/plugins/kebo-twitter-feed/" target="_blank">Kebo Twitter Feed</a>. There are other <a href="http://wordpress.org/plugins/search.php?q=twitter" target="_blank">Twitter plugins</a> in the plugin directory that you can try.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							Why is my website loading slowly?
+						</p>
+
+						<p>
+							Here are some <a href="http://churchthemes.com/guides/user/help/questions/miscellaneous/slow/" target="_blank">possibilities</a>.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							Why isn't the play button showing on the audio player?
+						</p>
+
+						<p>
+							Your host's server may not be configured to handle SVG files, which the player uses for its controls. Add this to your .htaccess file at the root of your WordPress installation. If that does not help, contact your host.
+						</p>
+
+						<pre class="p">AddType image/svg+xml svg svgz<br>AddEncoding gzip svgz</pre>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							How can I translate my site into multiple languages?
+						</p>
+
+						<p>
+							WordPress supports single language sites out of the box, which is what the <a href="#translation" data-rel="openSection">Translation</a> guide is for. If you want to show your content in multiple languages with the user being able to switch between languages, try a plugin like <a href="http://wpml.org" target="_blank">WPML</a>, which is free for nonprofits. There is no official support for this plugin with Risen but I have not had reports of major issues. You may need to use a <a href="#child-theme" data-rel="openSection">child theme</a> to insert a language switcher and make other adjustments depending on your needs.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							Will updating the theme affect content and settings already entered?
+						</p>
+
+						<p>
+							WordPress, theme and plugin updates should not affect content or settings. Only the files that these things are made up of should change. Content and settings are stored in the database, which is separate. You can make a backup of your site to be extra safe.
+						</p>
+
+						<p>
+							If you are a developer and have modified theme files directly, you will lose those changes. Use a <a href="#child-theme" data-rel="openSection">child theme</a> to protect modifications. Similarly, you should store <a href="#translation" data-rel="openSection">Translations</a> in <i>wp-content/languages/themes</i>, not in the actual theme, so they are preserved during updates.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							How can the widget sidebar be removed from a page?
+						</p>
+
+						<p>
+							A sidebar will not show if no widgets have been added to it. Sometimes you might have a sidebar with widgets but not want to show it on a specific page or post. When adding or editing the page or post, uncheck the box for “Show sidebar widgets” in the <i>Options</i> box. If the Options box is not showing, click on <i>Screen Options</i> at the top-right to make it visible.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							How can I password-protect content?
+						</p>
+
+						<p>
+							WordPress has a basic feature for password-protecting pages and posts. Read <a href="http://codex.wordpress.org/Using_Password_Protection" target="_blank">Using Password Protection</a>. You can search the <a href="http://wordpress.org/plugins/" target="_blank">Plugin Directory</a> if you need something more sophisticated.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							How can I customize the admin menu?
+						</p>
+
+						<p>
+							The <a href="http://wordpress.org/plugins/admin-menu-editor/" target="_blank">Admin Menu Editor</a> plugin is useful for hiding or renaming admin menu items.
+						</p>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							How can I start over with WordPress?
+						</p>
+
+						<p>
+							If you're building your site and want to start over from scratch, you have two options:
+						</p>
+
+						<ol>
+							<li>Re-install WordPress (use your host's one click-installation feature)</li>
+							<li>Use a plugin like <a href="http://wordpress.org/plugins/wordpress-reset/" target="_blank">WordPress Reset</a> to erase all content, settings, themes and plugins</li>
+						</ol>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							How can we control which users can do certain things?
+						</p>
+
+						<p>
+							WordPress lets you assign a roles for each user. Each role has specific capabilities controlling what they can and cannot do. Read <a href="http://codex.wordpress.org/Roles_and_Capabilities#Summary_of_Roles." target="_blank">Roles &amp; Capabilities</a> in the WordPress Codex for full information.
+							For more sophisticated control such as placing limitations based on post type (e.g. which users can add sermons), you would need to use a plugin. Here are some possible solutions:
+						</p>
+
+						<ul>
+							<li><a href="http://wordpress.org/plugins/role-scoper/" target="_blank">Role Scoper</a></li>
+							<li><a href="http://wordpress.org/plugins/user-role-editor/" target="_blank">User Role Editor</a></li>
+						</ul>
+
+					</li>
+
+					<li>
+
+						<p class="bold">
+							Why don't my permalinks look nice?
+						</p>
+
+						<p>
+							Mod Rewrite is necessary for "Pretty Permalinks".  Nearly all servers support this but some don't. You can show <a href="http://codex.wordpress.org/Using_Permalinks" target="_blank">Permalink Types</a> to your host and ask if Mod Rewrite is available for "Pretty Permalinks" to work in WordPress.
+						</p>
+
+					</li>
+
+				</ol>
+
+			</div>
+
+		</section>
+
+		<section id="support">
+
+			<h1>Support</h1>
+
+			<div class="section-notes">
+				I'm Here to Help
+			</div>
+
+			<div class="section-content">
+
+				<p>
+					If you have a question that is not answered in this documentation or the <a href="#faq" data-rel="openSection">FAQ</a>, or if you discover a problem,
+					you can submit a support request via the <a href="http://themeforest.net/item/risen-church-wordpress-theme-responsive/2632774/support?ref=StevenGliebe" target="_blank">Contact Form</a> in order to receive a response by email.
+					Please provide a URL showing an issue if necessary.
+				</p>
+
+				<p>
+					My goal is to answer questions within 24 hours on weekdays (excluding US holidays and the rare period of travel).
+				</p>
+
+				<p>
+					<b>Please Note:</b>
+				</p>
+
+				<ul>
+					<li>Support is limited to questions regarding the theme's features or problems with the theme. Support is not offered for code customizations, third-party plugins or WordPress issues unrelated to the theme.
+					<br><br>
+					</li>
+					<li>
+					Support questions posted in comments on ThemeForest will not be answered. Instead, you will be asked to submit your question via the contact form so an email conversation can be started.
+					</li>
+				</ul>
+
+			</div>
+
+		</section>
+
+		<section id="rate">
+
+			<h1>Please Rate Risen</h1>
+
+			<div class="section-notes">
+				Ratings &amp; Testimonials
+			</div>
+
+			<div class="section-content">
+
+				<p>
+					I hope you are finding Risen to be a good solution.
+					If that's the case, please share your experience with others by rating it or by providing a testimonial.
+					Also know that if you have encountered a problem or need some help, you can <a href="#support" data-rel="openSection">Ask for Support</a>.
+					It's my pleasure to help my customers.
+				</p>
+
+				<h2>Rate It on ThemeForest</h2>
+
+				<p>
+					You can give Risen a rating up to five stars by logging into <a href="http://themeforest.net?ref=StevenGliebe" target="_blank">ThemeForest</a> then going to the <i>Downloads</i> area in your account.
+					Thank you for doing this.
+				</p>
+
+				<h2>Write a Testimonial</h2>
+
+				<p>
+					I like to share what others have said about my themes by posting their testimonials on ThemeForest.
+					If you would like to submit one, please use the contact form on my <a href="http://themeforest.net/user/StevenGliebe?ref=StevenGliebe" target="_blank">Profile Page</a> (must be logged in to see form).
+					Here's an example testimonial.
+				</p>
+
+				<blockquote>
+				<i>
+				"Risen is exactly what we were looking for and has been very easy to use. Our new church website is online and looks great! We highly recommend this theme."
+				<cite>&mdash; Ronnie Jones</cite>
+				</i>
+				</blockquote>
+
+			</div>
+
+		</section>
+
+		<section id="credits">
+
+			<h1>Sources &amp; Credits</h1>
+
+			<div class="section-notes">
+				Thank You
+			</div>
+
+			<div class="section-content">
+
+				<p>
+					Appreciation is given to the people behind these helpful projects and resources.
+				</p>
+
+				<h2>WordPress &amp; PHP</h2>
+
+				<ul class="p">
+					<li><a href="http://wordpress.org/extend/plugins/options-framework/" target="_blank">Options Framework Plugin</a> (GPL) by <a href="http://wptheming.com/" target="_blank">Devin Price</a></li>
+					<li><a href="http://core.trac.wordpress.org/attachment/ticket/18302/18302.2.2.patch" target="_blank">locate_template_uri()</a> from WordPress Trac by <a href="http://lud.icro.us/" target="_blank">John Blackbourn</a></li>
+					<li><a href="http://stackoverflow.com/a/8260383" target="_blank">Get YouTube Video ID from URL</a> (CC BY-SA 3.0) by <a href="http://stackoverflow.com/users/1592/jeffreypriebe" target="_blank">jeffreypriebe</a>, <a href="http://stackoverflow.com/users/1064371/lasnv" target="_blank">Lasnv</a>, <a href="http://stackoverflow.com/users/727300/webdev" target="_blank">WebDev</a> and <a href="http://stackoverflow.com/users/746890/chris-nolet" target="_blank">Chris Nolet</a></li>
+					<li><a href="http://code.google.com/apis/recaptcha/docs/php.html" target="_blank">reCAPTCHA PHP Library</a> (free to distribute) by Mike Crawford and Ben Maurer</li>
+					<li><a href="http://wordpress.org/extend/plugins/codestyling-localization/" target="_blank">Codestyling Localization</a> (GPL) by <a href="http://www.code-styling.de" target="_blank">Heiko Rabe</a></li>
+					<li><a href="http://www.viper007bond.com/2009/11/22/wordpress-code-earlier-shortcodes/" target="_blank">WordPress Code: Earlier Shortcodes</a> by <a href="http://www.viper007bond.com/" target="_blank">Viper007Bond</a></li>
+					<li><a href="http://markjaquith.wordpress.com/2009/12/14/excluding-your-plugin-or-theme-from-update-checks/" target="_blank">Excluding your plugin or theme from update checks</a> by <a href="http://markjaquith.wordpress.com" target="_blank">Mark Jaquith</a></li>
+					<li><a href="http://wordpress.stackexchange.com/questions/50649/how-to-scale-up-featured-post-thumbnail/64953#64953" target="_blank">How to scale up featured post thumbnail?</a> answer by <a href="http://wordpress.stackexchange.com/users/19801/levi" target="_blank">levi</a></li>
+				</ul>
+
+				<h2>JavaScript &amp; CSS</h2>
+
+				<ul class="p">
+					<li><a href="http://jquery.com/" target="_blank">jQuery</a> (MIT, GPL)</li>
+					<li><a href="http://www.modernizr.com/" target="_blank">Modernizr</a> (MIT, BSD) by <a href="http://farukat.es" target="_blank">Faruk Ates</a>, <a href="http://paulirish.com" target="_blank">Paul Irish</a> and <a href="http://alexsexton.com" target="_blank">Alex Sexton</a></li>
+					<li><a href="http://code.google.com/p/css3-mediaqueries-js/" target="_blank">css3-mediaqueries.js</a> (MIT) by <a href="http://www.dynora.nl/" target="_blank">Wouter van der Graaf</a></li>
+					<li><a href="http://html5doctor.com/html-5-reset-stylesheet/" target="_blank">HTML5 Doctor Reset</a> (public domain) by <a href="http://richclarkdesign.com" target="_blank">Richard Clark</a></li>
+					<li><a href="http://users.tpg.com.au/j_birch/plugins/superfish/" target="_blank">Superfish</a> and Supersubs (MIT or GPL) by Joel Birch</li>
+					<li><a href="http://cherne.net/brian/resources/jquery.hoverIntent.html" target="_blank">hoverIntent</a> (MIT or GPL) by <a href="http://cherne.net/" target="_blank">Brian Cherne</a></li>
+					<li><a href="http://lukaszfiszer.github.com/selectnav.js/" target="_blank">SelectNav.js</a> (MIT) by <a href="https://github.com/lukaszfiszer" target="_blank">Lukasz</a></li>
+					<li><a href="http://www.woothemes.com/flexslider/" target="_blank">FlexSlider</a> (MIT) by <a href="http://www.woothemes.com" target="_blank">WooThemes</a> and <a href="http://tylerbuilds.co/" target="_blank">Tyler Smith</a></li>
+					<li><a href="http://srobbin.com/jquery-plugins/backstretch/" target="_blank">Backstretch</a> (MIT) by <a href="http://srobbin.com/" target="_blank">Scott Robbin</a></li>
+					<li><a href="http://mediaelementjs.com/" target="_blank">MediaElements.js</a> (GPL, MIT) by <a href="http://j.hn" target="_blank">John Dyer</a></li>
+					<li>
+						<a href="http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/" target="_blank">prettyPhoto</a> (<a href="http://creativecommons.org/licenses/by/2.5/" target="_blank">CC BY 2.5</a>) by <a href="http://www.no-margin-for-errors.com/" target="_blank">Stephane Caron</a>
+						<ul>
+							<li>Hash Fix by <a href="http://eddiemonge.com/" target="_blank">Eddie Monge</a></li>
+							<li><a href="http://forums.no-margin-for-errors.com/discussion/comment/3453#Comment_3453" target="_blank">Improved _fitToViewport()</a> by Vladimir</li>
+						</ul>
+					</li>
+					<li><a href="http://bassistance.de/jquery-plugins/jquery-plugin-validation/" target="_blank">jQuery Validation</a> (MIT) by <a href="http://bassistance.de" target="_blank">J&ouml;rn Zaefferer</a></li>
+					<li><a href="http://benalman.com/projects/jquery-dotimeout-plugin/" target="_blank">jQuery doTimeout</a> (GPL, MIT) by <a href="http://benalman.com" target="_blank">Ben Alman</a></li>
+					<li><a href="http://www.eyecon.ro/colorpicker/" target="_blank">ColorPicker</a> (MIT, GPL) by <a href="http://www.eyecon.ro" target="_blank">Stefan Petre</a></li>
+					<li><a href="http://www.dev4press.com/2012/tutorials/wordpress/practical/url-rewriting-custom-post-types-date-archive/" target="_blank">URL Rewriting: Custom Post Types Date Archive</a> by <a href="http://www.dev4press.com" target="_blank">MillaN</a></li>
+					<li><a href="http://wordpress.org/support/topic/custom-post-type-taxonomy-pagination#post-2082263" target="_blank">Custom Post Type Taxonomy Pagination</a> by <a href="http://3circlestudio.com/" target="_blank">Justin Carroll</a></li>
+					<li><a href="https://github.com/kswedberg/jquery-smooth-scroll" target="_blank">jQuery Smooth Scroll</a> (MIT, GPL) by <a href="http://www.learningjquery.com" target="_blank">Karl Swedberg</a></li>
+					<li><a href="http://gsgd.co.uk/sandbox/jquery/easing/" target="_blank">jQuery Easing</a> (BSD) by <a href="http://gsgd.co.uk" target="_blank">George McGinley Smith</a></li>
+					<li><a href="https://github.com/carhartl/jquery-cookie" target="_blank">jQuery Cookie Plugin</a> (MIT or GPL) by <a href="http://twitter.com/carhartl" target="_blank">Klaus Hartl</a></li>
+					<li><a href="http://detectmobilebrowsers.com" target="_blank">jQuery.browser.mobile</a> (public domain) by <a href="http://thatsmith.com" target="_blank">Chad Smith</a></li>
+					<li><a href="http://james.padolsey.com/javascript/bujs-1-getparameterbyname/" target="_blank">getParameterByName</a> (with permission) by <a href="http://james.padolsey.com" target="_blank">James Padolsey</a></li>
+					<li><a href="https://developers.google.com/maps/documentation/javascript/" target="_blank">Google Maps API</a></li>
+				</ul>
+
+				<h2>Fonts &amp; Images</h2>
+
+				<ul class="p">
+					<li>
+						<a href="http://www.google.com/webfonts/" target="_blank">Google Web Fonts</a>
+						<ul>
+							<li><a href="https://www.google.com/webfonts/specimen/Open+Sans" target="_blank">Open Sans</a> (Apache License) by <a href="https://profiles.google.com/107777320916704234605/about" target="_blank">Steve Matteson</a></li>
+							<li><a href="http://www.google.com/webfonts/specimen/Shadows+Into+Light+Two" target="_blank">Shadows Into Light Two</a> (SIL Open Font License) by <a href="https://profiles.google.com/gesweinfamily/about" target="_blank">Kimberly Geswein</a></li>
+						</ul>
+					</li>
+					<li><a href="http://photodune.net/item/sun/1901106?ref=StevenGliebe" target="_blank">Sun</a> Background (PhotoDune Extended License) by <a href="http://photodune.net/user/Serg64?ref=StevenGliebe" target="_blank">Serg64</a></li>
+					<li><a href="http://photodune.net/item/wheat-field/586249?ref=StevenGliebe" target="_blank">Wheat Field</a> Background (PhotoDune Extended License) by <a href="http://photodune.net/user/jeka2011?ref=StevenGliebe" target="_blank">jeka2011</a></li>
+					<li>
+						<a href="http://shoestrap.org/downloads/elusive-icons-webfont/" target="_blank">Elusive Icons</a> (SIL Open Font License) by <a href="http://aristeides.com/" target="_blank">Aristeides Stathopoulos</a>
+					</li>
+					<li>
+						<a href="http://www.premiumpixels.com" target="_blank">Premium Pixels</a> (<a href="http://www.ormanclark.com/" target="_blank">Orman Clark</a>) Backgrounds (<a href="http://www.premiumpixels.com/licensing/" target="_blank">license</a> allows use in ThemeForest themes)
+						<ul>
+							<li><a href="http://www.premiumpixels.com/freebies/11-light-subtle-patterns-pat/" target="_blank">11 Light Subtle Patterns (.PAT)</a></li>
+							<li><a href="http://www.premiumpixels.com/freebies/8-seamless-dark-metal-grid-patterns/" target="_blank">8 Seamless "Dark Metal Grid" Patterns</a></li>
+							<li><a href="http://www.premiumpixels.com/freebies/5-bokeh-effect-backgrounds/" target="_blank">5 Bokeh Effect Backgrounds</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="http://elemisfreebies.com/" target="_blank">Elemis</a> Backgrounds (<a href="http://elemisfreebies.com/license-and-rules/" target="_blank">license</a> allows use in ThemeForest themes)
+						<ul>
+							<li><a href="http://elemisfreebies.com/02/09/colorful-wood-background-3/" target="_blank">Colorful Wood Background</a></li>
+							<li><a href="http://elemisfreebies.com/05/13/tileable-wood-texture-with-7-colors/" target="_blank">Tileable Wood Texture with 7 Colors</a></li>
+							<li><a href="http://elemisfreebies.com/08/31/2-tileable-paper-textures/" target="_blank">2 Tileable Grunge Paper Textures</a></li>
+							<li><a href="http://elemisfreebies.com/02/23/tileable-brick-texture-with-15-colors/" target="_blank">Tileable Brick Texture with 15 Colors</a></li>
+							<li><a href="http://elemisfreebies.com/10/11/tileable-leather-texture-with-2-colors/" target="_blank">Tileable Leather Texture with 2 Colors</a></li>
+							<li><a href="http://elemisfreebies.com/09/02/tileable-corkboard-texture-with-6-color-options/" target="_blank">Tileable Corkboard Texture with 6 Color Options</a></li>
+						</ul>
+					</li>
+				</ul>
+
+				<h2>Preview Materials</h2>
+
+				<p>These items are used in the theme's live preview and are not included with the theme.</p>
+
+				<ul class="p-top">
+					<li><a href="http://www.creationswap.com/media/11269" target="_blank">On The Third Day Slide</a> by <a href="http://luis-rivera.net/" target="_blank">Luis Rivera</a></li>
+					<li><a href="http://www.creationswap.com/media/11940" target="_blank">The Parables</a> by <a href="http://www.creationswap.com/meganwatson" target="_blank">Megan Watson</a></li>
+					<li><a href="http://www.istockphoto.com/stock-photo-4489540-farmer-and-farm.php" target="_blank">Farmer and farm</a></li>
+					<li><a href="http://www.istockphoto.com/stock-photo-10429015-young-adult-study.php" target="_blank">Young adult study</a></li>
+					<li><a href="http://www.istockphoto.com/stock-photo-16173964-pushpin-on-map.php" target="_blank">Pushpin on map</a></li>
+					<li><a href="http://www.istockphoto.com/stock-photo-8092663-young-family.php" target="_blank">Young family</a></li>
+					<li><a href="http://www.istockphoto.com/stock-photo-8112974-one-man-and-field-of-summer-grass.php" target="_blank">One man and field of summer grass</a></li>
+					<li><a href="http://www.istockphoto.com/stock-photo-15974322-holy-bible.php" target="_blank">Holy Bible</a></li>
+					<li><a href="http://twitter.com/#!/JohnPiper/" target="_blank">John Piper</a> and <a href="http://www.desiringgod.org" target="_blank">Desiring God Foundation</a> for sermon content for preview</li>
+					<li><a href="http://www.webdesignerdepot.com/2010/07/200-exclusive-free-icons-reflection/" target="_blank">Reflection Icons</a> by <a href="http://www.webdesignerdepot.com" target="_blank">Webdesigner Depot</a> (used by preview's customizer slide out)</li>
+				</ul>
+
+			</div>
+
+		</section>
+
+		<section id="changelog">
+
+			<h1>Changelog</h1>
+
+			<div class="section-notes">
+				Improvements
+			</div>
+
+			<div class="section-content">
+
+				<p>
+					See the <a href="#update" data-rel="openSection">Updating</a> section for instructions on updating to the latest version.
+				</p>
+
+				<!-- update DATE and VERSION in header too -->
+
+				<h2>v2.1.2 <span class="nonbold">(June 16, 2015)</span></h2>
+
+				<ul class="p">
+					<li>Fix misplaced prettyPhoto JavaScript code</li>
+				</ul>
+
+				<h2>v2.1.1 <span class="nonbold">(June 15, 2015)</span></h2>
+
+				<ul class="p">
+					<li>Protect against XSS vulnerability in prettyPhoto</li>
+					<li>Add &nocache to download URLs to prevent caching issues on DreamPress and with other caching</li>
+				</ul>
+
+				<h2>v2.1 <span class="nonbold">(February 16, 2015)</span></h2>
+
+				<ul class="p">
+					<li>Update reCAPTCHA library to 2.0 (easier for users to read)</li>
+					<li>Make media players load based on URL parameter (more stable; fixes issue below)</li>
+					<li>Fix volume control misalignment on audio longer than one hour</li>
+				</ul>
+
+				<h2>v2.0.6 <span class="nonbold">(January 26, 2015)</span></h2>
+
+				<ul class="p">
+					<li>Move time down on audio player</li>
+					<li>Add wp_reset_postdata to events widget</li>
+					<li>Fix HTML5 validation for Google Fonts</li>
+				</ul>
+
+				<h2>v2.0.5 <span class="nonbold">(November 17, 2014)</span></h2>
+
+				<ul class="p">
+					<li>Prevent double title in feeds</li>
+					<li>Make images in content resizable</li>
+				</ul>
+
+				<h2>v2.0.4 <span class="nonbold">(October 2, 2014)</span></h2>
+
+				<ul class="p">
+					<li>Update Backstretch script</li>
+					<li>Update language file</li>
+					<li>Make "Trash" translatable in home box and slide management</li>
+				</ul>
+
+				<h2>v2.0.3 <span class="nonbold">(June 30, 2014)</span></h2>
+
+				<ul class="p">
+					<li>Make sermon download button work when WordPress is installed in subdirectory</li>
+				</ul>
+
+				<h2>v2.0.2 <span class="nonbold">(March 3, 2014)</span></h2>
+
+				<ul class="p">
+					<li>Make directions button work with both new and old Google Maps</li>
+					<li>Fix <a href="http://wordpress.org/support/topic/breaks-blubrry-powerpress-plugin" target="_blank">conflict</a> with PowerPress regarding enclosure field</li>
+				</ul>
+
+				<h2>v2.0.1 <span class="nonbold">(December 16, 2013)</span></h2>
+
+				<ul class="p">
+					<li>Prepare screenshot.png for Retina and WordPress 3.8.</li>
+					<li>Remove css3-mediaqueries.js (no mobile IE 8 devices). Conflicts with All in One Event Calendar maps.</li>
+				</ul>
+
+				<h2>v2.0 <span class="nonbold">(December 4, 2013)</span></h2>
+
+				<ul class="p">
+					<li>Add built-in support for <b>sermon podcasting</b> (MP3 added as enclosure to feed).</li>
+					<li>Add options for <b>recurring events</b> (weekly, monthly, yearly).</li>
+					<li>Make theme <b>Retina-ready</b> (logo, icon fonts, graphics, Gravatars, etc.).</li>
+					<li>Update main drop down menus to work on touch devices (Superfish).</li>
+					<li>Add Instagram, SoundCloud, Foursquare, Picasa, podcasting and "Any Website" social icons.</li>
+					<li>Add support for SSL on front-end and fix SSL on Theme Options.</li>
+					<li>Add support for attachment pages.</li>
+					<li>Add 'Show as dropdown' checkbox to Sermon Archives widget.</li>
+					<li>Make more WordPress embeds and [audio] and [video] responsive.</li>
+					<li>Make events sort by event date instead of publish date and show titles instead of "Previous" and "Next".</li>
+					<li>More intuitive gallery admin wording; removal of "Add Media" from gallery items (prevent confusion).</li>
+					<li>Prevent Google Maps from dragging on touch scroll.</li>
+					<li>All filters in widget get_posts() loops to assist multilingual plugins.</li>
+					<li>Wrap custom page template the_content() in .post-content so heading and other styling works.</li>
+					<li>Add Text Domain header to prepare for Language Packs</li>
+					<li>Remove MediaElements.js local copy (now using WordPress copy).</li>
+					<li>Update various JS libraries.</li>
+					<li>Localize "Upload MP3" and "Upload PDF".</li>
+					<li>Make header logo responsive.</li>
+					<li>Links menu item and widget no longer removed (can use plugin).</li>
+					<li>Prevent floated accordion content from overflowing.</li>
+					<li>Fix double showing of RSS social icon when certain URLs are used.</li>
+					<li>Replace Chrome Frame (being retired) with redirect to browsehappy.com for old IE.</li>
+					<li>Fix conflict with plugins using reCAPTCHA library.</li>
+					<li>Prevent double 'Theme Options' with Options Framework 1.7</li>
+				</ul>
+
+				<h2>v1.1.8 <span class="nonbold">(May 27, 2013)</span></h2>
+
+				<ul class="p">
+					<li>Fix audio player volume being out of place after resize or initial load.</li>
+					<li>Fix audio player progress bar not showing after switch from video.</li>
+					<li>Update MediaElement.js (included in core with WordPress 3.6).</li>
+					<li>Add force balanced tags on linked slider captions.</li>
+					<li>Remove non-existent header-top.png background.</li>
+					<li>Fix reCAPTCHA styling.</li>
+					<li>Make homepage pass HTML5 validation.</li>
+					<li>Make Options Framework install link work on multisite.</li>
+					<li>Fix sidebar appearing at bottom issue.</li>
+					<li>Fix RSS icon display in header/footer ([feed_url] shortcode).</li>
+					<li>Add <code>rel="nofollow"</code> to the optional "Powered by" footer link.</li>
+					<li>Various documentation improvements.</li>
+				</ul>
+
+				<p>
+					Files Modified:
+				</p>
+
+				<ul class="p">
+					<li>includes/customization.php</li>
+					<li>includes/enqueue.php</li>
+					<li>includes/options.php</li>
+					<li>js/main.js</li>
+					<li>styles/dark/style.css</li>
+					<li>styles/light/style.css</li>
+					<li>loop-slider.php</li>
+					<li>single-risen_multimedia.php</li>
+					<li>style.css</li>
+				</ul>
+
+				<p>
+					Files Added:
+				</p>
+
+				<ul class="p">
+					<li>js/jquery.debouncedresize.min.js</li>
+				</ul>
+
+				<h2>v1.1.7 <span class="nonbold">(February 26, 2013)</span></h2>
+
+				<ul class="p">
+					<li>Enqueued jQuery Migrate plugin to ensure compatibility with jQuery 1.9 in upcoming WordPress 3.6.</li>
+					<li>Forced upscaling of images to assist with responsive design (prevents awkward browser upscaling when uploaded image is smaller than recommended size).</li>
+					<li>Made archives widget use $wpdb->prepare for custom query.</li>
+					<li>Updated URL for address to latitude/longitude tool.</li>
+					<li>Various documentation improvements.</li>
+				</ul>
+
+				<p>
+					Files Modified:
+				</p>
+
+				<ul class="p">
+					<li>includes/enqueue.php</li>
+					<li>includes/events.php</li>
+					<li>includes/locations.php</li>
+					<li>includes/media.php</li>
+					<li>includes/multimedia.php.php</li>
+					<li>languages/en_US.po</li>
+				</ul>
+
+
+
+				<h2>v1.1.6 <span class="nonbold">(December 10, 2012)</span></h2>
+
+				<ul class="p">
+					<li>Adjusted option field widths to work best with latest Options Framework.</li>
+					<li>Made search results page heading translatable.</li>
+					<li>Added clearfix for post content so image floats don't overflow.</li>
+					<li>Enabled lightbox support for Vimeo URL's using https.</li>
+					<li>Minor change to sample content images.</li>
+					<li>Improved implementation of flush_rewrite_rules() on theme activation.</li>
+					<li>Improved documentation (adjusted for WordPress 3.5 interface).</li>
+				</ul>
+
+				<p>
+					Files Modified:
+				</p>
+
+				<ul class="p">
+					<li>includes/admin.php</li>
+					<li>includes/options.php</li>
+					<li>js/jquery.prettyPhoto.modified.js</li>
+					<li>options.php</li>
+					<li>search.php</li>
+					<li>style.css</li>
+				</ul>
+
+
+				<h2>v1.1.5 <span class="nonbold">(November 19, 2012)</span></h2>
+
+				<ul class="p">
+					<li>Removed "Related Videos" from end of playback of YouTube video in gallery lightbox.</li>
+					<li>Set neutral coloring on lightbox videos from YouTube and Vimeo.</li>
+					<li>Made "no events" text in widget apply generally to upcoming and past events.</li>
+					<li>Replaced admin_print_styles with admin_enqueue_scripts in functions.php.</li>
+					<li>Corrected support for skype:username URL for social icons.</li>
+				</ul>
+
+				<p>
+					Files Modified:
+				</p>
+
+				<ul class="p">
+					<li>includes/customizations.php</li>
+					<li>includes/events.php</li>
+					<li>js/jquery.prettyPhoto.modified.js</li>
+					<li>functions.php</li>
+				</ul>
+
+
+				<h2>v1.1.4 <span class="nonbold">(November 12, 2012)</span></h2>
+
+				<ul class="p">
+					<li>Added search results for multiple post types</li>
+					<li>Added search sidebar</li>
+					<li>Corrected textdomain on Not Found page</li>
+					<li>Enabled skype://username for social icons (update: this is incorrect in fixed in next release)</li>
+					<li>Cleaned up map commenting</li>
+					<li>Improved documentation</li>
+				</ul>
+
+				<p>
+					Files Modified:
+				</p>
+
+				<ul class="p">
+					<li>includes/customizations.php</li>
+					<li>includes/maps.php</li>
+					<li>includes/sidebars.php</li>
+					<li>languages/en_US.po</li>
+					<li>styles/dark/style.css</li>
+					<li>styles/light/style.css</li>
+					<li>404.php</li>
+					<li>loop-blog.php</li>
+					<li>loop-event.php</li>
+					<li>loop-multimedia.php</li>
+					<li>loop-search.php</li>
+					<li>search.php</li>
+					<li>short.php</li>
+					<li>short-event.php</li>
+					<li>short-gallery.php</li>
+					<li>short-multimedia.php</li>
+					<li>short-staff.php</li>
+					<li>sidebar-search.php</li>
+					<li>style.css</li>
+				</ul>
+
+				<h2>v1.1.3 <span class="nonbold">(October 2, 2012)</span></h2>
+
+				<ul class="p">
+					<li>Added theme option for Google Web Font character sets.</li>
+					<li>Added help note visible only to admin on "Not Found" page.</li>
+					<li>Fixed issue with multimedia's "Play Video" button when there is no audio option.</li>
+					<li>Improved handling of multimedia file downloads.</li>
+					<li>Sample content (XML) improvements.</li>
+					<li>Localized sample content import notice shown after activation.</li>
+					<li>Improved theme update security (to prevent <a href="http://wpcandy.com/reports/developers-theme-commune-upgraded-to-different-commune" target="_blank">this</a>).</li>
+					<li>Enabled static front page support.</li>
+					<li>Corrected translation context for events widget "Upcoming" and "Past" options.</li>
+					<li>Provided more specific text for previous and next buttons (e.g. "Older Sermons" instead of "Older Items").</li>
+					<li>Documentation improvements.</li>
+				</ul>
+
+				<p>
+					Files Modified:
+				</p>
+
+				<ul class="p">
+					<li>includes/admin.php</li>
+					<li>includes/enqueue.php</li>
+					<li>includes/events.php</li>
+					<li>includes/multimedia.php</li>
+					<li>includes/navigation.php</li>
+					<li>includes/options.php</li>
+					<li>includes/posts.php</li>
+					<li>includes/widgets.php</li>
+					<li>js/admin.js</li>
+					<li>js/main.js</li>
+					<li>languages/en_US.po</li>
+					<li>404.php</li>
+					<li>archive.php</li>
+					<li>archive-risen_multimedia.php</li>
+					<li>author.php</li>
+					<li>category.php</li>
+					<li>files.php</li>
+					<li>functions.php</li>
+					<li>loop-multimedia.php</li>
+					<li>search.php</li>
+					<li>single.php</li>
+					<li>single-risen_event.php</li>
+					<li>single-risen_gallery.php</li>
+					<li>single-risen_multimedia.php</li>
+					<li>style-admin.css</li>
+					<li>tag.php</li>
+					<li>taxonomy-risen_gallery_category.php</li>
+					<li>taxonomy-risen_multimedia_category.php</li>
+					<li>taxonomy-risen_multimedia_speaker.php</li>
+					<li>taxonomy-risen_multimedia_tag.php</li>
+					<li>tpl-blog.php</li>
+					<li>tpl-events.php</li>
+					<li>tpl-events-past.php</li>
+					<li>tpl-gallery-all.php</li>
+					<li>tpl-gallery-images.php</li>
+					<li>tpl-gallery-videos.php</li>
+					<li>tpl-locations.php</li>
+					<li>tpl-multimedia.php</li>
+					<li>tpl-staff.php</li>
+				</ul>
+
+				<h2>v1.1.2 <span class="nonbold">(September 21, 2012)</span></h2>
+
+				<ul class="p">
+					<li>Improved handling of shortcode content filtering for better compatability with plugins.</li>
+					<li>Added function namespacing in several missing instances.</li>
+					<li>Updated default footer copyright content.</li>
+					<li>Fixed top-right tagline in old versons of Firefox</li>
+					<li>Improved various featured image size notes in admin area.</li>
+					<li>Updated jQuery Smooth Scroll to fix <a href="https://github.com/kswedberg/jquery-smooth-scroll/commit/6deb42c13d8623fb14051c7a422da7aa0d17b816" target="_blank">issue</a> with Safari 6 on Mountain Lion and iOS.</li>
+					<li>Improved dropdown menu activation.</li>
+					<li>Enabled superscript (&lt;sup&gt; tag).</li>
+					<li>Fixed Google Maps issue with older versions of Android browser.</li>
+				</ul>
+
+				<p>
+					Files Modified:
+				</p>
+
+				<ul class="p">
+					<li>js/jquery.smooth-scroll.min.js</li>
+					<li>includes/enqueue.php</li>
+					<li>includes/gallery.php</li>
+					<li>includes/home-boxes.php</li>
+					<li>functions.php</li>
+					<li>header.php</li>
+					<li>main.js</li>
+					<li>shortcodes.php</li>
+					<li>style.css</li>
+				</ul>
+
+				<h2>v1.1.1 <span class="nonbold">(August 20, 2012)</span></h2>
+
+				<ul class="p">
+					<li>Added "No left padding" option for logo upload.</li>
+					<li>Fixed issue with video or audio icon showing beneath player when only one media type available.</li>
+					<li>Prefixed all icon-* classes to prevent conflict with All-in-One Event Calendar plugin.</li>
+					<li>Added size note below Staff feature image.</li>
+					<li>Documentation improvements.</li>
+				</ul>
+
+				<p>
+					Files Modified:
+				</p>
+
+				<ul class="p">
+					<li>styles/dark.css</li>
+					<li>styles/light.css</li>
+					<li>includes/customization.php</li>
+					<li>includes/multimedia.php</li>
+					<li>includes/options.php</li>
+					<li>includes/shortcodes.php</li>
+					<li>includes/staff.php</li>
+					<li>functions.php</li>
+					<li>header.php</li>
+					<li>loop-blog.php</li>
+					<li>loop-events.php</li>
+					<li>loop-multimedia.php</li>
+					<li>main.js</li>
+					<li>single.php</li>
+					<li>single-risen_event.php</li>
+					<li>single-risen_gallery.php</li>
+					<li>single-risen_multimedia.php</li>
+					<li>style.css</li>
+				</ul>
+
+				<h2>v1.1.0 <span class="nonbold">(August 14, 2012)</span></h2>
+
+				<ul class="p">
+					<li>Split <a href="#events" data-rel="openSection">Events</a> into two templates: <i>Upcoming Events</i> (improved sorting) and <i>Past Events</i>.</li>
+					<li>Made events widget capable of showing upcoming or past events.</li>
+					<li>Added new <a href="#shortcodes" data-rel="openSection">Shortcodes</a> (buttons, columns, tabs, accordion, quote and boxes).</li>
+					<li>Made <a href="http://codex.wordpress.org/Embeds" target="_blank">WordPress Embeds</a> (videos) responsive.</li>
+					<li>Logo is now linked to homepage.</li>
+					<li>Added Tumblr and Pinterest social icons.</li>
+					<li>Added option for generic address icon in footer for non-church websites.</li>
+					<li>Homepage bottom widget column left or right expands to full width if only one used.</li>
+					<li>Improved margin of headings in page/post content.</li>
+					<li>Fixed issue with PDF not showing on single multimedia post when no other formats provided.</li>
+					<li>Fixed RSS widget heading when used on homepage.</li>
+					<li>Improved padding of text in widgets and labels.</li>
+					<li>Improved translatability of "# days ago" text string.</li>
+					<li>Improved rewrite rule flushing on theme activation.</li>
+					<li>Documentation expansion and improvements.</li>
+				</ul>
+
+				<p>
+					Files Modified:
+				</p>
+
+				<ul class="p">
+					<li>js/main.js</li>
+					<li>css/style.js</li>
+					<li>styles/light/style.css</li>
+					<li>styles/light/image/footer-icon-sprites.png</li>
+					<li>styles/dark/style.css</li>
+					<li>styles/dark/image/footer-icon-sprites.png</li>
+					<li>includes/admin.php</li>
+					<li>includes/contact-form.php</li>
+					<li>includes/customization.php</li>
+					<li>includes/events.php</li>
+					<li>includes/loop-events.php</li>
+					<li>includes/maps.php</li>
+					<li>includes/media.php</li>
+					<li>includes/options.php</li>
+					<li>includes/posts.php</li>
+					<li>includes/shortcodes.php</li>
+					<li>languages/en_US.po</li>
+					<li>contact-form.php</li>
+					<li>footer.php</li>
+					<li>functions.php</li>
+					<li>loop-events.php</li>
+					<li>index.php</li>
+					<li>single-risen_multimedia.php</li>
+					<li>single-risen_event.php</li>
+					<li>tpl-events.php</li>
+				</ul>
+
+				<p>
+					Files Added:
+				</p>
+
+				<ul class="p">
+					<li>styles/light/images/accordion-arrow-down.png</li>
+					<li>styles/light/images/accordion-arrow-right.png</li>
+					<li>styles/light/images/icon-alert.png</li>
+					<li>styles/light/images/icon-check.png</li>
+					<li>styles/light/images/icon-down.png</li>
+					<li>styles/light/images/icon-info.png</li>
+					<li>styles/light/images/icon-x.png</li>
+					<li>styles/dark/images/accordion-arrow-down.png</li>
+					<li>styles/dark/images/accordion-arrow-right.png</li>
+					<li>styles/dark/images/icon-alert.png</li>
+					<li>styles/dark/images/icon-check.png</li>
+					<li>styles/dark/images/icon-down.png</li>
+					<li>styles/dark/images/icon-info.png</li>
+					<li>styles/dark/images/icon-x.png</li>
+					<li>tpl-events-past.php</li>
+				</ul>
+
+				<h2>v1.0.4 <span class="nonbold">(July 19, 2012)</span></h2>
+
+				<ul class="p">
+					<li>Fixed JavaScript error in Firefox 8 relating to selectNav.js.</li>
+					<li>Made widget classes pluggable via child theme.</li>
+					<li>Documentation improvements.</li>
+				</ul>
+
+				<p>
+					Files Modified:
+						js/main.js,
+						includes/widgets.php,
+						includes/blog.php,
+						includes/events.php,
+						includes/gallery.php,
+						includes/locations.php,
+						includes/multimedia.php,
+						includes/staff.php
+				</p>
+
+				<h2>v1.0.3 <span class="nonbold">(July 12, 2012)</span></h2>
+
+				<ul class="p">
+					<li>Added 12 videos and made improvements to documentation.</li>
+					<li>Fixed issue with slider when using only one slide that has a video.</li>
+					<li>Made improvements to notes in Theme Options.</li>
+				</ul>
+
+				<p>
+					Files Modified:
+						js/main.js,
+						includes/options.php
+				</p>
+
+				<h2>v1.0.2 <span class="nonbold">(July 9, 2012)</span></h2>
+
+				<ul class="p">
+					<li>Corrected "Both DOS and UNIX style line endings were found..." Theme Check warning.</li>
+				</ul>
+
+				<p>
+					Files Modified:
+						includes/options.php,
+						includes/maps.php
+				</p>
+
+				<h2>v1.0.1 <span class="nonbold">(July 9, 2012)</span></h2>
+
+				<ul class="p">
+					<li>Improved spacing on homepage widgets</li>
+				</ul>
+
+				<p>
+					Files Modified:
+						style.css
+				</p>
+
+				<h2>v1.0 <span class="nonbold">(July 5, 2012)</span></h2>
+
+				<ul class="p-top">
+					<li>First release</li>
+				</ul>
+
+			</div>
+
+		</section>
+
+	</div>
+
+	<footer id="footer">
+
+		<p>
+
+			<b>Thank you again for choosing my work</b>.
+			And remember, make a <a href="#support" data-rel="openSection">Support</a> request if you need help.
+			Also keep an eye on <a href="http://churchthemes.com">churchthemes.com</a> for new theme releases.
+
+		</p>
+
+	</footer>
+
+</div>
+
+</body>
+</html>
