@@ -1,0 +1,3531 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Risen 2.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-02-16 12:19-0600\n"
+"PO-Revision-Date: 2015-02-16 12:19-0600\n"
+"Last-Translator: churchthemes.com\n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ risen
+#: 404.php:19 includes/navigation.php:296
+msgid "Not Found"
+msgstr ""
+
+# @ risen
+#: 404.php:25
+msgid "The page or file you tried to access was not found."
+msgstr ""
+
+# @ risen
+#: 404.php:34
+msgid "Help for Admin"
+msgstr ""
+
+# @ risen
+#: 404.php:38
+msgid "You are seeing this message because you are logged in as an admin user."
+msgstr ""
+
+# @ risen
+#: 404.php:42
+#, php-format
+msgid ""
+"If this <i>should</i> be a valid URL, try re-saving your <a href=\"%s\" "
+"target=\"_blank\">Permalinks</a>. Make sure \"Default\" is not used and save "
+"even if making no changes."
+msgstr ""
+
+# @ risen
+#: archive-risen_multimedia.php:50 archive.php:28
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+# @ risen
+#: archive-risen_multimedia.php:52 archive.php:30
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+# @ risen
+#: archive-risen_multimedia.php:71 taxonomy-risen_multimedia_category.php:45
+#: taxonomy-risen_multimedia_speaker.php:45
+#: taxonomy-risen_multimedia_tag.php:45 tpl-multimedia.php:40
+#, php-format
+msgctxt "multimedia plural"
+msgid "<span>&larr;</span> Newer %s"
+msgstr ""
+
+# @ risen
+#: archive-risen_multimedia.php:71 taxonomy-risen_multimedia_category.php:45
+#: taxonomy-risen_multimedia_speaker.php:45
+#: taxonomy-risen_multimedia_tag.php:45 tpl-multimedia.php:40
+#, php-format
+msgctxt "multimedia plural"
+msgid "Older %s <span>&rarr;</span>"
+msgstr ""
+
+# @ risen
+#: archive-risen_multimedia.php:74 taxonomy-risen_gallery_category.php:46
+#: taxonomy-risen_multimedia_category.php:48
+#: taxonomy-risen_multimedia_speaker.php:48
+#: taxonomy-risen_multimedia_tag.php:48 tpl-gallery-all.php:43
+#: tpl-gallery-images.php:50 tpl-gallery-videos.php:50 tpl-multimedia.php:43
+msgid "Sorry, there are no items to show."
+msgstr ""
+
+# @ risen
+#: archive.php:45 author.php:55 category.php:40 tag.php:33 tpl-blog.php:39
+msgid "<span>&larr;</span> Newer Posts"
+msgstr ""
+
+# @ risen
+#: archive.php:45 author.php:55 category.php:40 tag.php:33 tpl-blog.php:39
+msgid "Older Posts <span>&rarr;</span>"
+msgstr ""
+
+# @ risen
+#: archive.php:48
+msgid "Sorry, there are no posts for this date."
+msgstr ""
+
+# @ risen
+#: attachment.php:30
+#, php-format
+msgid "Uploaded %s"
+msgstr ""
+
+# @ risen
+#: attachment.php:75
+#, php-format
+msgid "Download %s"
+msgstr ""
+
+# @ risen
+#: attachment.php:90
+msgid "Edit Attachment"
+msgstr ""
+
+# @ risen
+#: category.php:43
+msgid "Sorry, there are no posts in this category."
+msgstr ""
+
+# @ risen
+#: comments.php:23
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+# @ risen
+#: comments.php:34
+#, php-format
+msgid "One Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ risen
+#: comments.php:62
+msgid "<span>&larr;</span> Newer Comments"
+msgstr ""
+
+# @ risen
+#: comments.php:63
+msgid "Older Comments <span>&rarr;</span>"
+msgstr ""
+
+# @ risen
+#: comments.php:74
+msgid "Add a Comment"
+msgstr ""
+
+# @ risen
+#: comments.php:75
+#, php-format
+msgid "Add a Reply to %s"
+msgstr ""
+
+# @ risen
+#: comments.php:76
+msgid "Cancel"
+msgstr ""
+
+# @ risen
+#: comments.php:77
+msgid "Add Comment"
+msgstr ""
+
+# @ risen
+#: comments.php:83
+msgid "Commenting has been turned off for this post."
+msgstr ""
+
+# @ risen
+#: contact-form.php:17
+msgid "<p><b>Error:</b> Provide at least one contact in Theme Options</p>"
+msgstr ""
+
+# @ risen
+#: contact-form.php:30
+msgctxt "contact form"
+msgid "To"
+msgstr ""
+
+# @ risen
+#: contact-form.php:42
+msgctxt "contact form"
+msgid "Name"
+msgstr ""
+
+# @ risen
+#: contact-form.php:47
+msgctxt "contact form"
+msgid "E-mail"
+msgstr ""
+
+# @ risen
+#: contact-form.php:62
+msgctxt "contact form"
+msgid "Send Message"
+msgstr ""
+
+# @ risen
+#: header-blog-archive.php:22
+msgctxt "blog header"
+msgid "Blog"
+msgstr ""
+
+# @ risen
+#: includes/admin.php:193
+#, php-format
+msgid ""
+"<div class=\"updated\"><p>You can <a href=\"%1$s\">Import</a> <b>sample-"
+"content.xml</b> for a better starting point (<a href=\"%2$s\" target=\"_blank"
+"\">Instructions</a>).</p></div>"
+msgstr ""
+
+# @ risen
+#: includes/admin.php:272
+msgid "The quick brown fox jumps over the lazy dog"
+msgstr ""
+
+# @ risen
+#: includes/admin.php:273
+msgid "Use This File"
+msgstr ""
+
+# @ risen
+#: includes/admin.php:294
+msgctxt "admin menu"
+msgid "Blog Posts"
+msgstr ""
+
+# @ risen
+#: includes/admin.php:299
+msgctxt "admin menu"
+msgid "Media Files"
+msgstr ""
+
+# @ risen
+#: includes/blog.php:93
+msgctxt "posts widget"
+msgid "Recent Posts (Enhanced)"
+msgstr ""
+
+# @ risen
+#: includes/blog.php:95
+msgctxt "posts widget"
+msgid "Shows recent blog posts with enhanced display options."
+msgstr ""
+
+# @ risen
+#: includes/blog.php:106
+msgctxt "posts widget"
+msgid "Recent Posts"
+msgstr ""
+
+# @ risen
+#: includes/blog.php:118 includes/events.php:958 includes/gallery.php:428
+#: includes/locations.php:435 includes/multimedia.php:612
+#: includes/staff.php:357 includes/widgets.php:111 includes/widgets.php:297
+msgid "Title:"
+msgstr ""
+
+# @ risen
+#: includes/blog.php:124 includes/events.php:964 includes/locations.php:441
+#: includes/multimedia.php:618 includes/staff.php:363
+msgid "Number of items to show:"
+msgstr ""
+
+# @ risen
+#: includes/blog.php:133
+msgid "Show author"
+msgstr ""
+
+# @ risen
+#: includes/blog.php:141 includes/events.php:979 includes/multimedia.php:635
+msgid "Show date"
+msgstr ""
+
+# @ risen
+#: includes/blog.php:149 includes/events.php:995 includes/multimedia.php:651
+msgid "Show excerpt"
+msgstr ""
+
+# @ risen
+#: includes/blog.php:157 includes/events.php:1003 includes/multimedia.php:659
+msgid "Show image (homepage only)"
+msgstr ""
+
+# @ risen
+#: includes/blog.php:225
+#, php-format
+msgctxt "blog widget author"
+msgid "by <a href=\"%1$s\">%2$s</a>"
+msgstr ""
+
+# @ risen
+#: includes/comments.php:53
+msgid "Reply"
+msgstr ""
+
+# @ risen
+#: includes/comments.php:54
+msgid "Log in to Reply"
+msgstr ""
+
+# @ risen
+#: includes/comments.php:61 includes/home-boxes.php:245
+#: includes/slider.php:266
+msgid "Edit"
+msgstr ""
+
+# @ risen
+#: includes/comments.php:70
+msgid "Trackback"
+msgstr ""
+
+# @ risen
+#: includes/comments.php:72
+msgid "Pingback"
+msgstr ""
+
+# @ risen
+#: includes/comments.php:76
+msgid "Author"
+msgstr ""
+
+# @ risen
+#: includes/comments.php:98
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+# @ risen
+#: includes/contact-form.php:111
+msgid "<b>To</b> cannot be left blank"
+msgstr ""
+
+# @ risen
+#: includes/contact-form.php:113 includes/contact-form.php:127
+msgid "<b>To</b> is invalid"
+msgstr ""
+
+# @ risen
+#: includes/contact-form.php:134
+msgid "<b>Name</b> cannot be left blank"
+msgstr ""
+
+# @ risen
+#: includes/contact-form.php:136
+msgid "<b>Name</b> is invalid"
+msgstr ""
+
+# @ risen
+#: includes/contact-form.php:141
+msgid "<b>E-mail</b> cannot be left blank"
+msgstr ""
+
+# @ risen
+#: includes/contact-form.php:143
+msgid "<b>E-mail</b> is invalid"
+msgstr ""
+
+# @ risen
+#: includes/contact-form.php:148
+msgid "<b>Message</b> cannot be left blank"
+msgstr ""
+
+# @ risen
+#: includes/contact-form.php:167
+msgctxt "recaptcha"
+msgid "<b>reCAPTCHA</b> is incorrect"
+msgstr ""
+
+# @ risen
+#: includes/contact-form.php:194
+#, php-format
+msgid "Contact form message from %s"
+msgstr ""
+
+# @ risen
+#: includes/contact-form.php:196
+#, php-format
+msgid "%1$s (%2$s) sent the following message"
+msgstr ""
+
+# @ risen
+#: includes/contact-form.php:226
+msgid "Your message has been sent."
+msgstr ""
+
+# @ risen
+#: includes/customizations.php:1907
+msgctxt "social icons list"
+msgid ", "
+msgstr ""
+
+# @ risen
+#: includes/customizations.php:1910
+msgctxt "social icons list"
+msgid " or "
+msgstr ""
+
+# @ risen
+#: includes/customizations.php:1912
+msgctxt "social icons list"
+msgid " and "
+msgstr ""
+
+# @ risen
+#: includes/enqueue.php:144
+msgid ""
+"You are using an outdated version of Internet Explorer. Please upgrade your "
+"browser to use this site."
+msgstr ""
+
+# @ risen
+#: includes/enqueue.php:146
+msgctxt "menu dropdown"
+msgid "Menu"
+msgstr ""
+
+# @ risen
+#: includes/enqueue.php:155 includes/enqueue.php:156
+msgid "Required"
+msgstr ""
+
+# @ risen
+#: includes/enqueue.php:157
+msgid "Invalid Email"
+msgstr ""
+
+# @ risen
+#: includes/enqueue.php:158
+msgid "Invalid URL"
+msgstr ""
+
+# @ risen
+#: includes/enqueue.php:159
+msgid "Comment Required"
+msgstr ""
+
+# @ risen
+#: includes/enqueue.php:160
+msgctxt "lightbox"
+msgid "Prev"
+msgstr ""
+
+# @ risen
+#: includes/enqueue.php:161
+msgctxt "lightbox"
+msgid "Next"
+msgstr ""
+
+# @ risen
+#: includes/enqueue.php:162
+msgctxt "lightbox"
+msgid "Expand"
+msgstr ""
+
+# @ risen
+#: includes/enqueue.php:163
+msgctxt "lightbox"
+msgid "Close"
+msgstr ""
+
+# @ risen
+#: includes/events.php:18
+msgctxt "post type general name"
+msgid "Events"
+msgstr ""
+
+# @ risen
+#: includes/events.php:19
+msgctxt "post type singular name"
+msgid "Event"
+msgstr ""
+
+# @ risen
+#: includes/events.php:20
+msgctxt "event"
+msgid "Add New"
+msgstr ""
+
+# @ risen
+#: includes/events.php:21
+msgid "Add Event"
+msgstr ""
+
+# @ risen
+#: includes/events.php:22
+msgid "Edit Event"
+msgstr ""
+
+# @ risen
+#: includes/events.php:23
+msgid "New Event"
+msgstr ""
+
+# @ risen
+#: includes/events.php:24
+msgid "All Events"
+msgstr ""
+
+# @ risen
+#: includes/events.php:25
+msgid "View Event"
+msgstr ""
+
+# @ risen
+#: includes/events.php:26
+msgid "Search Events"
+msgstr ""
+
+# @ risen
+#: includes/events.php:27
+msgid "No events found"
+msgstr ""
+
+# @ risen
+#: includes/events.php:28
+msgid "No events found in Trash"
+msgstr ""
+
+# @ risen
+#: includes/events.php:83
+msgid "Date & Time"
+msgstr ""
+
+# @ risen
+#: includes/events.php:93
+msgid "Location"
+msgstr ""
+
+# @ risen
+#: includes/events.php:214
+msgid "Start Date"
+msgstr ""
+
+# @ risen
+#: includes/events.php:219 includes/events.php:282
+msgid ""
+"Date must be in YYYY-MM-DD format such as \"2014-12-30\" for December 30, "
+"2014."
+msgstr ""
+
+# @ risen
+#: includes/events.php:227
+msgid "End Date"
+msgstr ""
+
+# @ risen
+#: includes/events.php:232
+msgid "Provide an end date if this is a multi-day event."
+msgstr ""
+
+# @ risen
+#: includes/events.php:240
+msgid "Time <span>(Optional)</span>"
+msgstr ""
+
+# @ risen
+#: includes/events.php:245
+msgid "Optionally provide a time such as \"8:00 am &ndash; 2:00 pm\""
+msgstr ""
+
+# @ risen
+#: includes/events.php:256
+msgid "Recurrence <span>(Optional)</span>"
+msgstr ""
+
+# @ risen
+#: includes/events.php:265
+msgid ""
+"Start and end dates will automatically move forward after the event ends."
+msgstr ""
+
+# @ risen
+#: includes/events.php:277
+msgid "Recur Until <span>(Optional)</span>"
+msgstr ""
+
+# @ risen
+#: includes/events.php:307
+msgid "Venue <span>(Optional)</span>"
+msgstr ""
+
+# @ risen
+#: includes/events.php:312
+msgid ""
+"You can provide a building name, room number or other location name to help "
+"people find the event."
+msgstr ""
+
+# @ risen
+#: includes/events.php:323 includes/locations.php:130
+msgid "Address <span>(Optional)</span>"
+msgstr ""
+
+# @ risen
+#: includes/events.php:328
+msgid ""
+"You can enter an address if it is necessary for people to find this event."
+msgstr ""
+
+# @ risen
+#: includes/events.php:335
+msgctxt "events meta box"
+msgid "Google Map <span>(Optional)</span>"
+msgstr ""
+
+# @ risen
+#: includes/events.php:340
+msgid "Provide the details below if you want to show a map for this event."
+msgstr ""
+
+# @ risen
+#: includes/events.php:346 includes/locations.php:216
+msgid "Latitude"
+msgstr ""
+
+# @ risen
+#: includes/events.php:351 includes/locations.php:221
+msgid ""
+"You can <a href=\"http://churchthemes.com/get-latitude-longitude\" target="
+"\"_blank\">use this</a> to convert an address into coordinates."
+msgstr ""
+
+# @ risen
+#: includes/events.php:359 includes/locations.php:229
+msgid "Longitude"
+msgstr ""
+
+# @ risen
+#: includes/events.php:375 includes/locations.php:245
+msgctxt "map"
+msgid "Type"
+msgstr ""
+
+# @ risen
+#: includes/events.php:382 includes/locations.php:252
+msgid ""
+"You can show a road map, satellite imagery, a combination of both or terrain."
+msgstr ""
+
+# @ risen
+#: includes/events.php:396 includes/locations.php:266
+msgid "Zoom Level"
+msgstr ""
+
+# @ risen
+#: includes/events.php:403 includes/locations.php:273
+msgid ""
+"A lower number is more zoomed out while a higher number is more zoomed in."
+msgstr ""
+
+# @ risen
+#: includes/events.php:445
+msgctxt "events admin column"
+msgid "When"
+msgstr ""
+
+# @ risen
+#: includes/events.php:446
+msgctxt "events admin column"
+msgid "Where"
+msgstr ""
+
+# @ risen
+#: includes/events.php:483
+msgctxt "date range separator"
+msgid " &ndash; "
+msgstr ""
+
+# @ risen
+#: includes/events.php:496
+msgid "Recurs Weekly"
+msgstr ""
+
+# @ risen
+#: includes/events.php:499
+msgid "Recurs Monthly"
+msgstr ""
+
+# @ risen
+#: includes/events.php:502
+msgid "Recurs Yearly"
+msgstr ""
+
+# @ risen
+#: includes/events.php:905
+msgctxt "event recurrence"
+msgid "None"
+msgstr ""
+
+# @ risen
+#: includes/events.php:906
+msgctxt "event recurrence"
+msgid "Weekly"
+msgstr ""
+
+# @ risen
+#: includes/events.php:907
+msgctxt "event recurrence"
+msgid "Monthly"
+msgstr ""
+
+# @ risen
+#: includes/events.php:908
+msgctxt "event recurrence"
+msgid "Yearly"
+msgstr ""
+
+# @ risen
+#: includes/events.php:932 includes/events.php:945
+msgctxt "events widget"
+msgid "Events"
+msgstr ""
+
+# @ risen
+#: includes/events.php:934
+msgctxt "events widget"
+msgid "Shows upcoming or past events."
+msgstr ""
+
+# @ risen
+#: includes/events.php:970
+msgctxt "events widget"
+msgid "Upcoming"
+msgstr ""
+
+# @ risen
+#: includes/events.php:971
+msgctxt "events widget"
+msgid "Past"
+msgstr ""
+
+# @ risen
+#: includes/events.php:987
+msgid "Show time"
+msgstr ""
+
+# @ risen
+#: includes/events.php:1112 short-event.php:30 single-risen_event.php:58
+#, php-format
+msgid "%s &ndash; %s"
+msgstr ""
+
+# @ risen
+#: includes/events.php:1152
+msgid "There are no events to show."
+msgstr ""
+
+# @ risen
+#: includes/gallery.php:19
+msgctxt "post type general name"
+msgid "Gallery"
+msgstr ""
+
+# @ risen
+#: includes/gallery.php:20
+msgctxt "post type singular name"
+msgid "Gallery Item"
+msgstr ""
+
+# @ risen
+#: includes/gallery.php:21
+msgctxt "gallery"
+msgid "Add Photo or Video"
+msgstr ""
+
+# @ risen
+#: includes/gallery.php:22
+msgid "Add Photo or Video"
+msgstr ""
+
+# @ risen
+#: includes/gallery.php:23
+msgid "Edit Gallery Item"
+msgstr ""
+
+# @ risen
+#: includes/gallery.php:24
+msgid "New Gallery Item"
+msgstr ""
+
+# @ risen
+#: includes/gallery.php:25
+msgctxt "gallery"
+msgid "All Photos & Videos"
+msgstr ""
+
+# @ risen
+#: includes/gallery.php:26
+msgid "View Item"
+msgstr ""
+
+# @ risen
+#: includes/gallery.php:27
+msgid "Search Gallery"
+msgstr ""
+
+# @ risen
+#: includes/gallery.php:28
+msgid "No gallery photos or videos found"
+msgstr ""
+
+# @ risen
+#: includes/gallery.php:29
+msgid "No gallery photos or videos found in Trash"
+msgstr ""
+
+# @ risen
+#: includes/gallery.php:56
+msgctxt "taxonomy general name"
+msgid "Gallery Categories"
+msgstr ""
+
+# @ risen
+#: includes/gallery.php:57
+msgctxt "taxonomy singular name"
+msgid "Gallery Category"
+msgstr ""
+
+# @ risen
+#: includes/gallery.php:58
+msgctxt "gallery"
+msgid "Search Categories"
+msgstr ""
+
+# @ risen
+#: includes/gallery.php:59
+msgctxt "gallery"
+msgid "Popular Categories"
+msgstr ""
+
+# @ risen
+#: includes/gallery.php:60
+msgctxt "gallery"
+msgid "All Categories"
+msgstr ""
+
+# @ risen
+#: includes/gallery.php:63
+msgctxt "gallery"
+msgid "Edit Category"
+msgstr ""
+
+# @ risen
+#: includes/gallery.php:64
+msgctxt "gallery"
+msgid "Update Category"
+msgstr ""
+
+# @ risen
+#: includes/gallery.php:65
+msgctxt "gallery"
+msgid "Add Category"
+msgstr ""
+
+# @ risen
+#: includes/gallery.php:66
+msgctxt "gallery"
+msgid "New Category"
+msgstr ""
+
+# @ risen
+#: includes/gallery.php:67
+msgctxt "gallery"
+msgid "Separate categories with commas"
+msgstr ""
+
+# @ risen
+#: includes/gallery.php:68
+msgctxt "gallery"
+msgid "Add or remove categories"
+msgstr ""
+
+# @ risen
+#: includes/gallery.php:69
+msgctxt "gallery"
+msgid "Choose from the most used categories"
+msgstr ""
+
+# @ risen
+#: includes/gallery.php:70
+msgctxt "gallery menu name"
+msgid "Categories"
+msgstr ""
+
+# @ risen
+#: includes/gallery.php:123 includes/home-boxes.php:165
+#: includes/slider.php:185
+msgid "Image (Required)"
+msgstr ""
+
+# @ risen
+#: includes/gallery.php:128
+msgctxt "gallery metabox"
+msgid "Video (Optional)"
+msgstr ""
+
+# @ risen
+#: includes/gallery.php:176
+msgid "Video URL"
+msgstr ""
+
+# @ risen
+#: includes/gallery.php:181 includes/multimedia.php:254
+msgid "Enter a YouTube or Vimeo video page URL. Examples:"
+msgstr ""
+
+# @ risen
+#: includes/gallery.php:187
+msgid ""
+"<b>Note:</b> You must provide a thumbnail image to represent this video."
+msgstr ""
+
+# @ risen
+#: includes/gallery.php:225 includes/staff.php:203
+msgid "Thumbnail"
+msgstr ""
+
+# @ risen
+#: includes/gallery.php:231
+msgid "Type"
+msgstr ""
+
+# @ risen
+#: includes/gallery.php:232 includes/multimedia.php:323
+msgid "Categories"
+msgstr ""
+
+# @ risen
+#: includes/gallery.php:403
+msgctxt "gallery widget"
+msgid "Recent Gallery Items"
+msgstr ""
+
+# @ risen
+#: includes/gallery.php:405
+msgctxt "gallery widget"
+msgid "Shows recent gallery images and videos."
+msgstr ""
+
+# @ risen
+#: includes/gallery.php:416
+msgctxt "gallery widget"
+msgid "Gallery"
+msgstr ""
+
+# @ risen
+#: includes/gallery.php:434
+msgid "Number of items per row:"
+msgstr ""
+
+# @ risen
+#: includes/gallery.php:453
+msgid "Number of rows:"
+msgstr ""
+
+# @ risen
+#: includes/gallery.php:459
+msgid "Category:"
+msgstr ""
+
+# @ risen
+#: includes/gallery.php:479
+msgid "Show images"
+msgstr ""
+
+# @ risen
+#: includes/gallery.php:487
+msgid "Show videos"
+msgstr ""
+
+# @ risen
+#: includes/gallery.php:595
+msgid ""
+"<b>Widget Notice:</b> More than 4 items per row will only fit on the "
+"homepage."
+msgstr ""
+
+# @ risen
+#: includes/gallery.php:600
+msgid "No gallery items found."
+msgstr ""
+
+# @ risen
+#: includes/helper-functions.php:233
+msgctxt "shortened text"
+msgid "&hellip;"
+msgstr ""
+
+# @ risen
+#: includes/home-boxes.php:19
+msgctxt "post type general name"
+msgid "Home Boxes"
+msgstr ""
+
+# @ risen
+#: includes/home-boxes.php:20
+msgctxt "post type singular name"
+msgid "Home Box"
+msgstr ""
+
+# @ risen
+#: includes/home-boxes.php:21
+msgctxt "home box"
+msgid "Add New"
+msgstr ""
+
+# @ risen
+#: includes/home-boxes.php:22
+msgid "Add Home Box"
+msgstr ""
+
+# @ risen
+#: includes/home-boxes.php:23
+msgid "Edit Home Box"
+msgstr ""
+
+# @ risen
+#: includes/home-boxes.php:24
+msgid "New Home Box"
+msgstr ""
+
+# @ risen
+#: includes/home-boxes.php:25
+msgid "All Boxes"
+msgstr ""
+
+# @ risen
+#: includes/home-boxes.php:26
+msgid "View Home Box"
+msgstr ""
+
+# @ risen
+#: includes/home-boxes.php:27
+msgid "Search Home Boxes"
+msgstr ""
+
+# @ risen
+#: includes/home-boxes.php:28
+msgid "No image boxes found"
+msgstr ""
+
+# @ risen
+#: includes/home-boxes.php:29
+msgid "No image boxes found in Trash"
+msgstr ""
+
+# @ risen
+#: includes/home-boxes.php:30
+msgid "Home Boxes"
+msgstr ""
+
+# @ risen
+#: includes/home-boxes.php:83
+msgid "Box Details"
+msgstr ""
+
+# @ risen
+#: includes/home-boxes.php:128 includes/home-boxes.php:202
+msgctxt "home box"
+msgid "Title"
+msgstr ""
+
+# @ risen
+#: includes/home-boxes.php:133
+msgid "This will appear on top of the image."
+msgstr ""
+
+# @ risen
+#: includes/home-boxes.php:141
+msgctxt "home box"
+msgid "Click URL"
+msgstr ""
+
+# @ risen
+#: includes/home-boxes.php:146
+msgid "Enter a URL to go to upon clicking the image box."
+msgstr ""
+
+# @ risen
+#: includes/home-boxes.php:201 includes/slider.php:221
+msgid "Image"
+msgstr ""
+
+# @ risen
+#: includes/home-boxes.php:203 includes/locations.php:296
+#: includes/slider.php:224 includes/staff.php:210
+msgctxt "sorting"
+msgid "Order"
+msgstr ""
+
+# @ risen
+#: includes/home-boxes.php:240
+msgid "No Title"
+msgstr ""
+
+#: includes/home-boxes.php:245 includes/slider.php:266
+msgid "Trash"
+msgstr ""
+
+# @ risen
+#: includes/locations.php:18
+msgctxt "post type general name"
+msgid "Locations"
+msgstr ""
+
+# @ risen
+#: includes/locations.php:19
+msgctxt "post type singular name"
+msgid "Location"
+msgstr ""
+
+# @ risen
+#: includes/locations.php:20
+msgctxt "location"
+msgid "Add New"
+msgstr ""
+
+# @ risen
+#: includes/locations.php:21
+msgid "Add Location"
+msgstr ""
+
+# @ risen
+#: includes/locations.php:22
+msgid "Edit Location"
+msgstr ""
+
+# @ risen
+#: includes/locations.php:23
+msgid "New Location"
+msgstr ""
+
+# @ risen
+#: includes/locations.php:24
+msgid "All Locations"
+msgstr ""
+
+# @ risen
+#: includes/locations.php:25
+msgid "View Locations"
+msgstr ""
+
+# @ risen
+#: includes/locations.php:26
+msgid "Search Locations"
+msgstr ""
+
+# @ risen
+#: includes/locations.php:27
+msgid "No location found"
+msgstr ""
+
+# @ risen
+#: includes/locations.php:28
+msgid "No location found in Trash"
+msgstr ""
+
+# @ risen
+#: includes/locations.php:79
+msgid "Location Details"
+msgstr ""
+
+# @ risen
+#: includes/locations.php:142
+msgid "Show \"Get Directions\" Button"
+msgstr ""
+
+# @ risen
+#: includes/locations.php:145
+msgid ""
+"Enter an address that works with <a href=\"http://maps.google.com/\" target="
+"\"_blank\">Google Maps</a> in order for the directions button to work."
+msgstr ""
+
+# @ risen
+#: includes/locations.php:156
+msgid "Phone Number(s) <span>(Optional)</span>"
+msgstr ""
+
+# @ risen
+#: includes/locations.php:165
+msgid "E-mail Button <span>(Optional)</span>"
+msgstr ""
+
+# @ risen
+#: includes/locations.php:174 includes/staff.php:141
+msgid "- Select a Contact -"
+msgstr ""
+
+# @ risen
+#: includes/locations.php:187 includes/staff.php:154
+msgid "- Contact Form Page -"
+msgstr ""
+
+# @ risen
+#: includes/locations.php:197
+msgid ""
+"Choose a contact from Theme Options and a page that you have used the "
+"[contact_form] shortcode on if you want to show an e-mail button for this "
+"location."
+msgstr ""
+
+# @ risen
+#: includes/locations.php:205
+msgctxt "locations meta box"
+msgid "Google Map <span>(Optional)</span>"
+msgstr ""
+
+# @ risen
+#: includes/locations.php:210
+msgid "Provide the details below if you want to show a map for this location."
+msgstr ""
+
+# @ risen
+#: includes/locations.php:295
+msgctxt "location admin column"
+msgid "Address"
+msgstr ""
+
+# @ risen
+#: includes/locations.php:301
+msgctxt "location admin column"
+msgid "Location"
+msgstr ""
+
+# @ risen
+#: includes/locations.php:411 includes/locations.php:424
+msgctxt "locations widget"
+msgid "Locations"
+msgstr ""
+
+# @ risen
+#: includes/locations.php:413
+msgctxt "locations widget"
+msgid "This widget lists locations."
+msgstr ""
+
+# @ risen
+#: includes/locations.php:450
+msgid "Show map"
+msgstr ""
+
+# @ risen
+#: includes/locations.php:458
+msgid "Show address"
+msgstr ""
+
+# @ risen
+#: includes/locations.php:466
+msgid "Show phone number"
+msgstr ""
+
+# @ risen
+#: includes/maps.php:42
+msgctxt "map"
+msgid "Road"
+msgstr ""
+
+# @ risen
+#: includes/maps.php:43
+msgctxt "map"
+msgid "Satellite"
+msgstr ""
+
+# @ risen
+#: includes/maps.php:44
+msgctxt "map"
+msgid "Hybrid"
+msgstr ""
+
+# @ risen
+#: includes/maps.php:45
+msgctxt "map"
+msgid "Terrain"
+msgstr ""
+
+# @ risen
+#: includes/maps.php:148
+msgid ""
+"<p><b>Google Map Error:</b> <i>latitude</i> and <i>longitude</i> attributes "
+"are required. See documentation for help.</p>"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:21
+msgctxt "multimedia"
+msgid "Add New"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:22
+#, php-format
+msgid "Add %s"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:23
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:24
+#, php-format
+msgid "New %s"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:25
+msgctxt "multimedia"
+msgid "All Items"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:26
+#, php-format
+msgid "View %s"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:27
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:28
+msgid "No items found"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:29
+msgid "No items found in Trash"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:60
+#, php-format
+msgctxt "taxonomy general name"
+msgid "%s Categories"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:61
+#, php-format
+msgctxt "taxonomy singular name"
+msgid "%s Category"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:62
+msgctxt "multimedia"
+msgid "Search Categories"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:63
+msgctxt "multimedia"
+msgid "Popular Categories"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:64
+msgctxt "multimedia"
+msgid "All Categories"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:67
+msgctxt "multimedia"
+msgid "Edit Category"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:68
+msgctxt "multimedia"
+msgid "Update Category"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:69
+msgctxt "multimedia"
+msgid "Add Category"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:70
+msgctxt "multimedia"
+msgid "New Category"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:71
+msgctxt "multimedia"
+msgid "Separate categories with commas"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:72
+msgctxt "multimedia"
+msgid "Add or remove categories"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:73
+msgctxt "multimedia"
+msgid "Choose from the most used categories"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:74
+msgctxt "multimedia menu name"
+msgid "Categories"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:99
+#, php-format
+msgctxt "taxonomy general name"
+msgid "%s Tags"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:100
+#, php-format
+msgctxt "taxonomy singular name"
+msgid "%s Tag"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:101
+msgctxt "multimedia"
+msgid "Search Tags"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:102
+msgctxt "multimedia"
+msgid "Popular Tags"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:103
+msgctxt "multimedia"
+msgid "All Tags"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:106
+msgctxt "multimedia"
+msgid "Edit Tag"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:107
+msgctxt "multimedia"
+msgid "Update Tag"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:108
+msgctxt "multimedia"
+msgid "Add Tag"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:109
+msgctxt "multimedia"
+msgid "New Tag"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:110
+msgctxt "multimedia"
+msgid "Separate tags with commas"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:111
+msgctxt "multimedia"
+msgid "Add or remove tags"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:112
+msgctxt "multimedia"
+msgid "Choose from the most used tags"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:113
+msgctxt "multimedia menu name"
+msgid "Tags"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:138
+#, php-format
+msgctxt "taxonomy general name"
+msgid "%s Speakers"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:139
+#, php-format
+msgctxt "taxonomy singular name"
+msgid "%s Speaker"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:140
+msgctxt "multimedia"
+msgid "Search Speakers"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:141
+msgctxt "multimedia"
+msgid "Popular Speakers"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:142
+msgctxt "multimedia"
+msgid "All Speakers"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:145
+msgctxt "multimedia"
+msgid "Edit Speaker"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:146
+msgctxt "multimedia"
+msgid "Update Speaker"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:147
+msgctxt "multimedia"
+msgid "Add Speaker"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:148
+msgctxt "multimedia"
+msgid "New Speaker"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:149
+msgctxt "multimedia"
+msgid "Separate speakers with commas"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:150
+msgctxt "multimedia"
+msgid "Add or remove speakers"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:151
+msgctxt "multimedia"
+msgid "Choose from the most used speakers"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:152
+msgctxt "multimedia menu name"
+msgid "Speakers"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:206
+msgid "Media"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:249 includes/slider.php:155
+msgid "Video URL <span>(Optional)</span>"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:265
+msgid "MP3 Audio File <span>(Optional)</span>"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:269
+msgid "Upload MP3"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:271
+msgid ""
+"Upload or provide the URL to an audio file in MP3 format. <b>File too big?</"
+"b> Refer to the documentation for help."
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:279
+msgid "PDF File <span>(Optional)</span>"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:283
+msgid "Upload PDF"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:285
+msgid "Upload or provide the URL to a PDF file."
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:293
+msgid "Show \"Text\" Icon"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:297
+msgid "Show the \"Text\" Icon"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:299
+msgid ""
+"If you provide a complete transcript in the content box above then you can "
+"check this box to cause a \"Text\" icon to show."
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:321
+msgid "Media Types"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:322
+msgctxt "people"
+msgid "Speakers"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:351
+msgctxt "media type"
+msgid "Video"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:355
+msgctxt "media type"
+msgid "Audio"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:359
+msgctxt "media type"
+msgid "PDF"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:363
+msgctxt "media type"
+msgid "Text"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:587 includes/multimedia.php:600
+#, php-format
+msgctxt "multimedia widget"
+msgid "Recent %s"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:589
+#, php-format
+msgctxt "multimedia widget"
+msgid "This widget shows recent %s items."
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:627
+msgid "Show speaker"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:643
+msgid "Show media icons"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:727 short-multimedia.php:23
+#: single-risen_gallery.php:107 single-risen_multimedia.php:95
+#: single-risen_multimedia.php:193 single-risen_multimedia.php:195
+#: single.php:74 single.php:76
+msgid ", "
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:730 short-multimedia.php:26
+#: single-risen_multimedia.php:98
+#, php-format
+msgctxt "multimedia speaker"
+msgid "by %s"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:743 short-multimedia.php:34
+msgid "Video"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:747 short-multimedia.php:38
+msgid "Audio"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:751 short-multimedia.php:42
+msgid "Read Online"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:755 short-multimedia.php:46
+#: single-risen_multimedia.php:160
+msgid "Download PDF"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:804 includes/multimedia.php:868
+#, php-format
+msgctxt "multimedia archive widget"
+msgid "%s Archives"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:806
+#, php-format
+msgctxt "multimedia archive widget"
+msgid "Monthly %s archive links."
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:824
+msgctxt "multimedia archive widget"
+msgid "Title:"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:831
+msgctxt "multimedia archive widget"
+msgid "Display as dropdown"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:836
+msgctxt "multimedia archive widget"
+msgid "Show post counts"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:911
+#, php-format
+msgctxt "multimedia archive widget"
+msgid "%1$s %2$d"
+msgstr ""
+
+# @ risen
+#: includes/multimedia.php:932
+msgctxt "multimedia archive widget"
+msgid "Select Month"
+msgstr ""
+
+# @ risen
+#: includes/navigation.php:19
+msgctxt "menu location"
+msgid "Header"
+msgstr ""
+
+# @ risen
+#: includes/navigation.php:22
+msgctxt "menu location"
+msgid "Footer"
+msgstr ""
+
+# @ risen
+#: includes/navigation.php:125
+#, php-format
+msgctxt "multimedia breadcrumb"
+msgid "View %s"
+msgstr ""
+
+# @ risen
+#: includes/navigation.php:144
+#, php-format
+msgctxt "multimedia breadcrumb"
+msgid "Tagged %s"
+msgstr ""
+
+# @ risen
+#: includes/navigation.php:185
+msgctxt "gallery item"
+msgid "Video"
+msgstr ""
+
+# @ risen
+#: includes/navigation.php:185
+msgctxt "gallery item"
+msgid "Image"
+msgstr ""
+
+# @ risen
+#: includes/navigation.php:187
+#, php-format
+msgctxt "gallery breadcrumb"
+msgid "View %s"
+msgstr ""
+
+# @ risen
+#: includes/navigation.php:216
+msgctxt "breadcrumb"
+msgid "View Event"
+msgstr ""
+
+# @ risen
+#: includes/navigation.php:245
+msgctxt "breadcrumb"
+msgid "View Post"
+msgstr ""
+
+# @ risen
+#: includes/navigation.php:262
+msgctxt "breadcrumb"
+msgid "Tagged Posts"
+msgstr ""
+
+# @ risen
+#: includes/navigation.php:270
+msgctxt "breadcrumb"
+msgid "Search Results"
+msgstr ""
+
+# @ risen
+#: includes/navigation.php:286
+msgctxt "breadcrumb"
+msgid "Author Archive"
+msgstr ""
+
+# @ risen
+#: includes/navigation.php:305
+msgctxt "breadcrumbs"
+msgid "Home"
+msgstr ""
+
+# @ risen
+#: includes/navigation.php:319
+msgctxt "breadcrumb separator"
+msgid " > "
+msgstr ""
+
+# @ risen
+#: includes/navigation.php:469
+msgctxt "breadcrumb year format"
+msgid "Y"
+msgstr ""
+
+# @ risen
+#: includes/navigation.php:486
+msgctxt "breadcrumb month format"
+msgid "F"
+msgstr ""
+
+# @ risen
+#: includes/navigation.php:503
+msgctxt "breadcrumb day format"
+msgid "jS"
+msgstr ""
+
+# @ risen
+#: includes/options.php:72 includes/options.php:89
+msgid "Theme Options"
+msgstr ""
+
+# @ risen
+#: includes/options.php:158
+msgctxt "options"
+msgid "Styles"
+msgstr ""
+
+# @ risen
+#: includes/options.php:164
+msgid "Base Style"
+msgstr ""
+
+# @ risen
+#: includes/options.php:168
+msgid ""
+"Choose a light or dark appearance then customize colors, background and "
+"fonts below."
+msgstr ""
+
+# @ risen
+#: includes/options.php:175
+msgid "Main Color"
+msgstr ""
+
+# @ risen
+#: includes/options.php:178
+msgid "The menu bar and other elements use this."
+msgstr ""
+
+# @ risen
+#: includes/options.php:185
+msgid "Link Color"
+msgstr ""
+
+# @ risen
+#: includes/options.php:194
+msgid "Background Type"
+msgstr ""
+
+# @ risen
+#: includes/options.php:198
+msgid "Solid Color"
+msgstr ""
+
+# @ risen
+#: includes/options.php:199
+msgid "Preset Background"
+msgstr ""
+
+# @ risen
+#: includes/options.php:200
+msgid "Custom Upload"
+msgstr ""
+
+# @ risen
+#: includes/options.php:203
+msgid ""
+"Use a solid color, preset background (some of which can be colored) or "
+"upload your own image/pattern."
+msgstr ""
+
+# @ risen
+#: includes/options.php:223
+msgid "Background Image (Preset)"
+msgstr ""
+
+# @ risen
+#: includes/options.php:228
+msgid ""
+"If the preset background you choose is semi-transparent, you can choose a "
+"background color that will show through it."
+msgstr ""
+
+# @ risen
+#: includes/options.php:235
+msgid "Background Image (Upload)"
+msgstr ""
+
+# @ risen
+#: includes/options.php:236
+msgid "Upload your own custom background image."
+msgstr ""
+
+# @ risen
+#: includes/options.php:245
+msgid "Background Image Fullscreen"
+msgstr ""
+
+# @ risen
+#: includes/options.php:246
+msgid "Scale the background to cover the whole screen (ideal for large photos)"
+msgstr ""
+
+# @ risen
+#: includes/options.php:255
+msgid "Background Image Repeat"
+msgstr ""
+
+# @ risen
+#: includes/options.php:259
+msgctxt "background image"
+msgid "Repeat"
+msgstr ""
+
+# @ risen
+#: includes/options.php:260
+msgid "Repeat Horizontally"
+msgstr ""
+
+# @ risen
+#: includes/options.php:261
+msgid "Repeat Vertically"
+msgstr ""
+
+# @ risen
+#: includes/options.php:262
+msgid "No Repeat"
+msgstr ""
+
+# @ risen
+#: includes/options.php:265
+msgid "Choose whether or not you want your uploaded background to tile."
+msgstr ""
+
+# @ risen
+#: includes/options.php:272
+msgid "Background Image Attachment"
+msgstr ""
+
+# @ risen
+#: includes/options.php:276
+msgctxt "background image"
+msgid "Scroll"
+msgstr ""
+
+# @ risen
+#: includes/options.php:277
+msgctxt "background image"
+msgid "Fixed"
+msgstr ""
+
+# @ risen
+#: includes/options.php:280
+msgid ""
+"The default is for your background image to scroll with the page. You can "
+"also make it fixed."
+msgstr ""
+
+# @ risen
+#: includes/options.php:287
+msgid "Background Image Position (CSS)"
+msgstr ""
+
+# @ risen
+#: includes/options.php:290
+msgid ""
+"This is an optional field in which you can enter a value for the <a href="
+"\"http://www.w3.org/TR/css3-background/#the-background-position\" target="
+"\"_blank\">CSS background-position</a> property."
+msgstr ""
+
+# @ risen
+#: includes/options.php:297
+msgid "Background Image Size (CSS)"
+msgstr ""
+
+# @ risen
+#: includes/options.php:300
+msgid ""
+"This is an optional field in which you can enter a value for the <a href="
+"\"http://www.w3.org/TR/css3-background/#the-background-size\" target=\"_blank"
+"\">CSS background-size</a> property."
+msgstr ""
+
+# @ risen
+#: includes/options.php:307
+msgid "Background Color"
+msgstr ""
+
+# @ risen
+#: includes/options.php:318
+msgid "Body Font"
+msgstr ""
+
+# @ risen
+#: includes/options.php:323
+msgid ""
+"Font used for main content. <b>Browsing Tip:</b> select a font then use your "
+"keyboard's up and down arrows for quicker viewing."
+msgstr ""
+
+# @ risen
+#: includes/options.php:330
+msgid "Menu / Labels Font"
+msgstr ""
+
+# @ risen
+#: includes/options.php:335
+msgid "Font used for menu bar and labels."
+msgstr ""
+
+# @ risen
+#: includes/options.php:342
+msgid "Heading Font"
+msgstr ""
+
+# @ risen
+#: includes/options.php:347
+msgid "Font used for headings, home intro and tagline."
+msgstr ""
+
+# @ risen
+#: includes/options.php:354
+msgid "Character Sets (Optional)"
+msgstr ""
+
+# @ risen
+#: includes/options.php:357
+msgid ""
+"Some <a href=\"http://www.google.com/webfonts/\" target=\"_blank\">Google "
+"Web Fonts</a> support multiple character sets (e.g. <i>latin, cyrillic, "
+"greek, khmer, vietnamese</i>). If no character set is specified, <i>latin</"
+"i> is used &mdash; and that is adequate in most cases. If necessary, enter "
+"multiple character sets separated by commas."
+msgstr ""
+
+# @ risen
+#: includes/options.php:364
+msgctxt "options"
+msgid "Header"
+msgstr ""
+
+# @ risen
+#: includes/options.php:371
+msgid "Logo Image"
+msgstr ""
+
+# @ risen
+#: includes/options.php:372
+#, php-format
+msgid ""
+"Logo should be PNG with height no greater than 80 pixels. A width less than "
+"300 pixels is preferred for a good fit on most mobile phones. Tagline is set "
+"in WordPress <a href=\"%s\">General Settings</a>."
+msgstr ""
+
+# @ risen
+#: includes/options.php:380
+msgid "No left padding"
+msgstr ""
+
+# @ risen
+#: includes/options.php:388
+msgid "Retina Logo Image"
+msgstr ""
+
+# @ risen
+#: includes/options.php:389
+msgid ""
+"Optionally provide a logo image for Retina devices. It should be exactly "
+"twice as big as the regular logo. You must also provide the regular logo "
+"image above."
+msgstr ""
+
+# @ risen
+#: includes/options.php:397
+msgid "Header Icons"
+msgstr ""
+
+# @ risen
+#: includes/options.php:398
+#, php-format
+msgid ""
+"Enter your social media URL's (one per line) in the order you want icons to "
+"be shown in the header. Icons exist for the following: %s. For RSS, you can "
+"enter the [feed_url] shortcode or a FeedBurner URL. <b>Note:</b> if your "
+"menu is large and you have many icons, they will not show in order to make "
+"room for the menu (reduce your icons or menu)."
+msgstr ""
+
+# @ risen
+#: includes/options.php:408
+msgctxt "options"
+msgid "Footer"
+msgstr ""
+
+# @ risen
+#: includes/options.php:415
+msgid "Footer Icons"
+msgstr ""
+
+# @ risen
+#: includes/options.php:416
+#, php-format
+msgid ""
+"Enter your social media URL's (one per line) in the order you want icons to "
+"be shown in the footer. Icons exist for the following: %s. For RSS, you can "
+"enter the [feed_url] shortcode or a FeedBurner URL."
+msgstr ""
+
+# @ risen
+#: includes/options.php:425
+msgid "Address"
+msgstr ""
+
+# @ risen
+#: includes/options.php:426
+msgid "Optionally enter your address on one line to show in the footer."
+msgstr ""
+
+# @ risen
+#: includes/options.php:436
+msgid "Use generic icon"
+msgstr ""
+
+# @ risen
+#: includes/options.php:444
+msgid "Phone"
+msgstr ""
+
+# @ risen
+#: includes/options.php:445
+msgid "Optionally enter your phone number to show in the footer."
+msgstr ""
+
+# @ risen
+#: includes/options.php:454
+msgid "Copyright"
+msgstr ""
+
+# @ risen
+#: includes/options.php:455
+#, php-format
+msgid ""
+"[copyright_symbol], [current_year] and [site_name] shortcodes can be used. "
+"Site name is set in WordPress <a href=\"%s\">General Settings</a>."
+msgstr ""
+
+# @ risen
+#: includes/options.php:464
+msgctxt "options"
+msgid "Homepage"
+msgstr ""
+
+# @ risen
+#: includes/options.php:471
+msgid "Homepage &lt;title&gt;"
+msgstr ""
+
+# @ risen
+#: includes/options.php:472
+#, php-format
+msgid ""
+"You can tweak the homepage &lt;title&gt; tag for SEO. [site_name] and "
+"[tagline] are replaced by what you entered in WordPress <a href=\"%s"
+"\">General Settings</a>."
+msgstr ""
+
+# @ risen
+#: includes/options.php:482
+msgid "Enable Slider"
+msgstr ""
+
+# @ risen
+#: includes/options.php:483
+msgid "Show slider on homepage"
+msgstr ""
+
+# @ risen
+#: includes/options.php:492
+msgid "Slider Automation"
+msgstr ""
+
+# @ risen
+#: includes/options.php:493
+msgid "Automatically transition to the next slide (see below)"
+msgstr ""
+
+# @ risen
+#: includes/options.php:502
+msgid "Slider Speed"
+msgstr ""
+
+# @ risen
+#: includes/options.php:503
+msgid ""
+"If Slider Automation is enabled, this is how many seconds to wait before "
+"proceeding to the next slide."
+msgstr ""
+
+# @ risen
+#: includes/options.php:513
+msgid "Intro Message"
+msgstr ""
+
+# @ risen
+#: includes/options.php:514
+msgid ""
+"Optionally provide a short welcome message to show on the homepage. You may "
+"want to spice up a portion by making it bold with HTML (e.g. \"&lt;b&gt;"
+"Welcome to Risen.&lt;/b&gt; The rest...\")."
+msgstr ""
+
+# @ risen
+#: includes/options.php:530
+msgid "Plural &quot;Multimedia&quot; Word"
+msgstr ""
+
+# @ risen
+#: includes/options.php:531
+msgid ""
+"You can change the name of the multimedia features throughout the site and "
+"admin interface."
+msgstr ""
+
+# @ risen
+#: includes/options.php:539
+msgid "Singular &quot;Multimedia&quot; Word"
+msgstr ""
+
+# @ risen
+#: includes/options.php:549
+msgid "Items Per Page"
+msgstr ""
+
+# @ risen
+#: includes/options.php:550
+msgid "The number of multimedia items to show per page."
+msgstr ""
+
+# @ risen
+#: includes/options.php:560 includes/options.php:666 includes/options.php:712
+#: includes/options.php:729
+msgid "Header Image"
+msgstr ""
+
+# @ risen
+#: includes/options.php:561
+msgid ""
+"<i>Archives</i> &mdash; Show the header image from the page using the "
+"Multimedia template."
+msgstr ""
+
+# @ risen
+#: includes/options.php:568
+msgid ""
+"<i>Single Item</i> &mdash; Show the header image from the page using the "
+"Multimedia template (unless item has its own)."
+msgstr ""
+
+# @ risen
+#: includes/options.php:577 includes/options.php:746
+msgid "Category Page Title"
+msgstr ""
+
+# @ risen
+#: includes/options.php:578
+msgid ""
+"This is the title format that multimedia category pages use. The [category] "
+"shortcode is automatically replaced."
+msgstr ""
+
+# @ risen
+#: includes/options.php:588 includes/options.php:757
+msgid "Tag Page Title"
+msgstr ""
+
+# @ risen
+#: includes/options.php:589
+msgid ""
+"This is the title format that multimedia tag pages use. The [tag] shortcode "
+"is automatically replaced."
+msgstr ""
+
+# @ risen
+#: includes/options.php:599 includes/options.php:768
+msgid "Date Archive Page Title"
+msgstr ""
+
+# @ risen
+#: includes/options.php:600
+msgid ""
+"This is the title format that multimedia date archives use. The [date] "
+"shortcode is automatically replaced."
+msgstr ""
+
+# @ risen
+#: includes/options.php:610
+msgid "Speaker Page Title"
+msgstr ""
+
+# @ risen
+#: includes/options.php:611
+msgid ""
+"This is the title format that multimedia speaker pages use. The [speaker] "
+"shortcode is automatically replaced."
+msgstr ""
+
+# @ risen
+#: includes/options.php:621
+msgctxt "theme options"
+msgid "Gallery"
+msgstr ""
+
+# @ risen
+#: includes/options.php:628
+msgid "Categories Order"
+msgstr ""
+
+# @ risen
+#: includes/options.php:629
+msgid ""
+"This controls the order in which categories are listed on the page using the "
+"Gallery Categories template."
+msgstr ""
+
+# @ risen
+#: includes/options.php:632
+msgctxt "sorting"
+msgid "Alphabetical"
+msgstr ""
+
+# @ risen
+#: includes/options.php:633
+msgctxt "sorting"
+msgid "Newest First"
+msgstr ""
+
+# @ risen
+#: includes/options.php:634
+msgctxt "sorting"
+msgid "Oldest First"
+msgstr ""
+
+# @ risen
+#: includes/options.php:635
+msgctxt "sorting"
+msgid "Highest Count"
+msgstr ""
+
+# @ risen
+#: includes/options.php:644
+msgid "Images/Videos Per Page"
+msgstr ""
+
+# @ risen
+#: includes/options.php:645
+msgid "The number of gallery items to show per page."
+msgstr ""
+
+# @ risen
+#: includes/options.php:655
+msgid "Main Gallery Page"
+msgstr ""
+
+# @ risen
+#: includes/options.php:656
+msgid ""
+"Specify a gallery page for category and single item pages to inherit a "
+"header image and sidebar from (see below). This also assists with the "
+"breadcrumb path."
+msgstr ""
+
+# @ risen
+#: includes/options.php:667
+msgid ""
+"<i>Single Category Page</i> &mdash; Show the header image and sidebar from "
+"the page specified above."
+msgstr ""
+
+# @ risen
+#: includes/options.php:674
+msgid ""
+"<i>Single Image/Video Page</i> &mdash; Show the header image from the page "
+"specified above."
+msgstr ""
+
+# @ risen
+#: includes/options.php:683
+msgid "Single Category Page Title"
+msgstr ""
+
+# @ risen
+#: includes/options.php:684
+msgid ""
+"This is the title format that single category pages use. The [category] "
+"shortcode is automatically replaced."
+msgstr ""
+
+# @ risen
+#: includes/options.php:694
+msgctxt "theme options"
+msgid "Events"
+msgstr ""
+
+# @ risen
+#: includes/options.php:701
+msgid "Events Per Page"
+msgstr ""
+
+# @ risen
+#: includes/options.php:702
+msgid "The number of events to show per page."
+msgstr ""
+
+# @ risen
+#: includes/options.php:713
+msgid ""
+"<i>Single Event Page</i> &mdash; Show header from the page using the "
+"Upcoming or Past Events template (unless event has its own)."
+msgstr ""
+
+# @ risen
+#: includes/options.php:722
+msgctxt "theme options"
+msgid "Blog"
+msgstr ""
+
+# @ risen
+#: includes/options.php:730
+msgid ""
+"<i>Archives</i> &mdash; Show the header image from the page using the Blog "
+"template."
+msgstr ""
+
+# @ risen
+#: includes/options.php:737
+msgid ""
+"<i>Single Item</i> &mdash; Show the header image from the page using the "
+"Blog template (unless item has its own)."
+msgstr ""
+
+# @ risen
+#: includes/options.php:747
+msgid ""
+"This is the title format that blog category pages use. The [category] "
+"shortcode is automatically replaced."
+msgstr ""
+
+# @ risen
+#: includes/options.php:758
+msgid ""
+"This is the title format that blog tag pages use. The [tag] shortcode is "
+"automatically replaced."
+msgstr ""
+
+# @ risen
+#: includes/options.php:769
+msgid ""
+"This is the title format that blog date archives use. The [date] shortcode "
+"is automatically replaced."
+msgstr ""
+
+# @ risen
+#: includes/options.php:779
+msgid "Author Page Title"
+msgstr ""
+
+# @ risen
+#: includes/options.php:780
+msgid ""
+"This is the title format that blog author pages use. The [author] shortcode "
+"is automatically replaced."
+msgstr ""
+
+# @ risen
+#: includes/options.php:790
+msgid "Contact Form"
+msgstr ""
+
+# @ risen
+#: includes/options.php:797
+msgid "Contacts"
+msgstr ""
+
+# @ risen
+#: includes/options.php:798
+msgid ""
+"You can enter multiple contacts here to show in a \"To\" selector on the "
+"contact form. Each contact should be made up of a name and e-mail address "
+"separated by a comma. An example contact would be <i>John Smith, "
+"email@whatever.com</i>. Enter one contact per line."
+msgstr ""
+
+#: includes/options.php:807
+msgctxt "recaptcha"
+msgid "reCAPTCHA Site Key"
+msgstr ""
+
+# @ risen
+#: includes/options.php:808
+msgid ""
+"Optionally provide your <a href=\"https://www.google.com/recaptcha/admin/"
+"create\" target=\"_blank\">reCAPTCHA</a> keys if you want to add spam "
+"protection to the contact form."
+msgstr ""
+
+#: includes/options.php:818
+msgctxt "recaptcha"
+msgid "reCAPTCHA Secret Key"
+msgstr ""
+
+# @ risen
+#: includes/options.php:828
+msgctxt "options"
+msgid "Other"
+msgstr ""
+
+# @ risen
+#: includes/options.php:835
+msgid "Subpage &lt;title&gt;"
+msgstr ""
+
+# @ risen
+#: includes/options.php:836
+msgid ""
+"You can tweak the subpage &lt;title&gt; tag (blog posts, 404 page). "
+"[site_name] and [page_title] are replaced accordingly."
+msgstr ""
+
+# @ risen
+#: includes/options.php:846
+msgid "Breadcrumb Path"
+msgstr ""
+
+# @ risen
+#: includes/options.php:847
+msgid "Show a navigational breadcrumb path at the top of subpages."
+msgstr ""
+
+# @ risen
+#: includes/options.php:856
+msgid "Google Analytics"
+msgstr ""
+
+# @ risen
+#: includes/options.php:857
+msgid ""
+"Enter your <a href=\"http://www.google.com/analytics/\" target=\"_blank"
+"\">Google Analytics</a> Property ID (UA-######-#). Google Analytics "
+"JavaScript with your Property ID inserted will be added before the close of "
+"&lt;head&gt;."
+msgstr ""
+
+# @ risen
+#: includes/options.php:866
+msgid "Favicon"
+msgstr ""
+
+# @ risen
+#: includes/options.php:867
+msgid ""
+"Upload the <a href=\"http://en.wikipedia.org/wiki/Favicon\" target=\"_blank"
+"\">favicon</a> ICO file you want to use."
+msgstr ""
+
+# @ risen
+#: includes/options.php:874
+msgid "Google Maps API Key"
+msgstr ""
+
+# @ risen
+#: includes/options.php:875
+msgid ""
+"Optionally provide a <a href=\"http://code.google.com/apis/maps/"
+"documentation/javascript/tutorial.html#api_key\" target=\"_blank\">Google "
+"Maps API Key</a>."
+msgstr ""
+
+# @ risen
+#: includes/pages.php:65
+msgid "Page Header Override"
+msgstr ""
+
+# @ risen
+#: includes/pages.php:118
+msgid ""
+"If you want to use another page's title and featured image as a header, "
+"select it here (that page must have a featured image)."
+msgstr ""
+
+# @ risen
+#: includes/pages.php:133
+msgid "Show this page's title below header"
+msgstr ""
+
+# @ risen
+#: includes/posts.php:76
+msgid "<b>0</b> Items"
+msgstr ""
+
+# @ risen
+#: includes/posts.php:81
+msgid "<b>1</b> Item"
+msgstr ""
+
+# @ risen
+#: includes/posts.php:86
+#, php-format
+msgid "<b>%s</b> Items"
+msgstr ""
+
+# @ risen
+#: includes/posts.php:92
+#, php-format
+msgid "<b>%1$s</b> &ndash; <b>%2$s</b> of <b>%3$s</b> items"
+msgstr ""
+
+# @ risen
+#: includes/posts.php:126
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+# @ risen
+#: includes/posts.php:160
+msgid "<span>&larr;</span> Newer Items"
+msgstr ""
+
+# @ risen
+#: includes/posts.php:161
+msgid "Older Items <span>&rarr;</span>"
+msgstr ""
+
+# @ risen
+#: includes/posts.php:196
+#, php-format
+msgid "About %s"
+msgstr ""
+
+# @ risen
+#: includes/sidebars.php:17
+msgid "Blog Sidebar"
+msgstr ""
+
+# @ risen
+#: includes/sidebars.php:18
+msgid "These widgets show on the side of blog content."
+msgstr ""
+
+# @ risen
+#: includes/sidebars.php:28
+msgid "Page Sidebar"
+msgstr ""
+
+# @ risen
+#: includes/sidebars.php:29
+msgid "These widgets show on the side of regular pages set to show widgets."
+msgstr ""
+
+# @ risen
+#: includes/sidebars.php:39
+msgid "Home Bottom Left"
+msgstr ""
+
+# @ risen
+#: includes/sidebars.php:40
+msgid "These show in a left-hand column at the bottom of the homepage."
+msgstr ""
+
+# @ risen
+#: includes/sidebars.php:50
+msgid "Home Bottom Right"
+msgstr ""
+
+# @ risen
+#: includes/sidebars.php:51
+msgid "These show in a right-hand column at the bottom of the homepage."
+msgstr ""
+
+# @ risen
+#: includes/sidebars.php:61
+#, php-format
+msgid "%s Sidebar"
+msgstr ""
+
+# @ risen
+#: includes/sidebars.php:62
+#, php-format
+msgid "These widgets show on the side of %s pages."
+msgstr ""
+
+# @ risen
+#: includes/sidebars.php:72
+msgid "Gallery Sidebar"
+msgstr ""
+
+# @ risen
+#: includes/sidebars.php:73
+msgid "These widgets show on the side of gallery pages."
+msgstr ""
+
+# @ risen
+#: includes/sidebars.php:83
+msgid "Events Sidebar"
+msgstr ""
+
+# @ risen
+#: includes/sidebars.php:84
+msgid "These widgets show on the side of event pages."
+msgstr ""
+
+# @ risen
+#: includes/sidebars.php:94
+msgid "Staff Sidebar"
+msgstr ""
+
+# @ risen
+#: includes/sidebars.php:95
+msgid "These widgets show on the side of staff pages."
+msgstr ""
+
+# @ risen
+#: includes/sidebars.php:105
+msgid "Locations Sidebar"
+msgstr ""
+
+# @ risen
+#: includes/sidebars.php:106
+msgid "These widgets show on the side of locations content."
+msgstr ""
+
+# @ risen
+#: includes/sidebars.php:116
+msgid "Contact Sidebar"
+msgstr ""
+
+# @ risen
+#: includes/sidebars.php:117
+msgid "These widgets show on the side of the contact page."
+msgstr ""
+
+# @ risen
+#: includes/sidebars.php:127
+msgid "Search Sidebar"
+msgstr ""
+
+# @ risen
+#: includes/sidebars.php:128
+msgid "These widgets show on the side of search pages."
+msgstr ""
+
+# @ risen
+#: includes/sidebars.php:198
+msgid "Sidebar"
+msgstr ""
+
+# @ risen
+#: includes/sidebars.php:249
+#, php-format
+msgid "Show sidebar <a href=\"%s\" target=\"_blank\">widgets</a>"
+msgstr ""
+
+# @ risen
+#: includes/slider.php:19
+msgctxt "post type general name"
+msgid "Slides"
+msgstr ""
+
+# @ risen
+#: includes/slider.php:20
+msgctxt "post type singular name"
+msgid "Slide"
+msgstr ""
+
+# @ risen
+#: includes/slider.php:21
+msgctxt "slider"
+msgid "Add New"
+msgstr ""
+
+# @ risen
+#: includes/slider.php:22
+msgid "Add Slide"
+msgstr ""
+
+# @ risen
+#: includes/slider.php:23
+msgid "Edit Slide"
+msgstr ""
+
+# @ risen
+#: includes/slider.php:24
+msgid "New Slide"
+msgstr ""
+
+# @ risen
+#: includes/slider.php:25
+msgid "All Slides"
+msgstr ""
+
+# @ risen
+#: includes/slider.php:26
+msgid "View Slide"
+msgstr ""
+
+# @ risen
+#: includes/slider.php:27
+msgid "Search Slides"
+msgstr ""
+
+# @ risen
+#: includes/slider.php:28
+msgid "No slides found"
+msgstr ""
+
+# @ risen
+#: includes/slider.php:29
+msgid "No slides found in Trash"
+msgstr ""
+
+# @ risen
+#: includes/slider.php:30
+msgid "Home Slider"
+msgstr ""
+
+# @ risen
+#: includes/slider.php:83
+msgid "Slide Options"
+msgstr ""
+
+# @ risen
+#: includes/slider.php:129
+msgid "Caption <span>(Optional)</span>"
+msgstr ""
+
+# @ risen
+#: includes/slider.php:134
+msgid ""
+"<b>Tip:</b> Make part of your caption bold with HTML (e.g. \"&lt;b&gt;First "
+"Time?&lt;/b&gt; Watch Our Welcome Video\")"
+msgstr ""
+
+# @ risen
+#: includes/slider.php:142
+msgid "Click URL <span>(Optional)</span>"
+msgstr ""
+
+# @ risen
+#: includes/slider.php:147
+msgid "Enter a URL to go to upon clicking the slide image or caption."
+msgstr ""
+
+# @ risen
+#: includes/slider.php:160
+msgid ""
+"To make this a video slide, enter a YouTube or Vimeo video page URL. "
+"Examples:"
+msgstr ""
+
+# @ risen
+#: includes/slider.php:166
+msgid ""
+"<b>Note:</b> You must provide an image above to represent this video in the "
+"slider."
+msgstr ""
+
+# @ risen
+#: includes/slider.php:222
+msgid "Caption"
+msgstr ""
+
+# @ risen
+#: includes/slider.php:223
+msgctxt "slider"
+msgid "Type"
+msgstr ""
+
+# @ risen
+#: includes/slider.php:261
+msgid "No Caption"
+msgstr ""
+
+# @ risen
+#: includes/staff.php:18
+msgctxt "post type general name"
+msgid "Staff"
+msgstr ""
+
+# @ risen
+#: includes/staff.php:19
+msgctxt "post type singular name"
+msgid "Staff"
+msgstr ""
+
+# @ risen
+#: includes/staff.php:20
+msgctxt "staff"
+msgid "Add New"
+msgstr ""
+
+# @ risen
+#: includes/staff.php:21
+msgid "Add Staff"
+msgstr ""
+
+# @ risen
+#: includes/staff.php:22
+msgid "Edit Staff"
+msgstr ""
+
+# @ risen
+#: includes/staff.php:23
+msgid "New Staff"
+msgstr ""
+
+# @ risen
+#: includes/staff.php:24
+msgid "All Staff"
+msgstr ""
+
+# @ risen
+#: includes/staff.php:25
+msgid "View Staff"
+msgstr ""
+
+# @ risen
+#: includes/staff.php:26
+msgid "Search Staff"
+msgstr ""
+
+# @ risen
+#: includes/staff.php:27
+msgid "No staff found"
+msgstr ""
+
+# @ risen
+#: includes/staff.php:28
+msgid "No staff found in Trash"
+msgstr ""
+
+# @ risen
+#: includes/staff.php:79
+msgid "Details"
+msgstr ""
+
+# @ risen
+#: includes/staff.php:120
+msgctxt "staff position/title"
+msgid "Position"
+msgstr ""
+
+# @ risen
+#: includes/staff.php:125
+msgid "Enter the staff member's position/title to show under their name."
+msgstr ""
+
+# @ risen
+#: includes/staff.php:132
+msgid "E-mail Button"
+msgstr ""
+
+# @ risen
+#: includes/staff.php:164
+msgid ""
+"Choose a contact from Theme Options and a page that you have used the "
+"[contact_form] shortcode on if you want to show an e-mail button on this "
+"staff member's profile."
+msgstr ""
+
+# @ risen
+#: includes/staff.php:209
+msgid "Position"
+msgstr ""
+
+# @ risen
+#: includes/staff.php:215
+msgctxt "staff member"
+msgid "Name"
+msgstr ""
+
+# @ risen
+#: includes/staff.php:334 includes/staff.php:347
+msgctxt "staff widget"
+msgid "Staff"
+msgstr ""
+
+# @ risen
+#: includes/staff.php:336
+msgctxt "staff widget"
+msgid "Shows staff members."
+msgstr ""
+
+# @ risen
+#: includes/staff.php:372
+msgid "Show photo"
+msgstr ""
+
+# @ risen
+#: includes/staff.php:380
+msgid "Show position"
+msgstr ""
+
+# @ risen
+#: includes/staff.php:450
+msgid "Read Bio"
+msgstr ""
+
+# @ risen
+#: includes/widgets.php:62
+msgctxt "widget"
+msgid "Categories (Enhanced)"
+msgstr ""
+
+# @ risen
+#: includes/widgets.php:64
+msgid "This widget shows categories of various types."
+msgstr ""
+
+# @ risen
+#: includes/widgets.php:116
+msgctxt "categories widget"
+msgid "Type:"
+msgstr ""
+
+# @ risen
+#: includes/widgets.php:120
+msgctxt "categories widget"
+msgid "Blog Categories"
+msgstr ""
+
+# @ risen
+#: includes/widgets.php:121
+msgctxt "categories widget"
+msgid "Blog Tags"
+msgstr ""
+
+# @ risen
+#: includes/widgets.php:122
+#, php-format
+msgctxt "multimedia categories widget"
+msgid "%s Categories"
+msgstr ""
+
+# @ risen
+#: includes/widgets.php:123
+#, php-format
+msgctxt "multimedia categories widget"
+msgid "%s Tags"
+msgstr ""
+
+# @ risen
+#: includes/widgets.php:124
+#, php-format
+msgid "%s Speakers"
+msgstr ""
+
+# @ risen
+#: includes/widgets.php:125
+msgctxt "multimedia categories widget"
+msgid "Gallery Categories"
+msgstr ""
+
+# @ risen
+#: includes/widgets.php:137
+msgid "Display as dropdown"
+msgstr ""
+
+# @ risen
+#: includes/widgets.php:142
+msgid "Show post counts"
+msgstr ""
+
+# @ risen
+#: includes/widgets.php:147
+msgid "Show hierarchy"
+msgstr ""
+
+# @ risen
+#: includes/widgets.php:162
+msgctxt "widget"
+msgid "Categories"
+msgstr ""
+
+# @ risen
+#: includes/widgets.php:182
+msgctxt "categories dropdown"
+msgid "Select One"
+msgstr ""
+
+# @ risen
+#: includes/widgets.php:257 includes/widgets.php:287
+msgctxt "widget"
+msgid "Donation"
+msgstr ""
+
+# @ risen
+#: includes/widgets.php:259
+msgid "This widget shows a donation message and button."
+msgstr ""
+
+# @ risen
+#: includes/widgets.php:303
+msgid "Message:"
+msgstr ""
+
+# @ risen
+#: includes/widgets.php:309
+msgid "Button Text:"
+msgstr ""
+
+# @ risen
+#: includes/widgets.php:315
+msgid "Button URL:"
+msgstr ""
+
+# @ risen
+#: loop-gallery.php:41
+msgid "Play Video"
+msgstr ""
+
+# @ risen
+#: loop-gallery.php:43
+msgid "Enlarge Image"
+msgstr ""
+
+# @ risen
+#: loop-gallery.php:45
+msgid "View Details"
+msgstr ""
+
+# @ risen
+#: loop-locations.php:38
+msgctxt "location"
+msgid "Get Directions"
+msgstr ""
+
+# @ risen
+#: loop-locations.php:47
+msgctxt "location"
+msgid "Send E-mail"
+msgstr ""
+
+# @ risen
+#: loop-staff.php:48 short-staff.php:36
+#, php-format
+msgctxt "staff"
+msgid "E-mail %s"
+msgstr ""
+
+# @ risen
+#: page.php:33 single-risen_event.php:145 single-risen_gallery.php:99
+#: single-risen_multimedia.php:185 single.php:66 tpl-contact.php:33
+msgid "Pages:"
+msgstr ""
+
+# @ risen
+#: page.php:41 tpl-contact.php:41
+msgid "Edit Page"
+msgstr ""
+
+# @ risen
+#: search.php:39
+#, php-format
+msgid "Search results for '%s'"
+msgstr ""
+
+# @ risen
+#: search.php:56
+msgid "Sorry, your search did not return any results."
+msgstr ""
+
+# @ risen
+#: searchform.php:10
+msgid "Search"
+msgstr ""
+
+# @ risen
+#: searchform.php:12
+msgctxt "search button"
+msgid "Search"
+msgstr ""
+
+# @ risen
+#: short-event.php:53
+msgid "0"
+msgstr ""
+
+# @ risen
+#: short-event.php:53
+msgid "1"
+msgstr ""
+
+# @ risen
+#: short-event.php:89
+msgctxt "event"
+msgid "Event Details"
+msgstr ""
+
+# @ risen
+#: short-gallery.php:32
+msgctxt "gallery"
+msgid "Watch Video"
+msgstr ""
+
+# @ risen
+#: short-gallery.php:34
+msgctxt "gallery"
+msgid "View Photo"
+msgstr ""
+
+# @ risen
+#: short-multimedia.php:50 short.php:37
+msgctxt "comment count"
+msgid "0"
+msgstr ""
+
+# @ risen
+#: short-multimedia.php:50 short.php:37
+msgctxt "comment count"
+msgid "1"
+msgstr ""
+
+# @ risen
+#: short.php:25 single.php:37
+#, php-format
+msgctxt "author"
+msgid "by <a href=\"%1$s\">%2$s</a>"
+msgstr ""
+
+# @ risen
+#: single-risen_event.php:40 single-risen_gallery.php:24
+#: single-risen_multimedia.php:83 single.php:24
+#, php-format
+msgid "(Page %s)"
+msgstr ""
+
+# @ risen
+#: single-risen_event.php:80 single-risen_gallery.php:53
+#: single-risen_multimedia.php:105 single.php:48
+msgid "0 Comments"
+msgstr ""
+
+# @ risen
+#: single-risen_event.php:80 single-risen_gallery.php:53
+#: single-risen_multimedia.php:105 single.php:48
+msgid "1 Comment"
+msgstr ""
+
+# @ risen
+#: single-risen_event.php:80 single-risen_gallery.php:53
+#: single-risen_multimedia.php:105 single.php:48
+msgid "% Comments"
+msgstr ""
+
+# @ risen
+#: single-risen_event.php:155 single-risen_gallery.php:118
+#: single-risen_multimedia.php:212 single.php:93
+msgid "Edit Post"
+msgstr ""
+
+# @ risen
+#: single-risen_event.php:175
+#, php-format
+msgctxt "previous post link"
+msgid "<span>&larr;</span> %s"
+msgstr ""
+
+# @ risen
+#: single-risen_event.php:184
+#, php-format
+msgctxt "next post link"
+msgid "%s <span>&rarr;</span>"
+msgstr ""
+
+# @ risen
+#: single-risen_gallery.php:115 single-risen_multimedia.php:203 single.php:84
+#, php-format
+msgid "Posted in %s"
+msgstr ""
+
+# @ risen
+#: single-risen_gallery.php:130
+msgctxt "gallery"
+msgid "<span>&larr;</span> Newer Item"
+msgstr ""
+
+# @ risen
+#: single-risen_gallery.php:131
+msgctxt "gallery"
+msgid "Older Item <span>&rarr;</span>"
+msgstr ""
+
+#: single-risen_multimedia.php:148
+msgid "Show Video Player"
+msgstr ""
+
+#: single-risen_multimedia.php:152
+msgid "Show Audio Player"
+msgstr ""
+
+# @ risen
+#: single-risen_multimedia.php:156
+msgid "Download Audio"
+msgstr ""
+
+# @ risen
+#: single-risen_multimedia.php:156
+msgid "Download MP3"
+msgstr ""
+
+# @ risen
+#: single-risen_multimedia.php:209 single.php:90
+#, php-format
+msgid "Tagged with %s"
+msgstr ""
+
+# @ risen
+#: single-risen_multimedia.php:224
+#, php-format
+msgctxt "multimedia singular"
+msgid "<span>&larr;</span> Newer %s"
+msgstr ""
+
+# @ risen
+#: single-risen_multimedia.php:225
+#, php-format
+msgctxt "multimedia singular"
+msgid "Older %s <span>&rarr;</span>"
+msgstr ""
+
+# @ risen
+#: single.php:107
+msgid "<span>&larr;</span> Newer Post"
+msgstr ""
+
+# @ risen
+#: single.php:108
+msgid "Older Post <span>&rarr;</span>"
+msgstr ""
+
+# @ risen
+#: tag.php:36
+msgid "Sorry, there are no posts that have this tag."
+msgstr ""
+
+# @ risen
+#: taxonomy-risen_gallery_category.php:43 tpl-gallery-all.php:40
+#: tpl-gallery-images.php:47 tpl-gallery-videos.php:47
+msgctxt "gallery"
+msgid "<span>&larr;</span> Newer Items"
+msgstr ""
+
+# @ risen
+#: taxonomy-risen_gallery_category.php:43 tpl-gallery-all.php:40
+#: tpl-gallery-images.php:47 tpl-gallery-videos.php:47
+msgctxt "gallery"
+msgid "Older Items <span>&rarr;</span>"
+msgstr ""
+
+# @ risen
+#: tpl-blog.php:42
+msgid "Sorry, there are no blog posts to show."
+msgstr ""
+
+# @ risen
+#: tpl-events-past.php:52
+msgid "<span>&larr;</span> Recent Events"
+msgstr ""
+
+# @ risen
+#: tpl-events-past.php:52
+msgid "Older Events <span>&rarr;</span>"
+msgstr ""
+
+# @ risen
+#: tpl-events-past.php:55 tpl-events.php:55
+msgid "Sorry, there are no events to show."
+msgstr ""
+
+# @ risen
+#: tpl-events.php:52
+msgid "<span>&larr;</span> Sooner Events"
+msgstr ""
+
+# @ risen
+#: tpl-events.php:52
+msgid "Later Events <span>&rarr;</span>"
+msgstr ""
+
+# @ risen
+#: tpl-gallery-categories.php:91
+#, php-format
+msgid "<b>1</b> photo"
+msgid_plural "<b>%d</b> photos"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ risen
+#: tpl-gallery-categories.php:94
+#, php-format
+msgid "<b>1</b> video"
+msgid_plural "<b>%d</b> videos"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ risen
+#: tpl-gallery-categories.php:96
+msgctxt "count separator"
+msgid ", "
+msgstr ""
+
+# @ risen
+#: tpl-gallery-categories.php:101
+#, php-format
+msgctxt "gallery"
+msgid "Browse %s"
+msgstr ""
+
+# @ risen
+#: tpl-locations.php:41
+msgid "<span>&larr;</span> Previous Locations"
+msgstr ""
+
+# @ risen
+#: tpl-locations.php:41
+msgid "Next Locations <span>&rarr;</span>"
+msgstr ""
+
+# @ risen
+#: tpl-locations.php:44
+msgid "Sorry, there are no locations to show."
+msgstr ""
+
+# @ risen
+#: tpl-staff.php:41
+msgid "<span>&larr;</span> Previous Staff"
+msgstr ""
+
+# @ risen
+#: tpl-staff.php:41
+msgid "Next Staff <span>&rarr;</span>"
+msgstr ""
+
+# @ risen
+#: tpl-staff.php:44
+msgid "Sorry, there are no staff members to show."
+msgstr ""
