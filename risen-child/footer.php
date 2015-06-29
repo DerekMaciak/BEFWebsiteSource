@@ -9,19 +9,15 @@
 
 				<div id="footer-left">
 				
-					<?php
-					wp_nav_menu( array(
-						'theme_location'	=> 'footer',
-						'menu_id'			=> 'footer-menu-links',
-						'container'			=> false, // don't wrap in div
-						'depth'				=> 1, // no sub menus
-						'fallback_cb'		=> false // don't show pages if no menu found - show nothing
-					) );
-					?>
-				
 					<?php risen_icons( 'footer' ); ?>
 					
 					<div class="clear"></div>
+					
+					<?php if ( risen_option( 'footer_copyright' ) ) : ?>
+					<div id="copyright">
+						<?php echo do_shortcode( risen_option( 'footer_copyright' ) ); ?>
+					</div>
+					<?php endif; ?>
 					
 				</div>			
 				
@@ -41,11 +37,15 @@
 					</ul>
 					<?php endif; ?>
 				
-					<?php if ( risen_option( 'footer_copyright' ) ) : ?>
-					<div id="copyright">
-						<?php echo do_shortcode( risen_option( 'footer_copyright' ) ); ?>
-					</div>
-					<?php endif; ?>
+				<?php
+				wp_nav_menu( array(
+					'theme_location'	=> 'footer',
+					'menu_id'			=> 'footer-menu-links',
+					'container'			=> false, // don't wrap in div
+					'depth'				=> 1, // no sub menus
+					'fallback_cb'		=> false // don't show pages if no menu found - show nothing
+				) );
+				?>
 					
 				</div>
 				

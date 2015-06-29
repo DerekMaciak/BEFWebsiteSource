@@ -66,7 +66,7 @@
 								<div id="top-right-content">
 
 									<div id="tagline">
-										<?php bloginfo( 'description' ); ?>
+										<?php risen_icons( 'header' ); ?>
 									</div>
 
 								</div>
@@ -95,7 +95,7 @@
 						) );
 						?>
 						
-						<?php risen_icons( 'header' ); ?>
+						
 						
 						<div class="clear"></div>
 						
