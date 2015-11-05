@@ -17,10 +17,123 @@ Note: it is not necessary to @import the parent stylesheet here (see docs for mo
 /* Header Icons */
 
 #header-icons.risen-list-font-icons a {	
-	color: #555;	;
+	color: #555;	
 	opacity: 0.6;
+
 }
 
+#header-icons{
+
+display: inline !important;
+}
+
+
+/* #header-menu-links > #menu-item-243 > a {
+	color: #eda102;
+}
+
+
+#menu-item-262 > a, .resurrect-list-icons a:hover, .flex-caption a {
+	color: #eda102;
+} */
+
+a:active {
+    color: yellow;
+}
+/* Set Title color to red */
+.home-column-widgets-title {
+
+color: #8B1B42;
+
+}
+/* Content on About Page */
+.members{
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
+.committee{
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
+.schools{
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
+/* End of Content on About Page */
+
+#header-menu-bottom {
+
+background-color: #231F20;
+
+}
+
+
+#header-menu{
+text-align:center;
+}
+
+/* contact us email and apply online*/
+a.sidebarAnchor{
+
+color: #444;
+text-decoration: underline;
+}
+
+.active{
+
+    font-weight: Bold;
+}
+
+
+#text-27 > .sidebar-widget-title{
+
+background-color:  #8B1B42;
+visibility: hidden;
+
+}
+
+#donate-sidebar-widget-title{
+
+background-color:  #8B1B42;
+   margin-bottom: 45px;
+
+}
+
+.sidebar-widget {
+  margin: 0px 20px 20px;
+}
+
+/* Header Menu Links are normal; Donate is bold */
+#header-menu-links > li > a 
+{
+font-weight: normal;
+margin-left: 35px; 
+}
+
+#header-menu-links > li.active > a
+{
+font-weight: bold;
+ 
+}
+
+#header-menu-links > #menu-item-243 > a{
+  font-weight: bold;
+  color: #000000;
+}
+
+
+h1 { 
+ color: #8B1B42;
+}
+
+ #contact_us{
+ color: #8B1B42;
+}
+
+/* Footer Links */
 #footer-menu-links {
 	 columns: 2;
     -webkit-columns: 2;
@@ -29,16 +142,6 @@ Note: it is not necessary to @import the parent stylesheet here (see docs for mo
 }
 #footer-menu-links > li {
 	text-align: left;
-	width: 180px;
+	width: 200px;
 	
 }
-
-/* #header-menu-links > #menu-item-243 > a {
-	color: #eda102;
-}
-
-#menu-item-262 > a, .resurrect-list-icons a:hover, .flex-caption a {
-	color: #eda102;
-} */
-
-
